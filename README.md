@@ -13,6 +13,6 @@ Sure I know how to throw together a Keyboard that uses the Pi Pico in KiCad but 
 I'd like to use JLCPCB so if you do wish to contribute I would highly apreciate if we can have most if not the whole board pre-assembled by JLCPCB. (other than the 2.54mm pins of course)
 
 ### To Do's 
-* move all SMD components to top side of PCB
+- [x] ~~move all SMD components to top side of PCB~~
 * Find smaller alternatives to Crystal and SPI Flash
 
