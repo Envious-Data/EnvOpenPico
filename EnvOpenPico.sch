@@ -24,63 +24,10 @@ F 3 "" H 7050 5700 50  0001 C CNN
 	1    7800 5700
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C C2
-U 1 1 5ED96B87
-P 2000 8600
-F 0 "C2" H 2115 8646 50  0000 L CNN
-F 1 "27p" H 2115 8555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 2038 8450 50  0001 C CNN
-F 3 "~" H 2000 8600 50  0001 C CNN
-	1    2000 8600
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C C3
-U 1 1 5ED98685
-P 2000 9000
-F 0 "C3" H 2115 9046 50  0000 L CNN
-F 1 "27p" H 2115 8955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 2038 8850 50  0001 C CNN
-F 3 "~" H 2000 9000 50  0001 C CNN
-	1    2000 9000
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR06
-U 1 1 5ED9B1CB
-P 1750 9100
-F 0 "#PWR06" H 1750 8850 50  0001 C CNN
-F 1 "GND" H 1755 8927 50  0000 C CNN
-F 2 "" H 1750 9100 50  0001 C CNN
-F 3 "" H 1750 9100 50  0001 C CNN
-	1    1750 9100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6000 5800 6550 5800
 Wire Wire Line
 	6550 6000 6000 6000
-Wire Wire Line
-	1850 8600 1750 8600
-Wire Wire Line
-	1750 8600 1750 9000
-Wire Wire Line
-	1850 9000 1750 9000
-Connection ~ 1750 9000
-Wire Wire Line
-	1750 9000 1750 9100
-Wire Wire Line
-	2150 9000 2600 9000
-Wire Wire Line
-	2150 8600 2600 8600
-Wire Wire Line
-	2600 8650 2600 8600
-Wire Wire Line
-	2600 8950 2600 9000
-Connection ~ 2600 9000
-Wire Wire Line
-	2600 9000 3150 9000
 Wire Wire Line
 	6000 4600 6550 4600
 Wire Wire Line
@@ -490,17 +437,6 @@ F 3 "~" H 6650 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C8
-U 1 1 5EF07987
-P 6650 3200
-F 0 "C8" H 6765 3246 50  0000 L CNN
-F 1 "1u" H 6765 3155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 6688 3050 50  0001 C CNN
-F 3 "~" H 6650 3200 50  0001 C CNN
-	1    6650 3200
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C10
 U 1 1 5EF08170
 P 8800 3200
@@ -512,25 +448,10 @@ F 3 "~" H 8800 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9700 2450 9700 2400
-Wire Wire Line
 	9250 2450 9250 2400
 Connection ~ 9250 2400
 Wire Wire Line
-	9250 2400 9700 2400
-Wire Wire Line
 	9250 2750 9250 2850
-Wire Wire Line
-	9700 2750 9700 2850
-Wire Wire Line
-	9700 2850 9250 2850
-Wire Wire Line
-	6650 3050 6650 3000
-Wire Wire Line
-	6650 3000 7000 3000
-Connection ~ 7000 3000
-Wire Wire Line
-	7000 3000 7000 3200
 Wire Wire Line
 	8800 3050 8800 3000
 $Comp
@@ -559,27 +480,12 @@ Wire Wire Line
 	6200 2400 6650 2400
 Connection ~ 7000 2400
 Wire Wire Line
-	7000 2400 7000 3000
-Wire Wire Line
 	6650 2450 6650 2400
 Connection ~ 6650 2400
 Wire Wire Line
 	6650 2400 7000 2400
 Wire Wire Line
-	6650 3350 6650 3400
-Wire Wire Line
 	8800 3350 8800 3400
-$Comp
-L power:GND #PWR013
-U 1 1 5F00AFBA
-P 6650 3400
-F 0 "#PWR013" H 6650 3150 50  0001 C CNN
-F 1 "GND" H 6655 3227 50  0000 C CNN
-F 2 "" H 6650 3400 50  0001 C CNN
-F 3 "" H 6650 3400 50  0001 C CNN
-	1    6650 3400
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR018
 U 1 1 5F00B2D4
@@ -896,28 +802,6 @@ F 3 "~" H 9900 10800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 1600 2150
-$Comp
-L Device:R R5
-U 1 1 5F0D8EBF
-P 3300 9000
-F 0 "R5" V 3093 9000 50  0000 C CNN
-F 1 "1k" V 3184 9000 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" V 3230 9000 50  0001 C CNN
-F 3 "~" H 3300 9000 50  0001 C CNN
-	1    3300 9000
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:Crystal Y1
-U 1 1 5F0DD35C
-P 2600 8800
-F 0 "Y1" V 2554 8931 50  0000 L CNN
-F 1 "ABLS-12.000MHZ-B4-T" V 2300 8550 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm" H 2600 8800 50  0001 C CNN
-F 3 "~" H 2600 8800 50  0001 C CNN
-	1    2600 8800
-	0    1    1    0   
-$EndComp
 Text Notes 9100 3300 0    50   ~ 0
 Make sure C10 is close to pin 44 of RP2040
 Text Notes 4750 3250 0    50   ~ 0
@@ -939,7 +823,7 @@ U 1 1 5F1AF96D
 P 13400 7200
 F 0 "C17" H 13515 7246 50  0000 L CNN
 F 1 "10u" H 13515 7155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 13438 7050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 13438 7050 50  0001 C CNN
 F 3 "~" H 13400 7200 50  0001 C CNN
 	1    13400 7200
 	1    0    0    -1  
@@ -957,7 +841,7 @@ F 3 "" H 13400 7400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	13400 7350 13400 7400
-Text Notes 1850 8300 0    197  ~ 39
+Text Notes 1350 7750 0    197  ~ 39
 Crystal
 Text Notes 2150 3600 0    197  ~ 39
 Flash
@@ -967,15 +851,12 @@ Text Notes 13700 4450 0    197  ~ 39
 GPIOs
 Wire Wire Line
 	13400 6950 13400 7050
-Text Label 3850 8600 2    50   ~ 0
+Text Label 3850 8400 2    50   ~ 0
 XIN
-Text Label 3850 9000 2    50   ~ 0
+Text Label 3900 9000 2    50   ~ 0
 XOUT
 Wire Wire Line
-	2600 8600 3850 8600
-Wire Wire Line
-	3450 9000 3850 9000
-Connection ~ 2600 8600
+	2600 8400 3200 8400
 Text Notes 9950 3950 0    50   ~ 0
 Make sure R3 and R4 are close to RP2040
 Wire Wire Line
@@ -1279,17 +1160,6 @@ Connection ~ 2300 1750
 Wire Wire Line
 	14100 5200 14550 5200
 $Comp
-L Device:C C12
-U 1 1 5EEF0473
-P 9700 2600
-F 0 "C12" H 9815 2646 50  0000 L CNN
-F 1 "100n" H 9815 2555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 9738 2450 50  0001 C CNN
-F 3 "~" H 9700 2600 50  0001 C CNN
-	1    9700 2600
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C11
 U 1 1 5EEF00BB
 P 9250 2600
@@ -1300,7 +1170,6 @@ F 3 "~" H 9250 2600 50  0001 C CNN
 	1    9250 2600
 	1    0    0    -1  
 $EndComp
-Connection ~ 9700 2850
 Wire Wire Line
 	11000 2450 11000 2400
 Wire Wire Line
@@ -1369,14 +1238,79 @@ F 3 "" H 11000 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 11000 2850
-Wire Wire Line
-	9700 2400 10100 2400
-Connection ~ 9700 2400
-Wire Wire Line
-	9700 2850 10100 2850
 Connection ~ 10100 2850
 Wire Wire Line
 	8450 2400 8450 3000
 Wire Wire Line
 	8450 2400 9250 2400
+$Comp
+L Oscillator:XO32 X1
+U 1 1 60894744
+P 2600 8700
+F 0 "X1" V 2250 8550 50  0000 L CNN
+F 1 "XO32" V 2350 8450 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_SeikoEpson_TSX3225-4Pin_3.2x2.5mm" H 3300 8350 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/B400/XO32.pdf" H 2500 8700 50  0001 C CNN
+	1    2600 8700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 608B9527
+P 2900 8700
+F 0 "#PWR0105" H 2900 8450 50  0001 C CNN
+F 1 "GND" V 2905 8572 50  0000 R CNN
+F 2 "" H 2900 8700 50  0001 C CNN
+F 3 "" H 2900 8700 50  0001 C CNN
+	1    2900 8700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0106
+U 1 1 608B9D1F
+P 2300 8700
+F 0 "#PWR0106" H 2300 8550 50  0001 C CNN
+F 1 "+3.3V" V 2315 8828 50  0000 L CNN
+F 2 "" H 2300 8700 50  0001 C CNN
+F 3 "" H 2300 8700 50  0001 C CNN
+	1    2300 8700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5ED96B87
+P 3200 8250
+F 0 "C2" H 3315 8296 50  0000 L CNN
+F 1 "15p" H 3315 8205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3238 8100 50  0001 C CNN
+F 3 "~" H 3200 8250 50  0001 C CNN
+	1    3200 8250
+	1    0    0    -1  
+$EndComp
+Connection ~ 3200 8400
+Wire Wire Line
+	3200 8400 3850 8400
+$Comp
+L power:GND #PWR0107
+U 1 1 6097CBA8
+P 3200 8100
+F 0 "#PWR0107" H 3200 7850 50  0001 C CNN
+F 1 "GND" H 3205 7927 50  0000 C CNN
+F 2 "" H 3200 8100 50  0001 C CNN
+F 3 "" H 3200 8100 50  0001 C CNN
+	1    3200 8100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3650 9000 3900 9000
+Text Notes 3450 9100 0    39   ~ 0
+Intentionally left floating
+Text Notes 1750 9200 0    50   ~ 0
+also left floating so the chip is enabled
+Wire Wire Line
+	7000 2400 7000 3200
+Wire Wire Line
+	9250 2850 10100 2850
+Wire Wire Line
+	9250 2400 10100 2400
 $EndSCHEMATC
