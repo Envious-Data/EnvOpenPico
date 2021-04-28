@@ -5,4 +5,5 @@
   (lib (name NCP1117ST33T3G)(type Legacy)(uri ${KIPRJMOD}/Resources/NCP1117ST33T3G.pretty/NCP1117ST33T3G.lib)(options "")(descr ""))
   (lib (name ABM3-12.000MHZ-D2Y-T)(type Legacy)(uri ${KIPRJMOD}/Resources/ABM3-12.000MHZ-D2Y-T.pretty/ABM3-12.000MHZ-D2Y-T.lib)(options "")(descr ""))
   (lib (name EnvOpenPico-rescue)(type Legacy)(uri ${KIPRJMOD}/EnvOpenPico-rescue.lib)(options "")(descr ""))
+  (lib (name Type-C)(type Legacy)(uri ${KIPRJMOD}/Resources/HRO-TYPE-C31-M-12.pretty/Type-C.lib)(options "")(descr ""))
 )

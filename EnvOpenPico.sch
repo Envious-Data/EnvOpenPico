@@ -41,14 +41,14 @@ Wire Wire Line
 Wire Wire Line
 	6550 5050 6000 5050
 $Comp
-L Connector:USB_B_Micro J1
+L Type-C:HRO-TYPE-C-31-M-12 e1
 U 1 1 5EDB7D8D
-P 1300 1950
-F 0 "J1" H 1150 2350 50  0000 R CNN
-F 1 "USB_B_Micro" H 1850 1550 50  0000 R CNN
-F 2 "RP2040_minimal:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal_modified" H 1450 1900 50  0001 C CNN
-F 3 "~" H 1450 1900 50  0001 C CNN
-	1    1300 1950
+P 1000 1750
+F 0 "e1" H 850 2150 50  0000 R CNN
+F 1 "USB_C" H 950 950 50  0000 R CNN
+F 2 "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 1150 1700 50  0001 C CNN
+F 3 "~" H 1150 1700 50  0001 C CNN
+	1    1000 1750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -234,26 +234,6 @@ Wire Wire Line
 	9300 3800 9300 4000
 Text Label 10350 4100 2    50   ~ 0
 USB_D-
-$Comp
-L power:GND #PWR01
-U 1 1 5EDEBEA6
-P 1200 2450
-F 0 "#PWR01" H 1200 2200 50  0001 C CNN
-F 1 "GND" H 1205 2277 50  0000 C CNN
-F 2 "" H 1200 2450 50  0001 C CNN
-F 3 "" H 1200 2450 50  0001 C CNN
-	1    1200 2450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1200 2350 1200 2400
-Wire Wire Line
-	1300 2350 1300 2400
-Wire Wire Line
-	1300 2400 1200 2400
-Connection ~ 1200 2400
-Wire Wire Line
-	1200 2400 1200 2450
 Text Label 13050 6600 0    50   ~ 0
 GPIO0
 Text Label 13050 6500 0    50   ~ 0
@@ -727,13 +707,9 @@ F 3 "~" H 9650 3800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9800 3800 10350 3800
-Wire Wire Line
-	1600 1950 1950 1950
-Wire Wire Line
-	1600 2050 1950 2050
-Text Label 1950 1950 2    50   ~ 0
+Text Label 1150 1700 0    50   ~ 0
 USB_D+
-Text Label 1950 2050 2    50   ~ 0
+Text Label 1150 1600 0    50   ~ 0
 USB_D-
 $Comp
 L Connector_Generic:Conn_01x20 J4
@@ -763,7 +739,7 @@ U 1 1 5EF4C292
 P 9900 10200
 F 0 "H1" H 10000 10246 50  0000 L CNN
 F 1 "MountingHole" H 10000 10155 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 9900 10200 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 9900 10200 50  0001 C CNN
 F 3 "~" H 9900 10200 50  0001 C CNN
 	1    9900 10200
 	1    0    0    -1  
@@ -774,7 +750,7 @@ U 1 1 5EF4CF1F
 P 9900 10400
 F 0 "H2" H 10000 10446 50  0000 L CNN
 F 1 "MountingHole" H 10000 10355 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 9900 10400 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 9900 10400 50  0001 C CNN
 F 3 "~" H 9900 10400 50  0001 C CNN
 	1    9900 10400
 	1    0    0    -1  
@@ -785,7 +761,7 @@ U 1 1 5EF4D323
 P 9900 10600
 F 0 "H3" H 10000 10646 50  0000 L CNN
 F 1 "MountingHole" H 10000 10555 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 9900 10600 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 9900 10600 50  0001 C CNN
 F 3 "~" H 9900 10600 50  0001 C CNN
 	1    9900 10600
 	1    0    0    -1  
@@ -796,12 +772,11 @@ U 1 1 5EF4D57B
 P 9900 10800
 F 0 "H4" H 10000 10846 50  0000 L CNN
 F 1 "MountingHole" H 10000 10755 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 9900 10800 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 9900 10800 50  0001 C CNN
 F 3 "~" H 9900 10800 50  0001 C CNN
 	1    9900 10800
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1600 2150
 Text Notes 9100 3300 0    50   ~ 0
 Make sure C10 is close to pin 44 of RP2040
 Text Notes 6600 3400 2    50   ~ 0
@@ -1149,9 +1124,6 @@ Wire Wire Line
 Connection ~ 3100 4150
 Wire Wire Line
 	1900 1700 1900 1750
-Connection ~ 1900 1750
-Wire Wire Line
-	1900 1750 1600 1750
 Wire Wire Line
 	2300 1750 2700 1750
 Wire Wire Line
@@ -1358,4 +1330,78 @@ Wire Wire Line
 Connection ~ 9700 2400
 Wire Wire Line
 	9700 2400 10100 2400
+Text GLabel 1100 2400 2    50   Input ~ 0
+GND
+Text GLabel 1100 2300 2    50   Input ~ 0
+GND
+Text GLabel 1100 1200 2    50   Input ~ 0
+GND
+Wire Wire Line
+	1900 1750 1750 1750
+Wire Wire Line
+	1100 1300 1750 1300
+Wire Wire Line
+	1750 1300 1750 1750
+Connection ~ 1900 1750
+Wire Wire Line
+	1100 1600 1500 1600
+Wire Wire Line
+	1100 1700 1500 1700
+Text Label 1150 1900 0    50   ~ 0
+USB_D+
+Text Label 1150 1800 0    50   ~ 0
+USB_D-
+Wire Wire Line
+	1100 1800 1500 1800
+Wire Wire Line
+	1100 1900 1500 1900
+Wire Wire Line
+	1750 1750 1750 2200
+Wire Wire Line
+	1750 2200 1100 2200
+Connection ~ 1750 1750
+$Comp
+L Device:R_Small R6
+U 1 1 609385D4
+P 1200 2100
+F 0 "R6" V 1100 2100 50  0000 C CNN
+F 1 "5.1K" V 1200 2100 20  0000 C CNN
+F 2 "" H 1200 2100 50  0001 C CNN
+F 3 "~" H 1200 2100 50  0001 C CNN
+	1    1200 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R5
+U 1 1 6093A5B0
+P 1200 1500
+F 0 "R5" V 1100 1500 50  0000 C CNN
+F 1 "5.1K" V 1200 1500 20  0000 C CNN
+F 2 "" H 1200 1500 50  0001 C CNN
+F 3 "~" H 1200 1500 50  0001 C CNN
+	1    1200 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 609526BA
+P 1300 1500
+F 0 "#PWR0108" H 1300 1250 50  0001 C CNN
+F 1 "GND" V 1305 1372 50  0000 R CNN
+F 2 "" H 1300 1500 50  0001 C CNN
+F 3 "" H 1300 1500 50  0001 C CNN
+	1    1300 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 60952DC6
+P 1300 2100
+F 0 "#PWR0109" H 1300 1850 50  0001 C CNN
+F 1 "GND" V 1305 1972 50  0000 R CNN
+F 2 "" H 1300 2100 50  0001 C CNN
+F 3 "" H 1300 2100 50  0001 C CNN
+	1    1300 2100
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
