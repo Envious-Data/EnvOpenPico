@@ -14,5 +14,5 @@ I'd like to use JLCPCB so if you do wish to contribute I would highly apreciate 
 
 ### To Do's 
 - [x] ~~move all SMD components to top side of PCB~~
-* Find smaller alternatives to Crystal and SPI Flash
+* Find smaller alternatives to ~~Crystal and~~ SPI Flash
 
