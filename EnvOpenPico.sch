@@ -804,8 +804,8 @@ $EndComp
 NoConn ~ 1600 2150
 Text Notes 9100 3300 0    50   ~ 0
 Make sure C10 is close to pin 44 of RP2040
-Text Notes 4750 3250 0    50   ~ 0
-Make sure C8 is close to pin 45 of RP2040
+Text Notes 6600 3400 2    50   ~ 0
+Make sure C3 is close to pin 45 of RP2040
 $Comp
 L power:+3V3 #PWR024
 U 1 1 5F1AF967
@@ -823,7 +823,7 @@ U 1 1 5F1AF96D
 P 13400 7200
 F 0 "C17" H 13515 7246 50  0000 L CNN
 F 1 "10u" H 13515 7155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric" H 13438 7050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 13438 7050 50  0001 C CNN
 F 3 "~" H 13400 7200 50  0001 C CNN
 	1    13400 7200
 	1    0    0    -1  
@@ -841,9 +841,9 @@ F 3 "" H 13400 7400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	13400 7350 13400 7400
-Text Notes 1350 7750 0    197  ~ 39
+Text Notes 1350 8200 0    197  ~ 39
 Crystal
-Text Notes 2150 3600 0    197  ~ 39
+Text Notes 1550 4600 0    197  ~ 39
 Flash
 Text Notes 1550 1100 0    197  ~ 39
 USB/POWER
@@ -1303,14 +1303,59 @@ F 3 "" H 3200 8100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3650 9000 3900 9000
-Text Notes 3450 9100 0    39   ~ 0
+Text Notes 3450 8900 0    39   ~ 0
 Intentionally left floating
-Text Notes 1750 9200 0    50   ~ 0
-also left floating so the chip is enabled
+Text Notes 1700 9200 0    50   ~ 0
+Pin1 on XO Oscillator also left floating so the chip is enabled
 Wire Wire Line
 	7000 2400 7000 3200
 Wire Wire Line
-	9250 2850 10100 2850
+	9250 2850 9700 2850
 Wire Wire Line
-	9250 2400 10100 2400
+	9250 2400 9700 2400
+Wire Wire Line
+	7000 3200 6750 3200
+$Comp
+L power:GND #PWR06
+U 1 1 608C8007
+P 6750 3500
+F 0 "#PWR06" H 6750 3250 50  0001 C CNN
+F 1 "GND" H 6755 3327 50  0000 C CNN
+F 2 "" H 6750 3500 50  0001 C CNN
+F 3 "" H 6750 3500 50  0001 C CNN
+	1    6750 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 608C8D3F
+P 6750 3350
+F 0 "C3" H 6865 3396 50  0000 L CNN
+F 1 "1u" H 6865 3305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6788 3200 50  0001 C CNN
+F 3 "~" H 6750 3350 50  0001 C CNN
+	1    6750 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 608E7710
+P 9700 2600
+F 0 "C8" H 9815 2646 50  0000 L CNN
+F 1 "100n" H 9815 2555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9738 2450 50  0001 C CNN
+F 3 "~" H 9700 2600 50  0001 C CNN
+	1    9700 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 2850 9700 2750
+Connection ~ 9700 2850
+Wire Wire Line
+	9700 2850 10100 2850
+Wire Wire Line
+	9700 2450 9700 2400
+Connection ~ 9700 2400
+Wire Wire Line
+	9700 2400 10100 2400
 $EndSCHEMATC

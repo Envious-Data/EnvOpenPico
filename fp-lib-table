@@ -3,4 +3,5 @@
   (lib (name NCP1117ST33T3G)(type KiCad)(uri ${KIPRJMOD}/Resources/NCP1117ST33T3G.pretty)(options "")(descr ""))
   (lib (name W25Q16JVSSIQ)(type KiCad)(uri ${KIPRJMOD}/Resources/W25Q16JVSSIQ.pretty)(options "")(descr ""))
   (lib (name ABM3-12.000MHZ-D2Y-T)(type KiCad)(uri ${KIPRJMOD}/Resources/ABM3-12.000MHZ-D2Y-T.pretty)(options "")(descr ""))
+  (lib (name EnvExtras)(type KiCad)(uri ${KIPRJMOD}/Resources/EnvExtras.pretty)(options "")(descr ""))
 )
