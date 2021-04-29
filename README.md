@@ -14,5 +14,7 @@ I'd like to use JLCPCB so if you do wish to contribute I would highly apreciate 
 
 ### To Do's 
 - [x] ~~move all SMD components to top side of PCB~~
-* Find smaller alternatives to ~~Crystal and~~ SPI Flash
-
+- [x] ~~Smaller Crystal chip~~
+- [ ] Want to replace Quad SPI flash with a smaller one
+- [ ] Need someone probably port circuitpython to this, QMK would be a huge bonus since I'd love to use this with my keyboards.
+- [ ] A small button instead of pin headers for USB Boot would be great.
