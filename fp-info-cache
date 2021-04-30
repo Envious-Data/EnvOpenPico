@@ -1,4 +1,4 @@
-19106642464648032
+19035789835024104
 ABM3-12.000MHZ-D2Y-T
 XTAL500X320X130N
 
@@ -70000,11 +70000,81 @@ WSON NoLead
 18
 9
 Package_SON
+WSON-8-1EP_3x3mm_P0.5mm_EP1.2x2mm
+WSON, 8 Pin (http://www.ti.com/lit/ds/symlink/lp2951.pdf#page=27), generated with kicad-footprint-generator ipc_noLead_generator.py
+WSON NoLead
+0
+11
+9
+Package_SON
+WSON-8-1EP_3x3mm_P0.5mm_EP1.2x2mm_ThermalVias
+WSON, 8 Pin (http://www.ti.com/lit/ds/symlink/lp2951.pdf#page=27), generated with kicad-footprint-generator ipc_noLead_generator.py
+WSON NoLead
+0
+18
+9
+Package_SON
 WSON-8-1EP_3x3mm_P0.5mm_EP1.6x2.0mm
 8-Lead Plastic WSON, 2x2mm Body, 0.5mm Pitch, WSON-8, http://www.ti.com/lit/ds/symlink/lm27761.pdf
 WSON 8 1EP
 0
 13
+9
+Package_SON
+WSON-8-1EP_3x3mm_P0.5mm_EP1.45x2.4mm
+WSON, 8 Pin (https://www.ti.com/lit/ds/symlink/ina333.pdf#page=30), generated with kicad-footprint-generator ipc_noLead_generator.py
+WSON NoLead
+0
+11
+9
+Package_SON
+WSON-8-1EP_3x3mm_P0.5mm_EP1.45x2.4mm_ThermalVias
+WSON, 8 Pin (https://www.ti.com/lit/ds/symlink/ina333.pdf#page=30), generated with kicad-footprint-generator ipc_noLead_generator.py
+WSON NoLead
+0
+18
+9
+Package_SON
+WSON-8-1EP_4x4mm_P0.8mm_EP1.98x3mm
+WSON, 8 Pin (https://www.ti.com/lit/ds/symlink/lm5017.pdf#page=34), generated with kicad-footprint-generator ipc_noLead_generator.py
+WSON NoLead
+0
+13
+9
+Package_SON
+WSON-8-1EP_4x4mm_P0.8mm_EP1.98x3mm_ThermalVias
+WSON, 8 Pin (https://www.ti.com/lit/ds/symlink/lm5017.pdf#page=34), generated with kicad-footprint-generator ipc_noLead_generator.py
+WSON NoLead
+0
+17
+9
+Package_SON
+WSON-8-1EP_4x4mm_P0.8mm_EP2.2x3mm
+WSON, 8 Pin (https://www.ti.com/lit/ds/symlink/lp2987.pdf#page=26), generated with kicad-footprint-generator ipc_noLead_generator.py
+WSON NoLead
+0
+13
+9
+Package_SON
+WSON-8-1EP_4x4mm_P0.8mm_EP2.2x3mm_ThermalVias
+WSON, 8 Pin (https://www.ti.com/lit/ds/symlink/lp2987.pdf#page=26), generated with kicad-footprint-generator ipc_noLead_generator.py
+WSON NoLead
+0
+17
+9
+Package_SON
+WSON-8-1EP_4x4mm_P0.8mm_EP2.6x3mm
+WSON, 8 Pin (https://www.ti.com/lit/ds/symlink/lp2951-n.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+WSON NoLead
+0
+13
+9
+Package_SON
+WSON-8-1EP_4x4mm_P0.8mm_EP2.6x3mm_ThermalVias
+WSON, 8 Pin (https://www.ti.com/lit/ds/symlink/lp2951-n.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+WSON NoLead
+0
+17
 9
 Package_SON
 WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm
@@ -83138,3 +83208,10 @@ SOIC127P790X216-8N
 0
 8
 8
+W25Q256JVEIQ_TR
+SON127P800X600X80-9N
+
+
+0
+9
+9

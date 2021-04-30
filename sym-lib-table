@@ -7,4 +7,5 @@
   (lib (name EnvOpenPico-rescue)(type Legacy)(uri ${KIPRJMOD}/EnvOpenPico-rescue.lib)(options "")(descr ""))
   (lib (name Type-C)(type Legacy)(uri ${KIPRJMOD}/Resources/HRO-TYPE-C31-M-12.pretty/Type-C.lib)(options "")(descr ""))
   (lib (name logo)(type Legacy)(uri ${KIPRJMOD}/Resources/EnvExtras.pretty/logo.lib)(options "")(descr ""))
+  (lib (name W25Q256JVEIQ_TR)(type Legacy)(uri ${KIPRJMOD}/Resources/W25Q256JVEIQ_TR.pretty/W25Q256JVEIQ_TR.lib)(options "")(descr ""))
 )

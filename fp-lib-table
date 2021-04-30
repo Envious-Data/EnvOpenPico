@@ -5,4 +5,5 @@
   (lib (name ABM3-12.000MHZ-D2Y-T)(type KiCad)(uri ${KIPRJMOD}/Resources/ABM3-12.000MHZ-D2Y-T.pretty)(options "")(descr ""))
   (lib (name EnvExtras)(type KiCad)(uri ${KIPRJMOD}/Resources/EnvExtras.pretty)(options "")(descr ""))
   (lib (name HRO-TYPE-C31-M-12)(type KiCad)(uri ${KIPRJMOD}/Resources/HRO-TYPE-C31-M-12.pretty)(options "")(descr ""))
+  (lib (name W25Q256JVEIQ_TR)(type KiCad)(uri ${KIPRJMOD}/Resources/W25Q256JVEIQ_TR.pretty)(options "")(descr ""))
 )
