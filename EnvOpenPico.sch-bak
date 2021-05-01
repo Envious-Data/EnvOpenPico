@@ -44,7 +44,7 @@ $Comp
 L Type-C:HRO-TYPE-C-31-M-12 e1
 U 1 1 5EDB7D8D
 P 1000 1750
-F 0 "e1" H 850 2150 50  0000 R CNN
+F 0 "e1" H 750 2150 50  0000 R CNN
 F 1 "USB_C" H 950 950 50  0000 R CNN
 F 2 "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 1150 1700 50  0001 C CNN
 F 3 "~" H 1150 1700 50  0001 C CNN
@@ -1000,7 +1000,7 @@ L Device:R R8
 U 1 1 60CC69DF
 P 14500 7600
 F 0 "R8" V 14293 7600 50  0000 C CNN
-F 1 "R470" V 14384 7600 50  0000 C CNN
+F 1 "470" V 14384 7600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 14430 7600 50  0001 C CNN
 F 3 "~" H 14500 7600 50  0001 C CNN
 	1    14500 7600
@@ -1246,8 +1246,8 @@ Wire Wire Line
 	3650 9000 3900 9000
 Text Notes 3450 8900 0    39   ~ 0
 Intentionally left floating
-Text Notes 1700 9200 0    50   ~ 0
-Pin1 on XO Oscillator also left floating so the chip is enabled
+Text Notes 1700 9250 0    50   ~ 0
+Pin1 on XO Oscillator also left floating so the chip is enabled\n(this is specified in their datasheet)
 Wire Wire Line
 	7000 2400 7000 3200
 Wire Wire Line
@@ -1396,7 +1396,7 @@ L Device:R R7
 U 1 1 608CFAF0
 P 2500 1900
 F 0 "R7" H 2550 1800 50  0000 L CNN
-F 1 "R100K" H 2550 1700 50  0000 L CNN
+F 1 "100K" V 2500 1850 30  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 2430 1900 50  0001 C CNN
 F 3 "~" H 2500 1900 50  0001 C CNN
 	1    2500 1900
@@ -1443,7 +1443,7 @@ F 3 "~" H 12650 10250 50  0001 C CNN
 	1    12650 10250
 	1    0    0    -1  
 $EndComp
-Text Notes 1750 9300 0    50   ~ 0
+Text Notes 1700 9350 0    50   ~ 0
 Use a 12mhz Seiko Oscilator, 3225-4Pin
 Text Notes 2200 6000 0    50   ~ 0
 Im pretty sure a lot of these W25QXXX Chips are pin compatible\nDont quote me on that
@@ -1451,4 +1451,12 @@ Text Notes 9800 3700 0    50   ~ 0
 These two are 27ohm resistors \nNOT CAPACITORS
 Text Notes 650  2800 0    50   ~ 0
 KoreanHROParts \nUSB_C_Receptacle_HRO_TYPE-C-31-M-12
+Text Notes 2200 6100 0    50   ~ 0
+Im unsure if the RP2040 can function with flash larger than 128Mb
+Text Notes 3550 5250 0    50   ~ 0
+Pin 9 technically doesnt exist\nits the main central contact under\nthe chip for heat dicipation
+Text Notes 3200 8650 0    50   ~ 0
+Dont bother trying to use a crystal\nas it massively complicates this clock source setup
+Text Notes 9300 2350 0    50   ~ 0
+These decoupling capacitors are meant\nto be put close by each 3.3V pin of the RP2040
 $EndSCHEMATC
