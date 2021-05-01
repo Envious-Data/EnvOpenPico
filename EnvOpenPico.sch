@@ -1395,8 +1395,8 @@ $Comp
 L Device:R R7
 U 1 1 608CFAF0
 P 2500 1900
-F 0 "R7" H 2570 1946 50  0000 L CNN
-F 1 "R100K" H 2570 1855 50  0000 L CNN
+F 0 "R7" H 2550 1800 50  0000 L CNN
+F 1 "100K" H 2550 1700 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 2430 1900 50  0001 C CNN
 F 3 "~" H 2500 1900 50  0001 C CNN
 	1    2500 1900
@@ -1443,4 +1443,14 @@ F 3 "~" H 12650 10250 50  0001 C CNN
 	1    12650 10250
 	1    0    0    -1  
 $EndComp
+Text Notes 1750 9300 0    50   ~ 0
+Use a 12mhz Seiko Oscilator, 3225-4Pin
+Text Notes 2200 6000 0    50   ~ 0
+Im pretty sure a lot of these W25QXXX Chips are pin compatible\nDont quote me on that
+Text Notes 9800 3700 0    50   ~ 0
+These two are 27ohm resistors \nNOT CAPACITORS
+Text Notes 650  2800 0    50   ~ 0
+KoreanHROParts \nUSB_C_Receptacle_HRO_TYPE-C-31-M-12
+Text Notes 2200 6100 0    50   ~ 0
+Im unsure if the RP2040 can function with flash larger than 128Mb
 $EndSCHEMATC
