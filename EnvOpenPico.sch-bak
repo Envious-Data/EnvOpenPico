@@ -1459,4 +1459,6 @@ Text Notes 3200 8650 0    50   ~ 0
 Dont bother trying to use a crystal\nas it massively complicates this clock source setup
 Text Notes 9300 2350 0    50   ~ 0
 These decoupling capacitors are meant\nto be put close by each 3.3V pin of the RP2040
+Text Notes 1800 1350 0    50   ~ 0
+2x 5.1K Resistors on the CC pins will = 5V@1.5A\nthis is the recomended default config for type-c
 $EndSCHEMATC
