@@ -15,12 +15,14 @@ I'd like to use JLCPCB so if you do wish to contribute I would highly apreciate 
 DO NOTE that if you want one of these for your self some manual assembly is required, JLCPCB obviously doesnt stock RP2040s nor the flash chip or the usb boot button, they do however stock most generic parts i.e 0402 diodes, 0201 caps/resistors and etc.
 (btw the button is a Omron B3U, I think I forgot to add that to the Schematic as of writing this)
 
+- I think it'll be a while before I can buy some RP2040 chips, I may try to contact RPI and see if they want to give me some samples.
+
 
 ### To Do's 
 - [x] ~~move all SMD components to top side of PCB~~
 - [x] ~~Smaller Crystal chip~~
 - [x] ~~Want to replace Quad SPI flash with a smaller one~~
-- [x] ~A small button instead of pin headers for USB Boot would be great.~~
+- [x] ~~A small button instead of pin headers for USB Boot would be great.~~
 - [ ] Need someone probably port circuitpython to this, QMK would be a huge bonus since I'd love to use this with my keyboards.
 - - I think porting circuitpython may be the easiest since other RP2040 boards use similar winbond flash chips
 
