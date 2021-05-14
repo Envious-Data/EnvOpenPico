@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Users\Envy\Documents\GitHub\EnvOpenPico\EnvOpenPico.sch</source>
-    <date>03/05/2021 19:10:52</date>
+    <date>14/05/2021 17:08:41</date>
     <tool>Eeschema (5.1.9)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -27,7 +27,7 @@
       <tstamp>5ED8F5D6</tstamp>
     </comp>
     <comp ref="e1">
-      <value>USB_C</value>
+      <value>TYPE-C-31-M-12</value>
       <footprint>Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Type-C" part="HRO-TYPE-C-31-M-12" description=""/>
@@ -35,7 +35,7 @@
       <tstamp>5EDB7D8D</tstamp>
     </comp>
     <comp ref="R4">
-      <value>27</value>
+      <value>27 0402 Resistor</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -115,7 +115,7 @@
       <tstamp>5F0930A1</tstamp>
     </comp>
     <comp ref="J2">
-      <value>Conn_01x02</value>
+      <value>B3U-1000P</value>
       <footprint>Button_Switch_SMD:SW_SPST_B3U-1000P</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
@@ -123,7 +123,7 @@
       <tstamp>5F30F0BA</tstamp>
     </comp>
     <comp ref="R3">
-      <value>27</value>
+      <value>27 0402 Resistor</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -187,8 +187,8 @@
       <tstamp>5F1AF96D</tstamp>
     </comp>
     <comp ref="D2">
-      <value>D_Schottky</value>
-      <footprint>Diode_SMD:D_0603_1608Metric</footprint>
+      <value>0603 Diode 1N58</value>
+      <footprint>Diode_SMD:D_0603_1608Metri</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
       <sheetpath names="/" tstamps="/"/>
@@ -203,7 +203,7 @@
       <tstamp>60CC69DF</tstamp>
     </comp>
     <comp ref="D3">
-      <value>GPIO25 LED</value>
+      <value>LED 0402 YELLOW</value>
       <footprint>LED_SMD:LED_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
@@ -251,7 +251,7 @@
       <tstamp>608F1365</tstamp>
     </comp>
     <comp ref="X1">
-      <value>XO32</value>
+      <value>XO 32 12Mhz</value>
       <footprint>Crystal:Crystal_SMD_SeikoEpson_TSX3225-4Pin_3.2x2.5mm</footprint>
       <datasheet>http://cdn-reichelt.de/documents/datenblatt/B400/XO32.pdf</datasheet>
       <libsource lib="Oscillator" part="XO32" description="HCMOS Clock Oscillator"/>
