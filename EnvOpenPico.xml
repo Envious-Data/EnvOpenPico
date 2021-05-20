@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Users\Envy\Documents\GitHub\EnvOpenPico\EnvOpenPico.sch</source>
-    <date>15/05/2021 18:24:05</date>
+    <date>20/05/2021 17:05:37</date>
     <tool>Eeschema (5.1.9)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -307,8 +307,8 @@
       <tstamp>608CFAF0</tstamp>
     </comp>
     <comp ref="FLASH1">
-      <value>W25Q128JVPIQ</value>
-      <footprint>Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm</footprint>
+      <value>W25Q16JVUXIQ</value>
+      <footprint>Package_SON:SON-8-1EP_3x2mm_P0.5mm_EP1.4x1.6mm</footprint>
       <libsource lib="W25Q256JVEIQ_TR" part="W25Q256JVEIQ_TR" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>608EDADA</tstamp>

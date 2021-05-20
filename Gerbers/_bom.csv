@@ -5,7 +5,7 @@ Comment,Designator,Footprint,LCSC
 "100n","C5,C6,C7,C8,C11,C13,C14,C15","Capacitor_SMD:C_0402_1005Metric",""
 "0603 Diode 1N58","D2","Diode_SMD:D_0603_1608Metric",""
 "LED 0402 YELLOW","D3","LED_SMD:LED_0402_1005Metric",""
-"W25Q128JVPIQ","FLASH1","Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm",""
+"W25Q16JVUXIQ","FLASH1","Package_SON:SON-8-1EP_3x2mm_P0.5mm_EP1.4x1.6mm",""
 "MountingHole","H1,H2,H3,H4","MountingHole:MountingHole_2.2mm_M2",""
 "B3U-1000P","J2","Button_Switch_SMD:SW_SPST_B3U-1000P",""
 "2.54mm header 01x20","J3,J4","Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical",""
