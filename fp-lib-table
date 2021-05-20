@@ -6,4 +6,5 @@
   (lib (name EnvExtras)(type KiCad)(uri ${KIPRJMOD}/Resources/EnvExtras.pretty)(options "")(descr ""))
   (lib (name HRO-TYPE-C31-M-12)(type KiCad)(uri ${KIPRJMOD}/Resources/HRO-TYPE-C31-M-12.pretty)(options "")(descr ""))
   (lib (name W25Q256JVEIQ_TR)(type KiCad)(uri ${KIPRJMOD}/Resources/W25Q256JVEIQ_TR.pretty)(options "")(descr ""))
+  (lib (name pkl_housings_son)(type KiCad)(uri ${KIPRJMOD}/Resources/pkl_housings_son.pretty)(options "")(descr ""))
 )
