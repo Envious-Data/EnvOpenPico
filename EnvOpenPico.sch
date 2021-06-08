@@ -1567,4 +1567,8 @@ Wire Wire Line
 	14550 4700 14600 4700
 Wire Wire Line
 	14300 5100 14600 5100
+Text Label 2950 1750 0    50   ~ 0
+VSYS
+Text Label 2000 1750 0    50   ~ 0
+VBUS
 $EndSCHEMATC
