@@ -553,10 +553,6 @@ F 3 "" H 3100 3950 50  0001 C CNN
 	1    3100 3950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4500 1700 4900 1700
-Wire Wire Line
-	4900 1700 4900 1650
 $Comp
 L power:+3V3 #PWR09
 U 1 1 5F077314
@@ -627,9 +623,6 @@ F 3 "" H 4900 2100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4900 2050 4900 2100
-Wire Wire Line
-	4900 1750 4900 1700
-Connection ~ 4900 1700
 Wire Wire Line
 	8450 3000 8800 3000
 Connection ~ 8450 3000
@@ -1398,16 +1391,16 @@ Text Notes 3200 8650 0    50   ~ 0
 Dont bother trying to use a crystal\nas it massively complicates this clock source setup
 Text Notes 9300 2350 0    50   ~ 0
 These decoupling capacitors are meant\nto be put close by each 3.3V pin of the RP2040
-Text Notes 1800 1350 0    50   ~ 0
+Text Notes 600  750  0    50   ~ 0
 2x 5.1K Resistors on the CC pins will = 5V@1.5A\nthis is the recomended default config for type-c
-Text GLabel 2600 2150 3    50   Input ~ 0
+Text GLabel 2600 2150 0    50   Input ~ 0
 3V3_EN
 $Comp
 L Device:R R7
 U 1 1 608CFAF0
 P 2600 2000
 F 0 "R7" H 2450 2050 50  0000 L CNN
-F 1 "100K" V 2600 1950 30  0000 L CNN
+F 1 "100ohm" V 2600 1950 30  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 2530 2000 50  0001 C CNN
 F 3 "" H 2600 2000 50  0001 C CNN
 	1    2600 2000
@@ -1416,99 +1409,40 @@ $EndComp
 Wire Wire Line
 	2600 1850 2600 1750
 $Comp
-L RT6150B-33GQW:RT6150B-33GQW U1
-U 1 1 60C00F4F
-P 3550 2300
-F 0 "U1" V 3450 2300 50  0000 C CNN
-F 1 "RT6150B-33GQW" V 3600 2300 50  0000 C CNN
-F 2 "RT6150B-33GQW:SON50P250X250X80-11N" H 3550 2300 50  0001 L BNN
-F 3 "" H 3550 2300 50  0001 L BNN
-F 4 "Richtek" H 3550 2300 50  0001 L BNN "MANUFACTURER"
-	1    3550 2300
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3350 1600 3250 1600
-Connection ~ 3250 1600
-Wire Wire Line
-	3550 1600 3550 1500
-Wire Wire Line
-	4500 1500 4500 1700
-Wire Wire Line
-	3750 1600 3750 1550
-Wire Wire Line
-	3750 1550 3850 1550
-Wire Wire Line
-	3850 1550 3850 1600
-Wire Wire Line
-	3850 1550 4050 1550
-Connection ~ 3850 1550
-$Comp
 L power:GND #PWR0110
 U 1 1 60C62E0C
-P 4050 1550
-F 0 "#PWR0110" H 4050 1300 50  0001 C CNN
-F 1 "GND" H 4055 1377 50  0000 C CNN
-F 2 "" H 4050 1550 50  0001 C CNN
-F 3 "" H 4050 1550 50  0001 C CNN
-	1    4050 1550
+P 3700 2550
+F 0 "#PWR0110" H 3700 2300 50  0001 C CNN
+F 1 "GND" H 3705 2377 50  0000 C CNN
+F 2 "" H 3700 2550 50  0001 C CNN
+F 3 "" H 3700 2550 50  0001 C CNN
+	1    3700 2550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1900 1650 1900 1750
-Wire Wire Line
-	2900 2150 2900 3000
-Wire Wire Line
-	2900 3000 3250 3000
-Wire Wire Line
-	2600 2150 2900 2150
-Wire Wire Line
-	3350 3000 3350 3150
 $Comp
 L power:GND #PWR0111
 U 1 1 60C8A405
-P 3350 3150
-F 0 "#PWR0111" H 3350 2900 50  0001 C CNN
-F 1 "GND" H 3355 2977 50  0000 C CNN
-F 2 "" H 3350 3150 50  0001 C CNN
-F 3 "" H 3350 3150 50  0001 C CNN
-	1    3350 3150
+P 2800 2350
+F 0 "#PWR0111" H 2800 2100 50  0001 C CNN
+F 1 "GND" H 2805 2177 50  0000 C CNN
+F 2 "" H 2800 2350 50  0001 C CNN
+F 3 "" H 2800 2350 50  0001 C CNN
+	1    2800 2350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3550 3000 3550 3250
-Wire Wire Line
-	4300 3250 4300 1500
-Wire Wire Line
-	3550 1500 4300 1500
-Wire Wire Line
-	3550 3250 4300 3250
-Connection ~ 4300 1500
-Wire Wire Line
-	4300 1500 4500 1500
 $Comp
 L Device:L_Small L1
 U 1 1 60C9C176
-P 3800 3150
-F 0 "L1" V 4100 3150 50  0000 C CNN
-F 1 "Inductor 2.2uh" V 3950 3150 50  0000 C CNN
-F 2 "Inductor_SMD:L_0805_2012Metric" H 3800 3150 50  0001 C CNN
-F 3 "~" H 3800 3150 50  0001 C CNN
-	1    3800 3150
-	0    1    1    0   
+P 3800 1200
+F 0 "L1" V 4100 1200 50  0000 C CNN
+F 1 "Inductor 2.2uh" V 3950 1200 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" H 3800 1200 50  0001 C CNN
+F 3 "~" H 3800 1200 50  0001 C CNN
+	1    3800 1200
+	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3850 3000 3850 3100
-Wire Wire Line
-	3850 3100 3900 3100
-Wire Wire Line
-	3900 3100 3900 3150
-Wire Wire Line
-	3700 3150 3700 3100
-Wire Wire Line
-	3700 3100 3750 3100
-Wire Wire Line
-	3750 3100 3750 3000
 $Comp
 L Simulation_SPICE:DIODE D1
 U 1 1 60CC712B
@@ -1529,16 +1463,10 @@ Wire Wire Line
 	2550 1750 2600 1750
 Connection ~ 2600 1750
 Wire Wire Line
-	3150 1750 3150 1600
-Wire Wire Line
-	3150 1600 3250 1600
-Wire Wire Line
 	2600 1750 2800 1750
 Wire Wire Line
 	2800 1750 2800 1600
 Connection ~ 2800 1750
-Wire Wire Line
-	2800 1750 3150 1750
 $Comp
 L VSYS:VSYS #PWR0112
 U 1 1 60D018CC
@@ -1571,4 +1499,103 @@ Text Label 2950 1750 0    50   ~ 0
 VSYS
 Text Label 2000 1750 0    50   ~ 0
 VBUS
+$Comp
+L Regulator_Switching:TPS63002 U1
+U 1 1 60D7C270
+P 3800 1950
+F 0 "U1" H 3800 2617 50  0000 C CNN
+F 1 "TPS63002" H 3800 2526 50  0000 C CNN
+F 2 "Package_SON:Texas_DRC0010J_ThermalVias" H 4650 1400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tps63000.pdf" H 3500 2500 50  0001 C CNN
+	1    3800 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 1650 4900 1750
+Wire Wire Line
+	3400 1550 3400 1200
+Wire Wire Line
+	3400 1200 3700 1200
+Wire Wire Line
+	4200 1550 4200 1200
+Wire Wire Line
+	4200 1200 3900 1200
+Wire Wire Line
+	2800 1750 3400 1750
+Wire Wire Line
+	3000 2150 3000 1950
+Wire Wire Line
+	3000 1850 3400 1850
+Wire Wire Line
+	2600 2150 2800 2150
+Wire Wire Line
+	3400 1950 3000 1950
+Connection ~ 3000 1950
+Wire Wire Line
+	3000 1950 3000 1850
+Wire Wire Line
+	3400 2150 3000 2150
+Connection ~ 3000 2150
+$Comp
+L Device:C_Small C12
+U 1 1 60E73823
+P 2800 2250
+F 0 "C12" H 2892 2296 50  0000 L CNN
+F 1 "0.1uf 0402" H 2892 2205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2800 2250 50  0001 C CNN
+F 3 "~" H 2800 2250 50  0001 C CNN
+	1    2800 2250
+	1    0    0    -1  
+$EndComp
+Connection ~ 2800 2150
+Wire Wire Line
+	2800 2150 3000 2150
+$Comp
+L Device:C C9
+U 1 1 60E776B9
+P 4600 1900
+F 0 "C9" H 4715 1946 50  0000 L CNN
+F 1 "10uf 0402" H 4715 1855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4638 1750 50  0001 C CNN
+F 3 "" H 4600 1900 50  0001 C CNN
+	1    4600 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 60E776BF
+P 4600 2100
+F 0 "#PWR01" H 4600 1850 50  0001 C CNN
+F 1 "GND" H 4450 2050 50  0000 C CNN
+F 2 "" H 4600 2100 50  0001 C CNN
+F 3 "" H 4600 2100 50  0001 C CNN
+	1    4600 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 2050 4600 2100
+Wire Wire Line
+	4900 1750 4600 1750
+Connection ~ 4900 1750
+Wire Wire Line
+	4200 1750 4350 1750
+Connection ~ 4600 1750
+Wire Wire Line
+	4200 1950 4350 1950
+Wire Wire Line
+	4350 1950 4350 1750
+Connection ~ 4350 1750
+Wire Wire Line
+	4350 1750 4600 1750
+$Comp
+L power:GND #PWR05
+U 1 1 60EAD68C
+P 3800 2550
+F 0 "#PWR05" H 3800 2300 50  0001 C CNN
+F 1 "GND" H 3805 2377 50  0000 C CNN
+F 2 "" H 3800 2550 50  0001 C CNN
+F 3 "" H 3800 2550 50  0001 C CNN
+	1    3800 2550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
