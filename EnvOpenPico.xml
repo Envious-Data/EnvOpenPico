@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Users\Envy\Documents\GitHub\EnvOpenPico\EnvOpenPico.sch</source>
-    <date>28/06/2021 05:27:46</date>
+    <date>30/06/2021 21:36:54</date>
     <tool>Eeschema (5.1.10)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -97,8 +97,8 @@
       <tstamp>5F0930A1</tstamp>
     </comp>
     <comp ref="J2">
-      <value>B3U-1000P</value>
-      <footprint>Button_Switch_SMD:SW_SPST_B3U-1000P</footprint>
+      <value>SKRKAEE020</value>
+      <footprint>Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK</footprint>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F30F0BA</tstamp>

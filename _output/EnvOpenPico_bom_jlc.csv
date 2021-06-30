@@ -9,7 +9,7 @@
 "TYPE-C-31-M-12","e1","HRO-TYPE-C-31-M-12","no_part_number"
 "W25Q16","FLASH1","SOIJ-8_5.3x5.3mm_P1.27mm","no_part_number"
 "MountingHole","H1,H2,H3,H4","MountingHole_2.2mm_M2","no_part_number"
-"B3U-1000P","J2","SW_SPST_B3U-1000P","no_part_number"
+"SKRKAEE020","J2","SW_Push_SPST_NO_Alps_SKRK","no_part_number"
 "2.54mm header 01x20","J4,J3","PinHeader_1x20_P2.54mm_Vertical","no_part_number"
 "Conn_01x03_Male","J5","PinHeader_1x03_P2.54mm_Vertical","no_part_number"
 "Inductor 2.2uh","L1","L_0805_2012Metric","no_part_number"
