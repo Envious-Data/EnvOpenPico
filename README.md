@@ -14,4 +14,5 @@ I orginally planed to make a RPI Pico clone with some personal improvements howe
 ### Versions
 - EnvOpenPico - This is the standard Raspberry Pi Pico clone that I've Made
 - Dip40-RP2040 - This is a dip40 sized rp2040 board as this was a complaint I saw about the rpi pico.
+- Dip40-RP2040-32A - This is another Dip40 rp2400 board but its meant to be pinout compatible with an Atmel ATmega32A.
 
