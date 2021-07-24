@@ -1,3 +1,5 @@
-# Dip40-RP2040
+# Dip40-RP2040-**32A**
 
-This is a Dip40 compatible RP2040 board with a standard RPI Pico like pinout.
+This is another Dip40 RP2040 board but with a pinout a bit more like an Atmel ATmega32A.
+
+![imageo of board](Dip40-RP2040-32A.jpg)
