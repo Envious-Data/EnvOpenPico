@@ -1,0 +1,12 @@
+(sym_lib_table
+  (lib (name MCU_RaspberryPi_RP2040)(type Legacy)(uri ${KIPRJMOD}/Resources/MCU_RaspberryPi_RP2040.lib)(options "")(descr ""))
+  (lib (name VSYS)(type Legacy)(uri ${KIPRJMOD}/Resources/VSYS.lib)(options "")(descr ""))
+  (lib (name W25Q16JVSSIQ)(type Legacy)(uri ${KIPRJMOD}/Resources/W25Q16JVSSIQ.pretty/W25Q16JVSSIQ.lib)(options "")(descr ""))
+  (lib (name NCP1117ST33T3G)(type Legacy)(uri ${KIPRJMOD}/Resources/NCP1117ST33T3G.pretty/NCP1117ST33T3G.lib)(options "")(descr ""))
+  (lib (name ABM3-12.000MHZ-D2Y-T)(type Legacy)(uri ${KIPRJMOD}/Resources/ABM3-12.000MHZ-D2Y-T.pretty/ABM3-12.000MHZ-D2Y-T.lib)(options "")(descr ""))
+  (lib (name EnvOpenPico-rescue)(type Legacy)(uri ${KIPRJMOD}/EnvOpenPico-rescue.lib)(options "")(descr ""))
+  (lib (name Type-C)(type Legacy)(uri ${KIPRJMOD}/Resources/HRO-TYPE-C31-M-12.pretty/Type-C.lib)(options "")(descr ""))
+  (lib (name logo)(type Legacy)(uri ${KIPRJMOD}/Resources/EnvExtras.pretty/logo.lib)(options "")(descr ""))
+  (lib (name W25Q256JVEIQ_TR)(type Legacy)(uri ${KIPRJMOD}/Resources/W25Q256JVEIQ_TR.pretty/W25Q256JVEIQ_TR.lib)(options "")(descr ""))
+  (lib (name RT6150B-33GQW)(type Legacy)(uri ${KIPRJMOD}/Resources/RT6150B-33GQW/RT6150B-33GQW.lib)(options "")(descr ""))
+)
