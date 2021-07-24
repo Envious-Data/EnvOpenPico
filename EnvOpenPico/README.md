@@ -1,6 +1,7 @@
 # EnvOpenPico
 A Raspberry Pi Pico Clone which also uses the RP2040.
 
+![Board image](EnvOpenPico.jpg)
 
 ### Info
 I originally made this as I wanted to replace my raspberry pi pico with a version that had Type-C because I didnt like how the Micro Type-B ports on mine were wearing out already.
