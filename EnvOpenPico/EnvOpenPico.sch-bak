@@ -1628,4 +1628,19 @@ Wire Wire Line
 	1100 1800 1150 1800
 Wire Wire Line
 	1100 1900 1150 1900
+Text Notes 1500 2350 0    20   ~ 0
+Test points for USB
+$Comp
+L Connector:TestPoint TP3
+U 1 1 60FFE72F
+P 1650 2600
+F 0 "TP3" V 1628 2788 20  0000 L CNN
+F 1 "TestPoint" V 1671 2788 20  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 1850 2600 50  0001 C CNN
+F 3 "~" H 1850 2600 50  0001 C CNN
+	1    1650 2600
+	0    1    1    0   
+$EndComp
+Text GLabel 1650 2600 0    20   Input ~ 0
+GND
 $EndSCHEMATC

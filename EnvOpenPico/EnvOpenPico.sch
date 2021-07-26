@@ -1590,9 +1590,9 @@ Text Label 14100 5200 0    50   ~ 0
 GPIO29_ADC3
 Wire Wire Line
 	14600 5200 14100 5200
-Text GLabel 1600 1600 1    20   Input ~ 0
-USB_D+
 Text GLabel 1650 1700 1    20   Input ~ 0
+USB_D+
+Text GLabel 1600 1600 1    20   Input ~ 0
 USB_D-
 Text GLabel 1650 2500 0    20   Input ~ 0
 USB_D-
@@ -1621,13 +1621,26 @@ F 3 "~" H 1850 2500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1100 1600 1600 1600
-Wire Wire Line
-	1100 1700 1650 1700
-Wire Wire Line
 	1100 1800 1150 1800
 Wire Wire Line
 	1100 1900 1150 1900
 Text Notes 1500 2350 0    20   ~ 0
 Test points for USB
+$Comp
+L Connector:TestPoint TP3
+U 1 1 60FFE72F
+P 1650 2600
+F 0 "TP3" V 1628 2788 20  0000 L CNN
+F 1 "TestPoint" V 1671 2788 20  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 1850 2600 50  0001 C CNN
+F 3 "~" H 1850 2600 50  0001 C CNN
+	1    1650 2600
+	0    1    1    0   
+$EndComp
+Text GLabel 1650 2600 0    20   Input ~ 0
+GND
+Wire Wire Line
+	1100 1600 1600 1600
+Wire Wire Line
+	1100 1700 1650 1700
 $EndSCHEMATC
