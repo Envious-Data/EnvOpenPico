@@ -8,7 +8,7 @@ I orginally planed to make a RPI Pico clone with some personal improvements howe
 
 ### Notes
 - You should be able to order these and have them entirely assembled by JLCPCB if they have stock
-- the standard PCB should be compatible with the RPI Pico's firmware but because I couldnt figure out how to get ADC VREF to work its just been replaced with another GPIO and AGND is just GND.
+- should be compatible with the rpi pico firmware as its rather board agnostic (the dip40-32a version will not be)
 
 
 ### Versions
