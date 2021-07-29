@@ -525,7 +525,7 @@ L Device:R R1
 U 1 1 5EDAE9F0
 P 1900 4950
 F 0 "R1" V 1693 4950 50  0000 C CNN
-F 1 "1k Resistor" V 1784 4950 50  0000 C CNN
+F 1 "1k 0402 Resistor" V 1784 4950 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" V 1830 4950 50  0001 C CNN
 F 3 "" H 1900 4950 50  0001 C CNN
 	1    1900 4950
@@ -1367,8 +1367,6 @@ Text Notes 1700 9350 0    50   ~ 0
 Use a 12mhz Seiko Oscilator, 3225-4Pin
 Text Notes 2200 6000 0    50   ~ 0
 Im pretty sure a lot of these W25QXXX Chips are pin compatible\nDont quote me on that
-Text Notes 9800 3700 0    50   ~ 0
-These two are 27ohm resistors \nNOT CAPACITORS
 Text Notes 650  2800 0    50   ~ 0
 KoreanHROParts \nUSB_C_Receptacle_HRO_TYPE-C-31-M-12
 Text Notes 2200 6100 0    50   ~ 0
@@ -1586,13 +1584,11 @@ F 3 "" H 3800 2550 50  0001 C CNN
 	1    3800 2550
 	1    0    0    -1  
 $EndComp
-Text Label 14100 5200 0    50   ~ 0
-GPIO29_ADC3
 Wire Wire Line
 	14600 5200 14100 5200
-Text GLabel 1600 1600 1    20   Input ~ 0
-USB_D+
 Text GLabel 1650 1700 1    20   Input ~ 0
+USB_D+
+Text GLabel 1600 1600 1    20   Input ~ 0
 USB_D-
 Text GLabel 1650 2500 0    20   Input ~ 0
 USB_D-
@@ -1621,10 +1617,6 @@ F 3 "~" H 1850 2500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1100 1600 1600 1600
-Wire Wire Line
-	1100 1700 1650 1700
-Wire Wire Line
 	1100 1800 1150 1800
 Wire Wire Line
 	1100 1900 1150 1900
@@ -1643,4 +1635,61 @@ F 3 "~" H 1850 2600 50  0001 C CNN
 $EndComp
 Text GLabel 1650 2600 0    20   Input ~ 0
 GND
+Wire Wire Line
+	1100 1600 1600 1600
+Wire Wire Line
+	1100 1700 1650 1700
+Wire Wire Line
+	11000 2400 11450 2400
+Wire Wire Line
+	11450 2400 11450 2050
+Connection ~ 11000 2400
+$Comp
+L Device:R_Small R10
+U 1 1 610441D8
+P 11450 1950
+F 0 "R10" H 11509 1996 50  0000 L CNN
+F 1 "1Ohm 0402" H 11509 1905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 11450 1950 50  0001 C CNN
+F 3 "~" H 11450 1950 50  0001 C CNN
+	1    11450 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R9
+U 1 1 61044B24
+P 11450 1500
+F 0 "R9" H 11509 1546 50  0000 L CNN
+F 1 "200ohm 0603" H 11509 1455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 11450 1500 50  0001 C CNN
+F 3 "~" H 11450 1500 50  0001 C CNN
+	1    11450 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR013
+U 1 1 61045079
+P 11450 1300
+F 0 "#PWR013" H 11450 1150 50  0001 C CNN
+F 1 "+3.3V" H 11465 1473 50  0000 C CNN
+F 2 "" H 11450 1300 50  0001 C CNN
+F 3 "" H 11450 1300 50  0001 C CNN
+	1    11450 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11450 1300 11450 1400
+Wire Wire Line
+	11450 1600 11450 1750
+Wire Wire Line
+	11450 1750 11750 1750
+Connection ~ 11450 1750
+Wire Wire Line
+	11450 1750 11450 1850
+Text Label 11750 1750 0    50   ~ 0
+ADC_VREF
+Text Notes 11550 2300 0    50   ~ 0
+MAKE SURE THIS LINE is ran off of pin43
+Text Label 14100 5200 0    50   ~ 0
+ADC_VREF
 $EndSCHEMATC
