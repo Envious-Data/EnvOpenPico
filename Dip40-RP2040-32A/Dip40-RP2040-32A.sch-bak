@@ -1305,9 +1305,9 @@ F 3 "" H 3800 2550 50  0001 C CNN
 $EndComp
 Text Label 13400 4700 0    50   ~ 0
 VBUS
-Text Label 13400 4800 0    50   ~ 0
-USB_D+
 Text Label 13400 4900 0    50   ~ 0
+USB_D+
+Text Label 13400 4800 0    50   ~ 0
 USB_D-
 Wire Wire Line
 	13400 4900 13150 4900
