@@ -50,7 +50,7 @@
     (user_trace_width 1)
     (trace_clearance 0.15)
     (zone_clearance 0.25)
-    (zone_45_only no)
+    (zone_45_only yes)
     (trace_min 0.15)
     (via_size 0.6)
     (via_drill 0.35)
