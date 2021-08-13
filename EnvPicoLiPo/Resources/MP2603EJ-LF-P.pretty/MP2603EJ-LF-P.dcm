@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MP2603EJ-LF-P
+D Monolithic Power Systems (MPS) MP2603EJ-LF-P, Battery Charger, 150mA, 5-Pin TSOT-23
+F https://www.mouser.in/datasheet/2/277/MP2603_r1.01-1384136.pdf
+$ENDCMP
+#
+#End Doc Library

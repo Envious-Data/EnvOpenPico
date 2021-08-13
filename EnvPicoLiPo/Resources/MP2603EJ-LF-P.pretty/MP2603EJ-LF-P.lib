@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# MP2603EJ-LF-P
+#
+DEF MP2603EJ-LF-P IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "MP2603EJ-LF-P" 950 200 50 H V L CNN
+F2 "SOT95P280X100-5N" 950 100 50 H I L CNN
+F3 "https://www.mouser.in/datasheet/2/277/MP2603_r1.01-1384136.pdf" 950 0 50 H I L CNN
+F4 "Monolithic Power Systems (MPS) MP2603EJ-LF-P, Battery Charger, 150mA, 5-Pin TSOT-23" 950 -100 50 H I L CNN "Description"
+F5 "1" 950 -200 50 H I L CNN "Height"
+F6 "946-MP2603EJLFP" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Monolithic-Power-Systems-MPS/MP2603EJ-LF-P?qs=rC7bBWoQAAlytLswia%252Bklw%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Monolithic Power Systems (MPS)" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "MP2603EJ-LF-P" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 900 100 900 -300 200 -300 200 100 f
+X IPGM 1 0 0 200 R 50 50 0 0 P
+X GND 2 0 -100 200 R 50 50 0 0 P
+X CHGZ 3 0 -200 200 R 50 50 0 0 P
+X IN 4 1100 0 200 L 50 50 0 0 P
+X BATT 5 1100 -100 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library

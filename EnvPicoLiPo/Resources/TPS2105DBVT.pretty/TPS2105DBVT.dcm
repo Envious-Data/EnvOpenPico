@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS2105DBVT
+D Power Switch Hi Side 0.5A 5-Pin SOT-23 Texas Instruments TPS2105DBVT, Power Switch 0.5A 5.5 V max. 5-Pin SOT-23
+F http://www.ti.com/lit/ds/symlink/tps2104.pdf
+$ENDCMP
+#
+#End Doc Library
