@@ -1,2 +1,2 @@
-jlc-kicad-tools -n EnvOpenPico . -o .\_output\ --include-all-component-groups
+jlc-kicad-tools -n EnvPicoLiPo . -o .\_output\ --include-all-component-groups
 pause

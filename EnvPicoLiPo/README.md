@@ -1,9 +1,13 @@
 # EnvOpenPico
 A Raspberry Pi Pico Clone which also uses the RP2040.
 
-![Board image](EnvOpenPico.jpg)
+## THIS PROJECT IS FOR KICAD 5.99
+because there are a couple features of kicad 5.99 that I need this project will be done in kicad 5.99 instead of kicad stable.
+
+![Board image](EnvPicoLiPo.jpg)
 
 ### Info
-I originally made this as I wanted to replace my raspberry pi pico with a version that had Type-C because I didnt like how the Micro Type-B ports on mine were wearing out already.
+This version of the board uses a PMIC namely BQ24072RGT this is paired with a LM3671MF 3.3V to get the rpi pico its 3.3V, there is also a ESP32-PICO-D4 for wifi and bluetooth and maybe later it can be used as an IO expander.
 
-Ive tried to keep the pinout the same as the pico however ADC VREF and AGND I couldnt get to work how I wanted in kicad nor could I properly figure out how to replicate it correctly so Ive replaced ADC VREF with another ADC GPIO and AGND is just a normal GND which is the same as all other GND pins on the board.
+### problems
+I must point out that alike most things on my github im learning as I go so some pointers on doing things correctly would be apreciated.
