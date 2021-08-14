@@ -1726,13 +1726,22 @@ Wire Wire Line
 	1850 1750 2300 1750
 Text GLabel 1850 1600 2    20   Input ~ 0
 VBUS
-Text GLabel 800  3800 0    20   Input ~ 0
-1.1V
 $Comp
 L Connector:TestPoint TP6
 U 1 1 611EA769
+P 800 3900
+F 0 "TP6" V 778 4088 20  0000 L CNN
+F 1 "TestPoint" V 821 4088 20  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1000 3900 50  0001 C CNN
+F 3 "~" H 1000 3900 50  0001 C CNN
+	1    800  3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP7
+U 1 1 611EA995
 P 800 3700
-F 0 "TP6" V 778 3888 20  0000 L CNN
+F 0 "TP7" V 778 3888 20  0000 L CNN
 F 1 "TestPoint" V 821 3888 20  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1000 3700 50  0001 C CNN
 F 3 "~" H 1000 3700 50  0001 C CNN
@@ -1740,25 +1749,14 @@ F 3 "~" H 1000 3700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP7
-U 1 1 611EA995
-P 800 3800
-F 0 "TP7" V 778 3988 20  0000 L CNN
-F 1 "TestPoint" V 821 3988 20  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1000 3800 50  0001 C CNN
-F 3 "~" H 1000 3800 50  0001 C CNN
-	1    800  3800
-	0    1    1    0   
-$EndComp
-$Comp
 L Connector:TestPoint TP8
 U 1 1 611EAAD7
-P 800 3900
-F 0 "TP8" V 778 4088 20  0000 L CNN
-F 1 "TestPoint" V 821 4088 20  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1000 3900 50  0001 C CNN
-F 3 "~" H 1000 3900 50  0001 C CNN
-	1    800  3900
+P 800 4100
+F 0 "TP8" V 778 4288 20  0000 L CNN
+F 1 "TestPoint" V 821 4288 20  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1000 4100 50  0001 C CNN
+F 3 "~" H 1000 4100 50  0001 C CNN
+	1    800  4100
 	0    1    1    0   
 $EndComp
 Text Notes 550  2850 0    50   ~ 0
@@ -1766,25 +1764,36 @@ KoreanHROParts \nUSB_C_Receptacle_HRO_TYPE-C-31-M-12
 $Comp
 L power:+3V3 #PWR0112
 U 1 1 610BAA34
+P 800 4100
+F 0 "#PWR0112" H 800 3950 50  0001 C CNN
+F 1 "+3V3" H 815 4273 50  0000 C CNN
+F 2 "" H 800 4100 50  0001 C CNN
+F 3 "" H 800 4100 50  0001 C CNN
+	1    800  4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0113
+U 1 1 610BBDF2
 P 800 3900
-F 0 "#PWR0112" H 800 3750 50  0001 C CNN
+F 0 "#PWR0113" H 800 3750 50  0001 C CNN
 F 1 "+3V3" H 815 4073 50  0000 C CNN
 F 2 "" H 800 3900 50  0001 C CNN
 F 3 "" H 800 3900 50  0001 C CNN
 	1    800  3900
 	0    -1   -1   0   
 $EndComp
+Text Notes 700  4250 0    20   ~ 0
+place one by the CPU\nand one by the regulator\n(3.3V Test points)
 $Comp
-L power:+3V3 #PWR0113
-U 1 1 610BBDF2
+L power:+1V1 #PWR?
+U 1 1 610CF35B
 P 800 3700
-F 0 "#PWR0113" H 800 3550 50  0001 C CNN
-F 1 "+3V3" H 815 3873 50  0000 C CNN
+F 0 "#PWR?" H 800 3550 50  0001 C CNN
+F 1 "+1V1" H 815 3873 50  0000 C CNN
 F 2 "" H 800 3700 50  0001 C CNN
 F 3 "" H 800 3700 50  0001 C CNN
 	1    800  3700
 	0    -1   -1   0   
 $EndComp
-Text Notes 700  4050 0    20   ~ 0
-place one by the CPU\nand one by the regulator\n(3.3V Test points)
 $EndSCHEMATC

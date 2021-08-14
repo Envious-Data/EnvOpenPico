@@ -1662,14 +1662,14 @@ L Device:D_Schottky D1
 U 1 1 61068F6F
 P 2450 1750
 F 0 "D1" H 2450 1533 50  0000 C CNN
-F 1 "Schottky 0603" H 2450 1624 50  0000 C CNN
+F 1 "1N4002 0603" H 2450 1624 50  0000 C CNN
 F 2 "Diode_SMD:D_0603_1608Metric" H 2450 1750 50  0001 C CNN
 F 3 "~" H 2450 1750 50  0001 C CNN
 	1    2450 1750
 	-1   0    0    1   
 $EndComp
 Text Notes 1850 1450 0    20   ~ 0
-D1 NEEDS to be 0omh resistor or schotky resistor
+D1 NEEDS to be 0omh resistor or 1N4002 diode
 Wire Wire Line
 	3950 1200 4250 1200
 Wire Wire Line
