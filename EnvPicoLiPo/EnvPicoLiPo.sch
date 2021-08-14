@@ -1588,7 +1588,7 @@ Wire Wire Line
 Text Notes 15150 8650 0    50   ~ 0
 this is for factory testing\nalways pull this to ground
 Text Notes 1850 1450 0    20   ~ 0
-D1 NEEDS to be 0omh resistor or schotky resistor
+D1 NEEDS to be 0omh resistor or 1n4002
 Connection ~ 6750 1850
 Text GLabel 2100 1700 1    47   Input ~ 0
 VBUS
@@ -2045,7 +2045,7 @@ L Device:D_Schottky D4
 U 1 1 61233DC7
 P 2450 1750
 F 0 "D4" H 2450 1533 50  0000 C CNN
-F 1 "Schottky 0603" H 2450 1624 50  0000 C CNN
+F 1 "1n4002 0603" H 2450 1624 50  0000 C CNN
 F 2 "Diode_SMD:D_0603_1608Metric" H 2450 1750 50  0001 C CNN
 F 3 "~" H 2450 1750 50  0001 C CNN
 	1    2450 1750
