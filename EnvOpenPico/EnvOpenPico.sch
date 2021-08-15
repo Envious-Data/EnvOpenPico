@@ -4,10 +4,10 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "RP2040 Minimal Design Example"
+Title "Raspberry Pi Pico Clone"
 Date "2020-12-18"
 Rev "REV1"
-Comp "Raspberry Pi (Trading) Ltd"
+Comp "Envious.Design"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -24,10 +24,6 @@ F 3 "" H 7050 5700 50  0001 C CNN
 	1    7800 5700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6000 5800 6550 5800
-Wire Wire Line
-	6550 6000 6000 6000
 Wire Wire Line
 	6000 4600 6550 4600
 Wire Wire Line
@@ -209,10 +205,6 @@ Text Label 6000 4800 0    50   ~ 0
 QSPI_SD2
 Text Label 6000 4900 0    50   ~ 0
 QSPI_SD3
-Text Label 6000 5800 0    50   ~ 0
-XIN
-Text Label 6000 6000 0    50   ~ 0
-XOUT
 $Comp
 L Device:R R4
 U 1 1 5EDE1624
@@ -769,12 +761,6 @@ Text Notes 13700 4450 0    197  ~ 39
 GPIOs
 Wire Wire Line
 	13400 6950 13400 7050
-Text Label 3850 8400 2    50   ~ 0
-XIN
-Text Label 3900 9000 2    50   ~ 0
-XOUT
-Wire Wire Line
-	2600 8400 3200 8400
 Text Notes 9950 3950 0    50   ~ 0
 Make sure R3 and R4 are close to RP2040
 Wire Wire Line
@@ -1104,69 +1090,28 @@ Wire Wire Line
 Wire Wire Line
 	8450 2400 9250 2400
 $Comp
-L Oscillator:XO32 X1
-U 1 1 60894744
-P 2600 8700
-F 0 "X1" V 2250 8550 50  0000 L CNN
-F 1 "XO 32 12Mhz 3225 seiko" V 2350 8450 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_SeikoEpson_TSX3225-4Pin_3.2x2.5mm" H 3300 8350 50  0001 C CNN
-F 3 "" H 2500 8700 50  0001 C CNN
-	1    2600 8700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0105
-U 1 1 608B9527
-P 2900 8700
-F 0 "#PWR0105" H 2900 8450 50  0001 C CNN
-F 1 "GND" V 2905 8572 50  0000 R CNN
-F 2 "" H 2900 8700 50  0001 C CNN
-F 3 "" H 2900 8700 50  0001 C CNN
-	1    2900 8700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+3.3V #PWR0106
-U 1 1 608B9D1F
-P 2300 8700
-F 0 "#PWR0106" H 2300 8550 50  0001 C CNN
-F 1 "+3.3V" V 2315 8828 50  0000 L CNN
-F 2 "" H 2300 8700 50  0001 C CNN
-F 3 "" H 2300 8700 50  0001 C CNN
-	1    2300 8700
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:C C2
 U 1 1 5ED96B87
-P 3200 8250
-F 0 "C2" H 3315 8296 50  0000 L CNN
-F 1 "15pf 0402" H 3315 8205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3238 8100 50  0001 C CNN
-F 3 "" H 3200 8250 50  0001 C CNN
-	1    3200 8250
-	1    0    0    -1  
+P 2700 8400
+F 0 "C2" H 2815 8446 50  0000 L CNN
+F 1 "22pf 0402" H 2815 8355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2738 8250 50  0001 C CNN
+F 3 "" H 2700 8400 50  0001 C CNN
+	1    2700 8400
+	0    -1   -1   0   
 $EndComp
 Connection ~ 3200 8400
-Wire Wire Line
-	3200 8400 3850 8400
 $Comp
 L power:GND #PWR0107
 U 1 1 6097CBA8
-P 3200 8100
-F 0 "#PWR0107" H 3200 7850 50  0001 C CNN
-F 1 "GND" H 3205 7927 50  0000 C CNN
-F 2 "" H 3200 8100 50  0001 C CNN
-F 3 "" H 3200 8100 50  0001 C CNN
-	1    3200 8100
-	-1   0    0    1   
+P 2500 8650
+F 0 "#PWR0107" H 2500 8400 50  0001 C CNN
+F 1 "GND" H 2505 8477 50  0000 C CNN
+F 2 "" H 2500 8650 50  0001 C CNN
+F 3 "" H 2500 8650 50  0001 C CNN
+	1    2500 8650
+	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3650 9000 3900 9000
-Text Notes 3450 8900 0    39   ~ 0
-Intentionally left floating
-Text Notes 1700 9250 0    50   ~ 0
-Pin1 on XO Oscillator also left floating so the chip is enabled\n(this is specified in their datasheet)
 Wire Wire Line
 	7000 2400 7000 3200
 Wire Wire Line
@@ -1322,15 +1267,13 @@ F 3 "~" H 12650 10250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 1700 9350 0    50   ~ 0
-Use a 12mhz Seiko Oscilator, 3225-4Pin
+RP2040 supports 1MHz to 15MHz
 Text Notes 2200 6000 0    50   ~ 0
 Im pretty sure a lot of these W25QXXX Chips are pin compatible\nDont quote me on that
 Text Notes 2200 6100 0    50   ~ 0
 Im unsure if the RP2040 can function with flash larger than 128Mb
 Text Notes 3550 5250 0    50   ~ 0
 Pin 9 technically doesnt exist\nits the main central contact under\nthe chip for heat dicipation
-Text Notes 3200 8650 0    50   ~ 0
-Dont bother trying to use a crystal\nas it massively complicates this clock source setup
 Text Notes 9300 2350 0    50   ~ 0
 These decoupling capacitors are meant\nto be put close by each 3.3V pin of the RP2040
 Text Notes 600  750  0    50   ~ 0
@@ -1786,14 +1729,80 @@ $EndComp
 Text Notes 700  4250 0    20   ~ 0
 place one by the CPU\nand one by the regulator\n(3.3V Test points)
 $Comp
-L power:+1V1 #PWR?
+L power:+1V1 #PWR0115
 U 1 1 610CF35B
 P 800 3700
-F 0 "#PWR?" H 800 3550 50  0001 C CNN
+F 0 "#PWR0115" H 800 3550 50  0001 C CNN
 F 1 "+1V1" H 815 3873 50  0000 C CNN
 F 2 "" H 800 3700 50  0001 C CNN
 F 3 "" H 800 3700 50  0001 C CNN
 	1    800  3700
 	0    -1   -1   0   
 $EndComp
+Text Notes 4750 1150 0    50   ~ 0
+2.2uH for 3.3V output on the variable versions\nneed to reconfigure FB tho
+Wire Wire Line
+	3700 5550 3700 5350
+Connection ~ 3700 5550
+$Comp
+L Device:Crystal Y1
+U 1 1 612055A1
+P 3200 8650
+F 0 "Y1" V 3154 8781 50  0000 L CNN
+F 1 "Crystal" V 3245 8781 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm" H 3200 8650 50  0001 C CNN
+F 3 "~" H 3200 8650 50  0001 C CNN
+	1    3200 8650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3200 8500 3200 8400
+Wire Wire Line
+	3200 8900 3200 8800
+Wire Wire Line
+	3200 8900 2850 8900
+Connection ~ 3200 8900
+Wire Wire Line
+	2850 8400 3200 8400
+$Comp
+L Device:C C19
+U 1 1 612806FF
+P 2700 8900
+F 0 "C19" H 2815 8946 50  0000 L CNN
+F 1 "22pf 0402" H 2750 8800 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2738 8750 50  0001 C CNN
+F 3 "" H 2700 8900 50  0001 C CNN
+	1    2700 8900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR019
+U 1 1 61280CDE
+P 3200 9250
+F 0 "#PWR019" H 3200 9000 50  0001 C CNN
+F 1 "GND" H 3205 9077 50  0000 C CNN
+F 2 "" H 3200 9250 50  0001 C CNN
+F 3 "" H 3200 9250 50  0001 C CNN
+	1    3200 9250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 8400 3950 8400
+Wire Wire Line
+	3200 8900 3950 8900
+Text GLabel 6550 5800 0    50   Input ~ 0
+XIN
+Text GLabel 6550 6000 0    50   Input ~ 0
+XOUT
+Text GLabel 3950 8900 2    50   Input ~ 0
+XOUT
+Text GLabel 3950 8400 2    50   Input ~ 0
+XIN
+Wire Wire Line
+	2550 8900 2550 8650
+Wire Wire Line
+	2550 8650 2500 8650
+Connection ~ 2550 8650
+Wire Wire Line
+	2550 8650 2550 8400
 $EndSCHEMATC
