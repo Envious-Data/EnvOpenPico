@@ -1745,12 +1745,12 @@ Wire Wire Line
 	3700 5550 3700 5350
 Connection ~ 3700 5550
 $Comp
-L Device:Crystal Y1
+L Device:Crystal_GND24 Y1
 U 1 1 612055A1
 P 3200 8650
-F 0 "Y1" V 3154 8781 50  0000 L CNN
-F 1 "Crystal" V 3245 8781 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm" H 3200 8650 50  0001 C CNN
+F 0 "Y1" V 3200 8600 50  0000 L CNN
+F 1 "Crystal" V 3400 8700 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 3200 8650 50  0001 C CNN
 F 3 "~" H 3200 8650 50  0001 C CNN
 	1    3200 8650
 	0    1    1    0   
@@ -1775,17 +1775,6 @@ F 3 "" H 2700 8900 50  0001 C CNN
 	1    2700 8900
 	0    -1   -1   0   
 $EndComp
-$Comp
-L power:GND #PWR019
-U 1 1 61280CDE
-P 3200 9250
-F 0 "#PWR019" H 3200 9000 50  0001 C CNN
-F 1 "GND" H 3205 9077 50  0000 C CNN
-F 2 "" H 3200 9250 50  0001 C CNN
-F 3 "" H 3200 9250 50  0001 C CNN
-	1    3200 9250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3200 8400 3950 8400
 Wire Wire Line
@@ -1805,4 +1794,17 @@ Wire Wire Line
 Connection ~ 2550 8650
 Wire Wire Line
 	2550 8650 2550 8400
+$Comp
+L power:GND #PWR?
+U 1 1 611FF3FA
+P 3400 8650
+F 0 "#PWR?" H 3400 8400 50  0001 C CNN
+F 1 "GND" V 3405 8522 50  0000 R CNN
+F 2 "" H 3400 8650 50  0001 C CNN
+F 3 "" H 3400 8650 50  0001 C CNN
+	1    3400 8650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2550 8650 3000 8650
 $EndSCHEMATC
