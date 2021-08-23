@@ -5739,10 +5739,10 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006114ddae)
     (property "Reference" "L1" (id 0) (at 217.17 44.45 0))
-    (property "Value" "INDUCTOR 2.2uH 0603" (id 1) (at 215.9 48.26 0)
+    (property "Value" "INDUCTOR 2.2uH 0805" (id 1) (at 215.9 48.26 0)
       (effects (font (size 0.9906 0.9906)))
     )
-    (property "Footprint" "Inductor_SMD:L_0603_1608Metric" (id 2) (at 217.17 46.99 0)
+    (property "Footprint" "Inductor_SMD:L_0805_2012Metric" (id 2) (at 217.17 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 217.17 46.99 0)
@@ -5829,7 +5829,7 @@
     (property "Value" "Li-Po Battery" (id 1) (at 133.35 49.53 90)
       (effects (font (size 0.508 0.508)) (justify left))
     )
-    (property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" (id 2) (at 133.096 46.99 90)
+    (property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical" (id 2) (at 133.096 46.99 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 133.096 46.99 90)
@@ -6592,7 +6592,7 @@
       (reference "#PWR0123") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000061185e74"
-      (reference "BT1") (unit 1) (value "Li-Po Battery") (footprint "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical")
+      (reference "BT1") (unit 1) (value "Li-Po Battery") (footprint "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005f09255d"
       (reference "C1") (unit 1) (value "10uf 0603 6.3V") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -6688,7 +6688,7 @@
       (reference "J5") (unit 1) (value "Conn_01x03_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00006114ddae"
-      (reference "L1") (unit 1) (value "INDUCTOR 2.2uH 0603") (footprint "Inductor_SMD:L_0603_1608Metric")
+      (reference "L1") (unit 1) (value "INDUCTOR 2.2uH 0805") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-0000612459f2"
       (reference "NT1") (unit 1) (value "Net-Tie_2") (footprint "NetTie:NetTie-2_SMD_Pad0.5mm")
