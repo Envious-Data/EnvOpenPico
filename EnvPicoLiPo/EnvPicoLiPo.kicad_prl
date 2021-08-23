@@ -1,10 +1,10 @@
 {
   "board": {
-    "active_layer": 31,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_nets": [],
-    "high_contrast_mode": 1,
+    "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
       "pads": 1.0,
@@ -34,7 +34,6 @@
       4,
       5,
       6,
-      7,
       8,
       9,
       10,
@@ -64,8 +63,8 @@
       35,
       36
     ],
-    "visible_layers": "000feff_80000001",
-    "zone_display_mode": 0
+    "visible_layers": "ffcf3ff_ffffffff",
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "EnvPicoLiPo.kicad_prl",
