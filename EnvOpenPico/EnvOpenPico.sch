@@ -1278,21 +1278,19 @@ Text Notes 9300 2350 0    50   ~ 0
 These decoupling capacitors are meant\nto be put close by each 3.3V pin of the RP2040
 Text Notes 600  750  0    50   ~ 0
 2x 5.1K Resistors on the CC pins will = 5V@1.5A\nthis is the recomended default config for type-c
-Text GLabel 3150 2150 0    50   Input ~ 0
+Text GLabel 3150 2250 3    50   Input ~ 0
 3V3_EN
 $Comp
 L Device:R R7
 U 1 1 608CFAF0
-P 3150 2000
-F 0 "R7" H 3000 2050 50  0000 L CNN
-F 1 "100ohm" V 3250 1900 30  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 3080 2000 50  0001 C CNN
-F 3 "" H 3150 2000 50  0001 C CNN
-	1    3150 2000
-	1    0    0    -1  
+P 2950 2150
+F 0 "R7" H 2800 2200 50  0000 L CNN
+F 1 "100ohm" V 3050 2050 30  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2880 2150 50  0001 C CNN
+F 3 "" H 2950 2150 50  0001 C CNN
+	1    2950 2150
+	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3150 1850 3150 1750
 $Comp
 L power:GND #PWR0110
 U 1 1 60C62E0C
@@ -1320,8 +1318,8 @@ L Device:L_Small L1
 U 1 1 60C9C176
 P 4350 1200
 F 0 "L1" V 4650 1200 50  0000 C CNN
-F 1 "Inductor 2.2uh" V 4500 1200 50  0000 C CNN
-F 2 "Inductor_SMD:L_0805_2012Metric" H 4350 1200 50  0001 C CNN
+F 1 "Inductor 2.2uh 0603 500mA" V 4500 1200 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 4350 1200 50  0001 C CNN
 F 3 "~" H 4350 1200 50  0001 C CNN
 	1    4350 1200
 	0    -1   -1   0   
@@ -1605,8 +1603,8 @@ L Device:D_Schottky D1
 U 1 1 61068F6F
 P 2450 1750
 F 0 "D1" H 2450 1533 50  0000 C CNN
-F 1 "1N4002 0603" H 2450 1624 50  0000 C CNN
-F 2 "Diode_SMD:D_0603_1608Metric" H 2450 1750 50  0001 C CNN
+F 1 "1N4002W" H 2450 1624 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 2450 1750 50  0001 C CNN
 F 3 "~" H 2450 1750 50  0001 C CNN
 	1    2450 1750
 	-1   0    0    1   
@@ -1795,10 +1793,10 @@ Connection ~ 2550 8650
 Wire Wire Line
 	2550 8650 2550 8400
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0105
 U 1 1 611FF3FA
 P 3400 8650
-F 0 "#PWR?" H 3400 8400 50  0001 C CNN
+F 0 "#PWR0105" H 3400 8400 50  0001 C CNN
 F 1 "GND" V 3405 8522 50  0000 R CNN
 F 2 "" H 3400 8650 50  0001 C CNN
 F 3 "" H 3400 8650 50  0001 C CNN
@@ -1807,4 +1805,37 @@ F 3 "" H 3400 8650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2550 8650 3000 8650
+Connection ~ 3150 2150
+Wire Wire Line
+	3150 2150 3150 2250
+Wire Wire Line
+	3100 2150 3150 2150
+Text GLabel 2800 2150 0    47   Input ~ 0
+VBUS
+$Comp
+L Switch:SW_Push J1
+U 1 1 61339A7C
+P 5800 6500
+F 0 "J1" H 5850 6650 50  0000 C CNN
+F 1 "SKRKAEE020" H 5750 6400 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK" H 5800 6500 50  0001 C CNN
+F 3 "" H 5800 6500 50  0001 C CNN
+	1    5800 6500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 6133A1A8
+P 5550 6550
+F 0 "#PWR0106" H 5550 6300 50  0001 C CNN
+F 1 "GND" H 5555 6377 50  0000 C CNN
+F 2 "" H 5550 6550 50  0001 C CNN
+F 3 "" H 5550 6550 50  0001 C CNN
+	1    5550 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 6500 5550 6500
+Wire Wire Line
+	5550 6500 5550 6550
 $EndSCHEMATC
