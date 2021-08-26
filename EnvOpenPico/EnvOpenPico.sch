@@ -1266,7 +1266,7 @@ F 3 "~" H 12650 10250 50  0001 C CNN
 	1    12650 10250
 	1    0    0    -1  
 $EndComp
-Text Notes 1700 9350 0    50   ~ 0
+Text Notes 2600 9100 0    50   ~ 0
 RP2040 supports 1MHz to 15MHz
 Text Notes 2200 6000 0    50   ~ 0
 Im pretty sure a lot of these W25QXXX Chips are pin compatible\nDont quote me on that
@@ -1415,7 +1415,7 @@ Wire Wire Line
 Text Label 11750 1750 0    50   ~ 0
 ADC_VREF
 Text Notes 9800 1650 0    50   ~ 0
-MAKE SURE THIS LINE is ran off of pin43
+MAKE SURE THIS LINE is ran off of pin43\nor close to pin43
 Text Label 14100 5200 0    50   ~ 0
 ADC_VREF
 $Comp
@@ -1719,7 +1719,7 @@ Wire Wire Line
 Wire Wire Line
 	5550 6500 5550 6550
 $Comp
-L Regulator_Linear:TLV75533PDBV U1
+L Regulator_Linear:AP131-15 U1
 U 1 1 6128F962
 P 4350 1850
 F 0 "U1" H 4350 2192 50  0000 C CNN
@@ -1741,4 +1741,36 @@ Wire Wire Line
 	4650 1750 5450 1750
 Wire Wire Line
 	4350 2150 4350 2550
+$Comp
+L Device:C cBP1
+U 1 1 6127D24E
+P 4700 2050
+F 0 "cBP1" H 4815 2096 50  0000 L CNN
+F 1 "10uf 0402" H 4650 2050 20  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4738 1900 50  0001 C CNN
+F 3 "" H 4700 2050 50  0001 C CNN
+	1    4700 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 6127D922
+P 4700 2250
+F 0 "#PWR0110" H 4700 2000 50  0001 C CNN
+F 1 "GND" H 4550 2200 50  0000 C CNN
+F 2 "" H 4700 2250 50  0001 C CNN
+F 3 "" H 4700 2250 50  0001 C CNN
+	1    4700 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 2250 4700 2200
+Wire Wire Line
+	4700 1900 4700 1850
+Wire Wire Line
+	4700 1850 4650 1850
+Text Notes 4450 2700 0    50   Italic 0
+Only fit cBP1 if you have selected an \nalternate voltage regulator\n\nTLV75533PDBVR does not.
+Text Notes 2500 4550 0    50   Italic 10
+DO.NOT.FIT
 $EndSCHEMATC
