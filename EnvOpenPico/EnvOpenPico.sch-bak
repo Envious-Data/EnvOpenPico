@@ -1266,7 +1266,7 @@ F 3 "~" H 12650 10250 50  0001 C CNN
 	1    12650 10250
 	1    0    0    -1  
 $EndComp
-Text Notes 1700 9350 0    50   ~ 0
+Text Notes 2600 9100 0    50   ~ 0
 RP2040 supports 1MHz to 15MHz
 Text Notes 2200 6000 0    50   ~ 0
 Im pretty sure a lot of these W25QXXX Chips are pin compatible\nDont quote me on that
@@ -1415,7 +1415,7 @@ Wire Wire Line
 Text Label 11750 1750 0    50   ~ 0
 ADC_VREF
 Text Notes 9800 1650 0    50   ~ 0
-MAKE SURE THIS LINE is ran off of pin43
+MAKE SURE THIS LINE is ran off of pin43\nor close to pin43
 Text Label 14100 5200 0    50   ~ 0
 ADC_VREF
 $Comp
