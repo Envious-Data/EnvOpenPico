@@ -1639,7 +1639,6 @@ Wire Wire Line
 	3200 8900 3200 8800
 Wire Wire Line
 	3200 8900 2850 8900
-Connection ~ 3200 8900
 Wire Wire Line
 	2850 8400 3200 8400
 $Comp
@@ -1655,8 +1654,6 @@ F 3 "" H 2700 8900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3200 8400 3950 8400
-Wire Wire Line
-	3200 8900 3950 8900
 Text GLabel 6550 5800 0    50   Input ~ 0
 XIN
 Text GLabel 6550 6000 0    50   Input ~ 0
@@ -1775,4 +1772,20 @@ Text Notes 2500 4550 0    50   Italic 10
 DO.NOT.FIT
 Text Notes 2200 6250 0    50   ~ 0
 GD25Q40CEIGR is compatible and often stocked by JLC
+$Comp
+L Device:R R11
+U 1 1 6150E6AB
+P 3600 8900
+F 0 "R11" V 3393 8900 50  0000 C CNN
+F 1 "1kΩ 0402 Resistor" V 3484 8900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" V 3530 8900 50  0001 C CNN
+F 3 "" H 3600 8900 50  0001 C CNN
+	1    3600 8900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3750 8900 3950 8900
+Wire Wire Line
+	3450 8900 3200 8900
+Connection ~ 3200 8900
 $EndSCHEMATC
