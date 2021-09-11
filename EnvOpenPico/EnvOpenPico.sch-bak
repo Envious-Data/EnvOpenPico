@@ -1773,4 +1773,6 @@ Text Notes 4450 2700 0    50   Italic 0
 Only fit cBP1 if you have selected an \nalternate voltage regulator\n\nTLV75533PDBVR does not.
 Text Notes 2500 4550 0    50   Italic 10
 DO.NOT.FIT
+Text Notes 2200 6250 0    50   ~ 0
+GD25Q40CEIGR is compatible and often stocked by JLC
 $EndSCHEMATC
