@@ -1,1 +1,0 @@
-ren EnvOpenPicoPanel.kicad_pcb* EnvOpenPicoPanel.kicad_pcb
