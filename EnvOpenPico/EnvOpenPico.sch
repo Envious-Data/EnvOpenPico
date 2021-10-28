@@ -1878,9 +1878,6 @@ Wire Wire Line
 	14250 7600 13850 7600
 Wire Wire Line
 	14550 7600 14650 7600
-NoConn ~ 9050 6700
-NoConn ~ 9050 6800
-NoConn ~ 9050 7400
 NoConn ~ 1100 2000
 NoConn ~ 1100 1400
 Wire Wire Line
