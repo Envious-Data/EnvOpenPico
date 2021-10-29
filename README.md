@@ -16,7 +16,7 @@ although the power management IC on the board will be changed due to stock issue
 ### Notes
 - You should be able to order these and have them entirely assembled by JLCPCB if they have stock
 - If the pinout matches the Raspberry Pi Pico you should be able to use UF2s meant for the pico (i believe most RP2040 firmwares should be rather board agnostic but im unsure as of writing this)
-
+- Please ensure you pick a compatible flash chip, you may need to modify the connections to the flash chip, its setup for Winbond W25QxxJVEIQ.
 
 ### Versions
 - EnvOpenPico - This is the standard Raspberry Pi Pico clone that I've Made
@@ -24,5 +24,3 @@ although the power management IC on the board will be changed due to stock issue
 - Dip40-RP2040-32A - This is another Dip40 rp2400 board but its meant to be pinout compatible with an Atmel ATmega32A.
 - EnvOpenPico-Lipo - This version is the same as the standard pico clone except it uses a Battery/buck-boost IC meant to be used with Li-Po and Li-Ion batteries.
 
-## Important footnote!
-because this is all rather expensive to do I've yet to test anything but the EnvOpenPico. so proceed with caution if you want one of these for your self.

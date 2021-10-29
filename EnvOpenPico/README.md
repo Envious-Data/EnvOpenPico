@@ -6,4 +6,13 @@ A Raspberry Pi Pico Clone which also uses the RP2040.
 ### Info
 I originally made this as I wanted to replace my raspberry pi pico with a version that had Type-C because I didnt like how the Micro Type-B ports on mine were wearing out already.
 
-Ive tried to keep the pinout the same as the pico however ADC VREF and AGND I couldnt get to work how I wanted in kicad nor could I properly figure out how to replicate it correctly so Ive replaced ADC VREF with another ADC GPIO and AGND is just a normal GND which is the same as all other GND pins on the board.
+### some notes
+I dont update the readme very often so some info here may end up outdated at some point
+
+
+### results
+Batch 1 - Accidentally ordered TPS63002 instead of TPS63001
+Batch 2 - flashchip GD25Q40 appears to be incompatible but the board boots up and presents bootloader usb
+Batch 3 - Yet to order
+
+#### I do plan to get the buck boost swapped and the flash chip swapped on batch 1/2.
