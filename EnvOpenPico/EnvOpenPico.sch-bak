@@ -1787,7 +1787,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 1850 4650 1850
 Text Notes 4450 2700 0    50   Italic 0
-Only fit cBP1 if you have selected an \nalternate voltage regulator\n\nTLV75533PDBVR does not.
+Only fit cBP1 if you have selected an \nalternate voltage regulator\n\nTLV75533PDBVR does not require cBP1.
 Text Notes 2200 6250 0    50   ~ 0
 GD25Q40CEIGR is NOT Compatible\nyou need GD25W16* needs to be a multiple of 8 atleast for circuitpython.
 $Comp
