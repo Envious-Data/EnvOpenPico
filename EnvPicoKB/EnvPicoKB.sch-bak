@@ -1812,10 +1812,10 @@ Wire Wire Line
 Wire Wire Line
 	5500 6500 5400 6500
 $Comp
-L Connector_Generic:Conn_01x04 J?
+L Connector_Generic:Conn_01x04 J1
 U 1 1 61A0D313
 P 750 1750
-F 0 "J?" H 668 1325 50  0000 C CNN
+F 0 "J1" H 668 1325 50  0000 C CNN
 F 1 "Conn_01x04" H 668 1416 50  0000 C CNN
 F 2 "Connector_JST:JST_XH_S4B-XH-A-1_1x04_P2.50mm_Horizontal" H 750 1750 50  0001 C CNN
 F 3 "~" H 750 1750 50  0001 C CNN
