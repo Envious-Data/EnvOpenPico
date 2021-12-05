@@ -1,4 +1,4 @@
-19251870221387168
+19294457054763344
 2.54mmheadercastelation
 PinHeader_1x20_P2.54mm_Vertical_castelated
 Through hole straight pin header, 1x20, 2.54mm pitch, single row
@@ -50742,6 +50742,13 @@ logo
 0
 0
 0
+EnvExtras
+lyra
+
+
+0
+0
+0
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -83166,6 +83173,181 @@ SON127P800X600X80-9N
 0
 9
 9
+josh-connectors
+AVR_PROG_2.54_SMT
+AVR Programmer 6 pogo pin 2.54 mm spacing
+
+0
+6
+6
+josh-connectors
+AVR_PROG_2.54_THT
+AVR Programmer 6 pogo pin 2.54 mm spacing
+
+0
+6
+6
+josh-connectors
+Banana_Jack_1Pin
+Single banana socket, footprint - 6mm drill
+banana socket
+0
+1
+1
+josh-connectors
+Castellated_P2.54
+Single castellated hole, 2.54mm pitch
+
+0
+2
+1
+josh-connectors
+Castellated_P2.54x5
+5 x castellated hole, 2.54mm pitch
+
+0
+10
+5
+josh-connectors
+Castellated_P2.54x12
+12 x castellated hole, 2.54mm pitch
+
+0
+24
+12
+josh-connectors
+Castellated_Short_2.54x5
+
+
+0
+5
+5
+josh-connectors
+Castellated_Short_P2.54x12
+
+
+0
+12
+12
+josh-connectors
+JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal
+JST PH series connector, S2B-PH-SM4-TB mounding pads grounded
+connector JST PH top entry
+0
+4
+2
+josh-connectors
+PMOD_HOST
+PMOD host connector
+
+0
+12
+12
+josh-connectors
+POGO_P100_AVR_PROG_2.54_THT
+AVR Programmer 6 pogo pin 2.54 mm spacing
+
+0
+6
+6
+josh-connectors
+SAMTEC_FTSH-105-01-L-DV-R-TR
+surface-mounted straight pin header, 2x05, 1.27mm pitch, double rows
+Surface mounted pin header SMD 2x05 1.27mm double row
+0
+10
+10
+josh-connectors
+SMA_EDGE_MOUNT
+http://suddendocs.samtec.com/prints/sma-j-p-x-st-em1-mkt.pdf
+SMA
+0
+5
+2
+josh-connectors
+SMA_EDGE_MOUNT_INSET
+http://suddendocs.samtec.com/prints/sma-j-p-x-st-em1-mkt.pdf
+SMA
+0
+5
+2
+josh-connectors
+STM_3_PIN_THT_Staggered
+Through hole straight pin header, 1x06, 2.54mm pitch, single row
+Through hole pin header THT 1x06 2.54mm single row
+0
+3
+3
+josh-connectors
+STM_4_PIN_THT_Staggered
+Through hole straight pin header, 1x06, 2.54mm pitch, single row
+Through hole pin header THT 1x06 2.54mm single row
+0
+4
+4
+josh-connectors
+STM_5_PIN_SMD_PROG
+Through hole straight pin header, 1x05, 2.54mm pitch, single row
+Through hole pin header THT 1x05 2.54mm single row
+0
+5
+5
+josh-connectors
+STM_6_PIN_THT_Staggered
+Through hole straight pin header, 1x06, 2.54mm pitch, single row
+Through hole pin header THT 1x06 2.54mm single row
+0
+6
+6
+josh-connectors
+USB_A_Molex_67643_Horizontal
+USB type A, Horizontal, https://www.molex.com/pdm_docs/sd/676433910_sd.pdf
+USB_A Female Connector receptacle
+0
+6
+5
+josh-connectors
+USB_A_U234-051N-3GRA035-5
+https://datasheet.lcsc.com/szlcsc/2002271813_XKB-Enterprise-U234-051N-3GRA035-5_C381138.pdf
+
+0
+9
+5
+josh-connectors
+USB_C_TYPE-C-31-M-14
+USB C Type-C Receptacle SMD sunk into PCB
+
+0
+24
+17
+josh-connectors
+USB_C_U262-161N-4BVC11
+USB TYPE C, RA RCPT PCB, SMT, https://github.com/arturo182/GT-USB-7010/raw/master/GT-USB-7010.pdf
+USB C Type-C Receptacle SMD
+0
+24
+17
+josh-connectors
+USB_Micro_Aliexpress
+Micro USB Connector, DO NOT USE
+
+0
+11
+6
+josh-connectors
+featherwing-short
+featherwing 50mm long
+
+0
+28
+28
+josh-connectors
+featherwing-typeC
+featherwing long allows usb type c
+
+0
+30
+29
 kikit
 Board
 Mark board for extraction
