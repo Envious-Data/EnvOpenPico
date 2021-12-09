@@ -1,148 +1,456 @@
-34016437518627
-Jumper
-SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm
-SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 2 copper strips
-solder jumper open
+105288973271019
+Package_SON
+Diodes_PowerDI3333-8
+Diodes Incorporated PowerDI3333-8, Plastic Dual Flat No Lead Package, 3.3x3.3x0.8mm Body, https://www.diodes.com/assets/Package-Files/PowerDI3333-8.pdf
+PowerDI 0.65
 0
-2
-2
-Jumper
-SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm
-SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 2 copper strips
-solder jumper open
-0
-2
-2
-Jumper
-SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm
-SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 1 copper strip
-solder jumper open
-0
-2
-2
-Jumper
-SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm
-SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 1 copper strip
-solder jumper open
-0
-2
-2
-Jumper
-SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm
-SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, open
-solder jumper open
-0
-2
-2
-Jumper
-SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm
-SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open
-solder jumper open
-0
-2
-2
-Jumper
-SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm
-SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open
-solder jumper open
-0
-2
-2
-Jumper
-SolderJumper-3_P1.3mm_Bridged2Bar12_Pad1.0x1.5mm
-SMD Solder 3-pad Jumper, 1x1.5mm Pads, 0.3mm gap, pads 1-2 Bridged2Bar with 2 copper strip
-solder jumper open
-0
-3
-3
-Jumper
-SolderJumper-3_P1.3mm_Bridged2Bar12_Pad1.0x1.5mm_NumberLabels
-SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, pads 1-2 Bridged2Bar with 2 copper strip, labeled with numbers
-solder jumper open
-0
-3
-3
-Jumper
-SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm
-SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 Bridged2Bar with 2 copper strip
-solder jumper open
-0
-3
-3
-Jumper
-SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm_NumberLabels
-SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 Bridged2Bar with 2 copper strip, labeled with numbers
-solder jumper open
-0
-3
-3
-Jumper
-SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm
-SMD Solder 3-pad Jumper, 1x1.5mm Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip
-solder jumper open
-0
-3
-3
-Jumper
-SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm_NumberLabels
-SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip, labeled with numbers
-solder jumper open
-0
-3
-3
-Jumper
-SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm
-SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip
-solder jumper open
-0
-3
-3
-Jumper
-SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels
-SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip, labeled with numbers
-solder jumper open
-0
-3
-3
-Jumper
-SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm
-SMD Solder 3-pad Jumper, 1x1.5mm Pads, 0.3mm gap, open
-solder jumper open
-0
-3
-3
-Jumper
-SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels
-SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, open, labeled with numbers
-solder jumper open
-0
-3
-3
-Jumper
-SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm
-SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, open
-solder jumper open
-0
-3
-3
-Jumper
-SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels
-SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, open, labeled with numbers
-solder jumper open
-0
-3
-3
-Jumper
-SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm
-SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open
-solder jumper open
-0
+13
 5
-3
-Jumper
-SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels
-SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open, labeled with numbers
-solder jumper open
+Package_SON
+Fairchild_DualPower33-6_3x3mm
+Fairchild Power33 MOSFET package, 3x3mm (see https://www.fairchildsemi.com/datasheets/FD/FDMC8032L.pdf)
+mosfet
 0
-5
+18
+6
+Package_SON
+Fairchild_MicroPak-6_1.0x1.45mm_P0.5mm
+Fairchild-specific MicroPak-6 1.0x1.45mm Pitch 0.5mm https://www.nxp.com/docs/en/application-note/AN10343.pdff
+Fairchild-specific MicroPak-6 1.0x1.45mm Pitch 0.5mm
+0
+6
+6
+Package_SON
+Fairchild_MicroPak2-6_1.0x1.0mm_P0.35mm
+Fairchild-specific MicroPak2-6 1.0x1.0mm Pitch 0.35mm https://www.nxp.com/docs/en/application-note/AN10343.pdff
+Fairchild-specific MicroPak2-6 1.0x1.0mm Pitch 0.35mm
+0
+6
+6
+Package_SON
+HUSON-3-1EP_2x2mm_P1.3mm_EP1.1x1.6mm
+HUSON, 3 Pin, SOT1061 (Ref: https://assets.nexperia.com/documents/data-sheet/PMEG2020CPA.pdf)
+huson nolead SOT1061
+0
+4
 3
+Package_SON
+HVSON-8-1EP_3x3mm_P0.65mm_EP1.6x2.4mm
+HVSON, 8 Pin (https://www.nxp.com/docs/en/data-sheet/TJA1051.pdf#page=16), generated with kicad-footprint-generator ipc_noLead_generator.py
+HVSON NoLead
+0
+13
+9
+Package_SON
+HVSON-8-1EP_4x4mm_P0.8mm_EP2.2x3.1mm
+HVSON, 8 Pin (https://www.nxp.com/docs/en/data-sheet/PCF8523.pdf (page 57)), generated with kicad-footprint-generator ipc_noLead_generator.py
+HVSON NoLead
+0
+13
+9
+Package_SON
+Infineon_PG-LSON-8-1
+https://www.infineon.com/cms/en/product/packages/PG-LSON/PG-LSON-8-1/
+PG-LSON-8-1
+0
+17
+9
+Package_SON
+Infineon_PG-TISON-8-2
+Infineon, PG-TISON-8-2, 5x6x1.15mm, 1.27mm Pitch, Exposed Paddle, https://www.infineon.com/cms/en/product/packages/PG-TISON/PG-TISON-8-2/
+tison
+0
+23
+7
+Package_SON
+Infineon_PG-TISON-8-3
+Infineon, PG-TISON-8-2, 5x6x1.15mm, 1.27mm Pitch, Exposed Paddle, https://www.infineon.com/cms/en/product/packages/PG-TISON/PG-TISON-8-2/
+tison
+0
+23
+7
+Package_SON
+Infineon_PG-TISON-8-4
+Infineon, PG-TISON-8-4, 5x6x1.15mm, 1.27mm Pitch, Exposed Paddle, https://www.infineon.com/cms/en/product/packages/PG-TISON/PG-TISON-8-4/
+tison
+0
+26
+8
+Package_SON
+Infineon_PG-TISON-8-5
+Infineon, PG-TISON-8-5, 8x8x1.1mm, 1mm Pitch, https://www.infineon.com/cms/en/product/packages/PG-TISON/PG-TISON-8-5/
+tison
+0
+34
+8
+Package_SON
+NXP_XSON-16
+http://www.nxp.com/documents/outline_drawing/SOT1341-1.pdf
+NXP XSON SOT-1341
+0
+16
+16
+Package_SON
+ROHM_VML0806
+VML0806, Rohm (http://rohmfs.rohm.com/en/techdata_basic/transistor/soldering_condition/VML0806_Soldering_Condition.pdf, http://rohmfs.rohm.com/en/products/databook/package/spec/discrete/vml0806_tr-e.pdf)
+ROHM VML0806
+0
+3
+3
+Package_SON
+RTC_SMD_MicroCrystal_C3_2.5x3.7mm
+MicroCrystal C3 2.5x3.7mm, https://www.microcrystal.com/fileadmin/Media/Products/RTC/Datasheet/RV-1805-C3.pdf
+RTC C3
+0
+10
+10
+Package_SON
+SON-8-1EP_3x2mm_P0.5mm_EP1.4x1.6mm
+SON, 8 Pin (http://www.fujitsu.com/downloads/MICRO/fsa/pdf/products/memory/fram/MB85RS16-DS501-00014-6v0-E.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+SON NoLead
+0
+13
+9
+Package_SON
+Texas_DQK
+Texas WSON-6 DQK, http://www.ti.com/lit/ds/symlink/csd16301q2.pdf
+Texas WSON6 2x2mm
+0
+10
+8
+Package_SON
+Texas_DRC0010J
+Texas DRC0010J, VSON10 3x3mm Body, 0.5mm Pitch,  http://www.ti.com/lit/ds/symlink/tps63000.pdf
+Texas VSON10 3x3mm
+0
+17
+11
+Package_SON
+Texas_DRC0010J_ThermalVias
+Texas DRC0010J, VSON10 3x3mm Body, 0.5mm Pitch,  http://www.ti.com/lit/ds/symlink/tps63000.pdf
+Texas VSON10 3x3mm
+0
+21
+11
+Package_SON
+Texas_DSC0010J
+3x3mm Body, 0.5mm Pitch, DSC0010J, WSON, http://www.ti.com/lit/ds/symlink/tps61201.pdf
+0.5 DSC0010J WSON
+0
+33
+11
+Package_SON
+Texas_DSC0010J_ThermalVias
+3x3mm Body, 0.5mm Pitch, DSC0010J, WSON, http://www.ti.com/lit/ds/symlink/tps61201.pdf
+0.5 DSC0010J WSON
+0
+39
+11
+Package_SON
+Texas_PWSON-N6
+Plastic Small Outline No-Lead http://www.ti.com/lit/ml/mpds176e/mpds176e.pdf
+Plastic Small Outline No-Lead
+0
+7
+7
+Package_SON
+Texas_R-PWSON-N12_EP0.4x2mm
+http://www.ti.com/lit/ds/symlink/tpd6f003.pdf
+WSON SMD
+0
+16
+13
+Package_SON
+Texas_S-PDSO-N12
+http://www.ti.com/lit/ds/symlink/bq27441-g1.pdf
+SON thermal pads
+0
+44
+13
+Package_SON
+Texas_S-PVSON-N8
+8-Lead Plastic VSON, 3x3mm Body, 0.65mm Pitch, S-PVSON-N8, http://www.ti.com/lit/ds/symlink/opa2333.pdf
+DFN 0.65 S-PVSON-N8
+0
+21
+9
+Package_SON
+Texas_S-PVSON-N8_ThermalVias
+8-Lead Plastic VSON, 3x3mm Body, 0.65mm Pitch, S-PVSON-N8, http://www.ti.com/lit/ds/symlink/opa2333.pdf
+DFN 0.65 S-PVSON-N8
+0
+27
+9
+Package_SON
+Texas_S-PVSON-N10
+3x3mm Body, 0.5mm Pitch, S-PVSON-N10, DRC, http://www.ti.com/lit/ds/symlink/tps61201.pdf
+0.5 S-PVSON-N10 DRC
+0
+33
+11
+Package_SON
+Texas_S-PVSON-N10_ThermalVias
+3x3mm Body, 0.5mm Pitch, S-PVSON-N10, DRC, http://www.ti.com/lit/ds/symlink/tps61201.pdf
+0.5 S-PVSON-N10 DRC
+0
+39
+11
+Package_SON
+Texas_S-PWSON-N8_EP1.2x2mm
+WSON, 8 Pin (http://www.ti.com/lit/ds/symlink/lp2951.pdf#page=27), generated with kicad-footprint-generator ipc_noLead_generator.py
+WSON NoLead
+0
+11
+9
+Package_SON
+Texas_S-PWSON-N8_EP1.2x2mm_ThermalVias
+WSON, 8 Pin (http://www.ti.com/lit/ds/symlink/lp2951.pdf#page=27), generated with kicad-footprint-generator ipc_noLead_generator.py
+WSON NoLead
+0
+18
+9
+Package_SON
+Texas_S-PWSON-N10
+3x3mm Body, 0.5mm Pitch, S-PWSON-N10, DSC, http://www.ti.com/lit/ds/symlink/tps63060.pdf
+0.5 S-PWSON-N10 DSC
+0
+41
+11
+Package_SON
+Texas_S-PWSON-N10_ThermalVias
+3x3mm Body, 0.5mm Pitch, S-PWSON-N10, DSC, http://www.ti.com/lit/ds/symlink/tps63060.pdf
+0.5 S-PWSON-N10 DSC
+0
+47
+11
+Package_SON
+Texas_X2SON-4_1x1mm_P0.65mm
+X2SON 5 pin 1x1mm package (Reference Datasheet: http://www.ti.com/lit/ds/sbvs193d/sbvs193d.pdf Reference part: TPS383x) [StepUp generated footprint]
+X2SON
+0
+13
+5
+Package_SON
+USON-10_2.5x1.0mm_P0.5mm
+USON-10 2.5x1.0mm_ Pitch 0.5mm http://www.ti.com/lit/ds/symlink/tpd4e02b04.pdf
+USON-10 2.5x1.0mm Pitch 0.5mm
+0
+10
+10
+Package_SON
+USON-20_2x4mm_P0.4mm
+USON-20 2x4mm Pitch 0.4mm http://www.ti.com/lit/ds/symlink/txb0108.pdf
+USON-20 2x4mm Pitch 0.4mm
+0
+20
+20
+Package_SON
+VSON-8_3.3x3.3mm_P0.65mm_NexFET
+8-Lead Plastic Dual Flat, No Lead Package (MF) - 3.3x3.3x1 mm Body [VSON] http://www.ti.com/lit/ds/symlink/csd87334q3d.pdf
+VSON 0.65
+0
+12
+5
+Package_SON
+VSON-10-1EP_3x3mm_P0.5mm_EP1.2x2mm
+VSON, 10 Pin (http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/switching_regulator/bd8314nuv-e.pdf (Page 20)), generated with kicad-footprint-generator ipc_noLead_generator.py
+VSON NoLead
+0
+15
+11
+Package_SON
+VSON-10-1EP_3x3mm_P0.5mm_EP1.2x2mm_ThermalVias
+VSON, 10 Pin (http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/switching_regulator/bd8314nuv-e.pdf (Page 20)), generated with kicad-footprint-generator ipc_noLead_generator.py
+VSON NoLead
+0
+18
+11
+Package_SON
+VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm
+VSON 10 Thermal on 11 3x3mm Pitch 0.5mm http://chip.tomsk.ru/chip/chipdoc.nsf/Package/D8A64DD165C2AAD9472579400024FC41!OpenDocument
+VSON 10 Thermal on 11 3x3mm Pitch 0.5mm
+0
+21
+11
+Package_SON
+VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm_ThermalVias
+VSON 10 Thermal on 11 3x3mm Pitch 0.5mm http://chip.tomsk.ru/chip/chipdoc.nsf/Package/D8A64DD165C2AAD9472579400024FC41!OpenDocument
+VSON 10 Thermal on 11 3x3mm Pitch 0.5mm
+0
+27
+11
+Package_SON
+VSONP-8-1EP_5x6_P1.27mm
+SON, 8-Leads, Body 5x6x1mm, Pitch 1.27mm; (see Texas Instruments CSD18531Q5A http://www.ti.com/lit/ds/symlink/csd18531q5a.pdf)
+VSONP 1.27
+0
+13
+3
+Package_SON
+WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm
+WSON, 6 Pin (http://www.ti.com/lit/ds/symlink/tps61040.pdf#page=35), generated with kicad-footprint-generator ipc_noLead_generator.py
+WSON NoLead
+0
+9
+7
+Package_SON
+WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm_ThermalVias
+WSON, 6 Pin (http://www.ti.com/lit/ds/symlink/tps61040.pdf#page=35), generated with kicad-footprint-generator ipc_noLead_generator.py
+WSON NoLead
+0
+12
+7
+Package_SON
+WSON-6-1EP_3x3mm_P0.95mm
+WSON6 3*3 MM, 0.95 PITCH; http://www.ti.com/lit/ds/symlink/lmr62421.pdf
+WSON6 0.95
+0
+10
+7
+Package_SON
+WSON-6_1.5x1.5mm_P0.5mm
+WSON6, http://www.ti.com/lit/ds/symlink/tlv702.pdf
+WSON6_1.5x1.5mm_P0.5mm
+0
+6
+6
+Package_SON
+WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm
+8-Lead Plastic WSON, 2x2mm Body, 0.5mm Pitch, WSON-8, http://www.ti.com/lit/ds/symlink/lm27761.pdf
+WSON 8 1EP
+0
+11
+9
+Package_SON
+WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias
+8-Lead Plastic WSON, 2x2mm Body, 0.5mm Pitch, WSON-8, http://www.ti.com/lit/ds/symlink/lm27761.pdf
+WSON 8 1EP ThermalVias
+0
+14
+9
+Package_SON
+WSON-8-1EP_3x2.5mm_P0.5mm_EP1.2x1.5mm_PullBack
+WSON, 8 Pin (http://www.ti.com/lit/ml/mpds400/mpds400.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+WSON NoLead
+0
+13
+9
+Package_SON
+WSON-8-1EP_3x2.5mm_P0.5mm_EP1.2x1.5mm_PullBack_ThermalVias
+WSON, 8 Pin (http://www.ti.com/lit/ml/mpds400/mpds400.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+WSON NoLead
+0
+18
+9
+Package_SON
+WSON-8-1EP_3x3mm_P0.5mm_EP1.6x2.0mm
+8-Lead Plastic WSON, 2x2mm Body, 0.5mm Pitch, WSON-8, http://www.ti.com/lit/ds/symlink/lm27761.pdf
+WSON 8 1EP
+0
+13
+9
+Package_SON
+WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm
+WSON, 8 Pin (http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf (page 68)), generated with kicad-footprint-generator ipc_noLead_generator.py
+WSON NoLead
+0
+13
+9
+Package_SON
+WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm
+WSON, 8 Pin (http://ww1.microchip.com/downloads/en/AppNotes/S72030.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+WSON NoLead
+0
+13
+9
+Package_SON
+WSON-8_4x4mm_P0.8mm
+http://www.ti.com/lit/ml/mpds406/mpds406.pdf
+WSON8_4x4mm_P0.8mm
+0
+9
+9
+Package_SON
+WSON-10-1EP_2.5x2.5mm_P0.5mm_EP1.2x2mm
+WSON, 10 Pin (http://www.ti.com/lit/gpn/tps63030#page=24), generated with kicad-footprint-generator ipc_noLead_generator.py
+WSON NoLead
+0
+15
+11
+Package_SON
+WSON-10-1EP_2.5x2.5mm_P0.5mm_EP1.2x2mm_ThermalVias
+WSON, 10 Pin (http://www.ti.com/lit/gpn/tps63030#page=24), generated with kicad-footprint-generator ipc_noLead_generator.py
+WSON NoLead
+0
+22
+11
+Package_SON
+WSON-10-1EP_2x3mm_P0.5mm_EP0.84x2.4mm
+WSON-10 package 2x3mm body, pitch 0.5mm, see http://www.ti.com/lit/ds/symlink/tps62177.pdf
+WSON 0.5 
+0
+14
+11
+Package_SON
+WSON-10-1EP_2x3mm_P0.5mm_EP0.84x2.4mm_ThermalVias
+WSON-10 package 2x3mm body, pitch 0.5mm, thermal vias and counter-pad, see http://www.ti.com/lit/ds/symlink/tps62177.pdf
+WSON 0.5 thermal vias
+0
+17
+11
+Package_SON
+WSON-10-1EP_4x3mm_P0.5mm_EP2.2x2mm
+10-Lead Plastic WSON, 4x3mm Body, 0.5mm Pitch (http://www.ti.com/lit/ds/symlink/lm4990.pdf)
+WSON 0.5
+0
+15
+11
+Package_SON
+WSON-12-1EP_3x2mm_P0.5mm_EP1x2.65
+WSON-12 http://www.ti.com/lit/ds/symlink/lm27762.pdf
+WSON-12
+0
+15
+13
+Package_SON
+WSON-12-1EP_3x2mm_P0.5mm_EP1x2.65_ThermalVias
+WSON-12 http://www.ti.com/lit/ds/symlink/lm27762.pdf
+WSON-12
+0
+19
+13
+Package_SON
+WSON-12-1EP_4x4mm_P0.5mm_EP2.6x3mm
+WSON, 12 Pin (http://www.ti.com/lit/ds/symlink/ldc1312.pdf#page=62), generated with kicad-footprint-generator ipc_noLead_generator.py
+WSON NoLead
+0
+17
+13
+Package_SON
+WSON-12-1EP_4x4mm_P0.5mm_EP2.6x3mm_ThermalVias
+WSON, 12 Pin (http://www.ti.com/lit/ds/symlink/ldc1312.pdf#page=62), generated with kicad-footprint-generator ipc_noLead_generator.py
+WSON NoLead
+0
+27
+13
+Package_SON
+WSON-14-1EP_4.0x4.0mm_P0.5mm_EP2.6x2.6mm
+14-Lead Plastic Dual Flat, No Lead Package - 4.0x4.0x0.8 mm Body [WSON], http://www.ti.com/lit/ml/mpds421/mpds421.pdf
+NHL014B
+0
+19
+15
+Package_SON
+WSON-16_3.3x1.35_P0.4mm
+WSON-16 3.3 x 1.35mm  Pitch 0.4mm http://www.chip.tomsk.ru/chip/chipdoc.nsf/Package/C67E729A4D6C883A4725793E004C8739!OpenDocument
+WSON-16 3.3 x 1.35mm  Pitch 0.4mm
+0
+20
+17
+Package_SON
+X2SON-8_1.4x1mm_P0.35mm
+X2SON-8 1.4x1mm Pitch0.35mm http://www.ti.com/lit/ds/symlink/pca9306.pdf
+X2SON-8 1.4x1mm Pitch0.35mm
+0
+8
+8
