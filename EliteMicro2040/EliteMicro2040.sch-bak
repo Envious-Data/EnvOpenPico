@@ -1611,31 +1611,31 @@ GPIO9
 Text Label 13050 6550 1    50   ~ 0
 GPIO10
 Text Label 13150 6550 1    50   ~ 0
-GPIO12
+GPIO11
 Text Label 13250 6550 1    50   ~ 0
-GPIO13
+GPIO12
 Text Label 13350 6550 1    50   ~ 0
-GPIO14
+GPIO13
 Text Label 13450 6550 1    50   ~ 0
-GPIO15
+GPIO14
 Text Label 14200 5900 2    50   ~ 0
-GPIO16
+GPIO15
 Text Label 14200 5800 2    50   ~ 0
-GPIO17
+GPIO16
 Text Label 14200 5700 2    50   ~ 0
-GPIO18
+GPIO17
 Text Label 14200 5600 2    50   ~ 0
-GPIO19
+GPIO18
 Text Label 14200 5500 2    50   ~ 0
-GPIO20
+GPIO19
 Text Label 14200 5400 2    50   ~ 0
-GPIO21
+GPIO20
 Text Label 14200 5300 2    50   ~ 0
-GPIO22
+GPIO21
 Text Label 14200 5200 2    50   ~ 0
-GPIO23
+GPIO22
 Text Label 14200 4800 2    50   ~ 0
-GPIO24
+GPIO23
 $Comp
 L power:GND #PWR0102
 U 1 1 61B9355F
@@ -1670,7 +1670,7 @@ $EndComp
 Text GLabel 1850 1600 2    20   Input ~ 0
 VBUS
 Text Label 14200 5100 2    47   ~ 0
-VBUS
+VSYS
 Wire Wire Line
 	12300 5300 12550 5300
 Wire Wire Line
