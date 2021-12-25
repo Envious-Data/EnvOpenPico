@@ -1249,7 +1249,7 @@ L W25Q256JVEIQ_TR:W25Q256JVEIQ_TR FLASH1
 U 1 1 608EDADA
 P 3100 5250
 F 0 "FLASH1" H 3100 5250 50  0000 C CNN
-F 1 "W25Q16FWUXIE" H 3100 4750 50  0000 C CNN
+F 1 "W25Q16JVUXIQ" H 3100 4750 50  0000 C CNN
 F 2 "Package_SON:SON-8-1EP_3x2mm_P0.5mm_EP1.4x1.6mm" H 3100 5250 50  0001 L BNN
 F 3 "" H 3100 5250 50  0001 L BNN
 F 4 "  " H 3100 5250 50  0001 C CNN "LCSC"
@@ -1274,9 +1274,9 @@ F 3 "~" H 12650 10250 50  0001 C CNN
 $EndComp
 Text Notes 2600 9100 0    50   ~ 0
 RP2040 supports 1MHz to 15MHz
-Text Notes 2200 6000 0    50   ~ 0
+Text Notes 1950 6000 0    50   ~ 0
 Im pretty sure a lot of these W25QXXX Chips are pin compatible\nDont quote me on that
-Text Notes 2200 6100 0    50   ~ 0
+Text Notes 1950 6150 0    50   ~ 0
 Im unsure if the RP2040 can function with flash larger than 128Mb
 Text Notes 3550 5250 0    50   ~ 0
 Pin 9 technically doesnt exist\nits the main central contact under\nthe chip for heat dicipation
@@ -1728,8 +1728,8 @@ Wire Wire Line
 	4700 1850 4650 1850
 Text Notes 4450 2700 0    50   Italic 0
 Only fit cBP1 if you have selected an \nalternate voltage regulator\n\nTLV75533PDBVR does not require cBP1.
-Text Notes 2200 6250 0    50   ~ 0
-GD25Q40CEIGR is NOT Compatible\nyou need GD25W16* needs to be a multiple of 8 atleast for circuitpython.
+Text Notes 1950 6650 0    50   ~ 0
+GD25Q40CEIGR is NOT Compatible\nyou need GD25W16* needs to be a multiple of 8 atleast for circuitpython.\n\n(Ive not confirmed if GD25W16 works I just \nHave some boards with GD25Q40CEIGR and they dont work)
 $Comp
 L Device:R R11
 U 1 1 6150E6AB
@@ -1783,8 +1783,6 @@ Connection ~ 11750 2850
 Wire Wire Line
 	3700 5550 3700 5350
 Connection ~ 3700 5550
-Text Notes 2200 6350 0    50   ~ 0
-JLCPCB Often has W25Q16FWUXIE in stock
 Text Notes 2850 8250 0    50   ~ 0
 not 22pf but pick to match crystal.
 Wire Wire Line
@@ -1801,8 +1799,8 @@ $Comp
 L Transistor_FET:Si2319CDS Q1
 U 1 1 61BEAA73
 P 14200 8950
-F 0 "Q1" H 14404 8996 50  0000 L CNN
-F 1 "Si2329DS" H 14404 8905 50  0000 L CNN
+F 0 "Q1" H 14350 8750 50  0000 L CNN
+F 1 "Si2329DS" H 14400 8850 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 14400 8875 50  0001 L CIN
 F 3 "http://www.vishay.com/docs/66709/si2319cd.pdf" H 14200 8950 50  0001 L CNN
 	1    14200 8950
@@ -1882,7 +1880,7 @@ L Device:Polyfuse_Small F1
 U 1 1 61D44DD8
 P 3600 1750
 F 0 "F1" V 3395 1750 50  0000 C CNN
-F 1 "Polyfuse_Small" V 3486 1750 50  0000 C CNN
+F 1 "MF-FSMF035X-2" V 3486 1750 50  0000 C CNN
 F 2 "Fuse:Fuse_0603_1608Metric" H 3650 1550 50  0001 L CNN
 F 3 "~" H 3600 1750 50  0001 C CNN
 	1    3600 1750
@@ -1895,4 +1893,14 @@ Wire Wire Line
 	3950 1750 4050 1750
 Wire Wire Line
 	2850 1750 3500 1750
+Text Notes 1800 4000 0    50   ~ 0
+Make sure the flash chip you\n have selected supports 3.3V\n power or adjust the design.
+Text Notes 5750 4300 0    50   ~ 0
+suposedly the rp2040\nsupports SPI-2 flash\nbut I havent tried it.\n
+Text Notes 3800 8750 0    50   ~ 0
+1K resistor to prevent overdriving of \nthe crystal as per the minimal design example
+Text Notes 14500 8950 0    50   ~ 0
+Power LED is on by default but when\nGPIO24 is enabled it will be shut off
+Text Notes 1950 7000 0    50   ~ 0
+https://datasheets.raspberrypi.com/rp2040/hardware-design-with-rp2040.pdf\n\nOn page 13 you can learn more details of what flash is supported\n
 $EndSCHEMATC
