@@ -1695,8 +1695,6 @@ Wire Wire Line
 	4000 1850 4050 1850
 Wire Wire Line
 	4650 1750 5450 1750
-Wire Wire Line
-	4350 2150 4350 2550
 $Comp
 L Device:C CBP1
 U 1 1 6127D24E
@@ -1726,8 +1724,6 @@ Wire Wire Line
 	4700 1900 4700 1850
 Wire Wire Line
 	4700 1850 4650 1850
-Text Notes 4450 2700 0    50   Italic 0
-Only fit cBP1 if you have selected an \nalternate voltage regulator\n\nTLV75533PDBVR does not require cBP1.
 Text Notes 1950 6650 0    50   ~ 0
 GD25Q40CEIGR is NOT Compatible\nyou need GD25W16* needs to be a multiple of 8 atleast for circuitpython.\n\n(Ive not confirmed if GD25W16 works I just \nHave some boards with GD25Q40CEIGR and they dont work)
 $Comp
@@ -1880,8 +1876,8 @@ L Device:Polyfuse_Small F1
 U 1 1 61D44DD8
 P 3600 1750
 F 0 "F1" V 3395 1750 50  0000 C CNN
-F 1 "MF-FSMF035X-2" V 3486 1750 50  0000 C CNN
-F 2 "Fuse:Fuse_0603_1608Metric" H 3650 1550 50  0001 L CNN
+F 1 "0805L050WR" V 3486 1750 50  0000 C CNN
+F 2 "Fuse:Fuse_0805_2012Metric" H 3650 1550 50  0001 L CNN
 F 3 "~" H 3600 1750 50  0001 C CNN
 	1    3600 1750
 	0    1    1    0   
@@ -1903,6 +1899,10 @@ Text Notes 14500 8950 0    50   ~ 0
 Power LED is on by default but when\nGPIO24 is enabled it will be shut off
 Text Notes 1950 7000 0    50   ~ 0
 https://datasheets.raspberrypi.com/rp2040/hardware-design-with-rp2040.pdf\n\nOn page 13 you can learn more details of what flash is supported\n
-Text Notes 3600 1450 1    50   ~ 0
-THIS FUSE MAY BE A TEMPOARY CHANGE
+Text Notes 3800 2050 2    50   ~ 0
+500mA hold current\n1A trip\n6V trip
+Text Notes 4450 2700 0    50   Italic 0
+Only fit cBP1 if you have selected an \nalternate voltage regulator\n\nTLV75533PDBVR does not require cBP1.
+Wire Wire Line
+	4350 2150 4350 2550
 $EndSCHEMATC
