@@ -1333,7 +1333,7 @@ U 1 1 6102353C
 P 800 3200
 F 0 "TP1" V 778 3388 20  0000 L CNN
 F 1 "TestPoint" V 821 3388 20  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1000 3200 50  0001 C CNN
+F 2 "EnvExtras:CustomTestPoint" H 1000 3200 50  0001 C CNN
 F 3 "" H 1000 3200 50  0001 C CNN
 F 4 " " H 800 3200 50  0001 C CNN "LCSC"
 	1    800  3200
@@ -1345,7 +1345,7 @@ U 1 1 61023F3F
 P 800 3300
 F 0 "TP2" V 778 3488 20  0000 L CNN
 F 1 "TestPoint" V 821 3488 20  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1000 3300 50  0001 C CNN
+F 2 "EnvExtras:CustomTestPoint" H 1000 3300 50  0001 C CNN
 F 3 "" H 1000 3300 50  0001 C CNN
 F 4 " " H 800 3300 50  0001 C CNN "LCSC"
 	1    800  3300
@@ -1528,7 +1528,7 @@ U 1 1 611EA769
 P 800 3900
 F 0 "TP6" V 778 4088 20  0000 L CNN
 F 1 "TestPoint" V 821 4088 20  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1000 3900 50  0001 C CNN
+F 2 "EnvExtras:CustomTestPoint" H 1000 3900 50  0001 C CNN
 F 3 "" H 1000 3900 50  0001 C CNN
 F 4 " " H 800 3900 50  0001 C CNN "LCSC"
 	1    800  3900
@@ -1540,7 +1540,7 @@ U 1 1 611EA995
 P 800 3700
 F 0 "TP7" V 778 3888 20  0000 L CNN
 F 1 "TestPoint" V 821 3888 20  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1000 3700 50  0001 C CNN
+F 2 "EnvExtras:CustomTestPoint" H 1000 3700 50  0001 C CNN
 F 3 "" H 1000 3700 50  0001 C CNN
 F 4 " " H 800 3700 50  0001 C CNN "LCSC"
 	1    800  3700
@@ -1552,7 +1552,7 @@ U 1 1 611EAAD7
 P 800 4100
 F 0 "TP8" V 778 4288 20  0000 L CNN
 F 1 "TestPoint" V 821 4288 20  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1000 4100 50  0001 C CNN
+F 2 "EnvExtras:CustomTestPoint" H 1000 4100 50  0001 C CNN
 F 3 "" H 1000 4100 50  0001 C CNN
 F 4 " " H 800 4100 50  0001 C CNN "LCSC"
 	1    800  4100
@@ -1905,4 +1905,36 @@ Text Notes 4450 2700 0    50   Italic 0
 Only fit cBP1 if you have selected an \nalternate voltage regulator\n\nTLV75533PDBVR does not require cBP1.
 Wire Wire Line
 	4350 2150 4350 2550
+$Comp
+L Connector:TestPoint TP3
+U 1 1 61DEBCFE
+P 1000 3450
+F 0 "TP3" V 978 3638 20  0000 L CNN
+F 1 "TestPoint" V 1021 3638 20  0000 L CNN
+F 2 "EnvExtras:CustomTestPoint" H 1200 3450 50  0001 C CNN
+F 3 "" H 1200 3450 50  0001 C CNN
+F 4 " " H 1000 3450 50  0001 C CNN "LCSC"
+	1    1000 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP4
+U 1 1 61DEBF51
+P 800 3550
+F 0 "TP4" V 778 3738 20  0000 L CNN
+F 1 "TestPoint" V 821 3738 20  0000 L CNN
+F 2 "EnvExtras:CustomTestPoint" H 1000 3550 50  0001 C CNN
+F 3 "" H 1000 3550 50  0001 C CNN
+F 4 " " H 800 3550 50  0001 C CNN "LCSC"
+	1    800  3550
+	0    1    1    0   
+$EndComp
+Text Label 550  3450 0    50   ~ 0
+~USB_BOOT
+Wire Wire Line
+	550  3450 1000 3450
+Text Label 550  3550 0    50   ~ 0
+RUN
+Wire Wire Line
+	550  3550 800  3550
 $EndSCHEMATC

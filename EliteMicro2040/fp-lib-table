@@ -9,4 +9,5 @@
   (lib (name 2.54mmheadercastelation)(type KiCad)(uri ${KIPRJMOD}/Resources/2.54mmheadercastelation.pretty)(options "")(descr ""))
   (lib (name RT6150B-33GQW)(type KiCad)(uri ${KIPRJMOD}/Resources/RT6150B-33GQW)(options "")(descr ""))
   (lib (name Keebio-Parts)(type KiCad)(uri ${KIPRJMOD}/Resources/Keebio-Parts.pretty)(options "")(descr ""))
+  (lib (name josh-connectors)(type KiCad)(uri ${KIPRJMOD}/Resources/josh-kicad-lib/josh-connectors.pretty)(options "")(descr ""))
 )

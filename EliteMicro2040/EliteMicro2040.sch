@@ -38,15 +38,15 @@ Wire Wire Line
 Wire Wire Line
 	6550 5050 6000 5050
 $Comp
-L Type-C:HRO-TYPE-C-31-M-12 USB1
+L josh-connector:USB_C_U262-161N-4BVC11 USB1
 U 1 1 5EDB7D8D
-P 1000 1750
-F 0 "USB1" H 750 2150 50  0000 R CNN
-F 1 "TYPE-C-31-M-12" H 1250 950 50  0000 R CNN
-F 2 "HRO-TYPE-C31-M-12:HRO-TYPE-C-31-M-12" H 1150 1700 50  0001 C CNN
-F 3 "" H 1150 1700 50  0001 C CNN
-F 4 "C165948" H 1000 1750 50  0001 C CNN "LCSC"
-	1    1000 1750
+P 1000 1400
+F 0 "USB1" H 750 1800 50  0000 R CNN
+F 1 "TYPE-C-31-M-14" H 1250 600 50  0000 R CNN
+F 2 "josh-connectors:USB_C_TYPE-C-31-M-14" H 1150 1350 50  0001 C CNN
+F 3 "" H 1150 1350 50  0001 C CNN
+F 4 "C165948" H 1000 1400 50  0001 C CNN "LCSC"
+	1    1000 1400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -507,7 +507,7 @@ U 1 1 5F30F0BA
 P 1050 4950
 F 0 "J2" H 1100 5100 50  0000 C CNN
 F 1 "SKRKAEE020" H 1050 4850 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK" H 1050 4950 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 1050 4950 50  0001 C CNN
 F 3 "" H 1050 4950 50  0001 C CNN
 F 4 " " H 1050 4950 50  0001 C CNN "LCSC"
 	1    1050 4950
@@ -546,58 +546,8 @@ F 4 " " H 9650 3800 50  0001 C CNN "LCSC"
 $EndComp
 Wire Wire Line
 	9800 3800 10350 3800
-Text Label 1150 1700 0    50   ~ 0
-USB_D+
-Text Label 1150 1600 0    50   ~ 0
+Text Label 1900 1400 2    50   ~ 0
 USB_D-
-$Comp
-L Mechanical:MountingHole H1
-U 1 1 5EF4C292
-P 9900 10200
-F 0 "H1" H 10000 10246 50  0000 L CNN
-F 1 "MountingHole" H 10000 10155 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 9900 10200 50  0001 C CNN
-F 3 "" H 9900 10200 50  0001 C CNN
-F 4 " " H 9900 10200 50  0001 C CNN "LCSC"
-	1    9900 10200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H2
-U 1 1 5EF4CF1F
-P 9900 10400
-F 0 "H2" H 10000 10446 50  0000 L CNN
-F 1 "MountingHole" H 10000 10355 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 9900 10400 50  0001 C CNN
-F 3 "" H 9900 10400 50  0001 C CNN
-F 4 " " H 9900 10400 50  0001 C CNN "LCSC"
-	1    9900 10400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H3
-U 1 1 5EF4D323
-P 9900 10600
-F 0 "H3" H 10000 10646 50  0000 L CNN
-F 1 "MountingHole" H 10000 10555 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 9900 10600 50  0001 C CNN
-F 3 "" H 9900 10600 50  0001 C CNN
-F 4 " " H 9900 10600 50  0001 C CNN "LCSC"
-	1    9900 10600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H4
-U 1 1 5EF4D57B
-P 9900 10800
-F 0 "H4" H 10000 10846 50  0000 L CNN
-F 1 "MountingHole" H 10000 10755 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 9900 10800 50  0001 C CNN
-F 3 "" H 9900 10800 50  0001 C CNN
-F 4 " " H 9900 10800 50  0001 C CNN "LCSC"
-	1    9900 10800
-	1    0    0    -1  
-$EndComp
 Text Notes 8950 3050 0    50   ~ 0
 Make sure C10 is close to pin 44 of RP2040
 Text Notes 6600 3400 2    50   ~ 0
@@ -606,45 +556,45 @@ Text Notes 1350 8200 0    197  ~ 39
 Crystal
 Text Notes 1550 4600 0    197  ~ 39
 Flash
-Text Notes 1550 1100 0    197  ~ 39
+Text Notes 3600 800  0    197  ~ 39
 USB/POWER
 Text Notes 9950 3950 0    50   ~ 0
 Make sure R3 and R4 are close to RP2040
-Text Label 13850 7600 0    50   ~ 0
+Text Label 13850 7700 0    50   ~ 0
 GPIO25
 $Comp
 L Device:R GPIO25_RESISTOR1
 U 1 1 60CC69DF
-P 14400 7600
-F 0 "GPIO25_RESISTOR1" V 14193 7600 50  0000 C CNN
-F 1 "470 0402 Resistor" V 14284 7600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 14330 7600 50  0001 C CNN
-F 3 "" H 14400 7600 50  0001 C CNN
-F 4 " " H 14400 7600 50  0001 C CNN "LCSC"
-	1    14400 7600
+P 14400 7700
+F 0 "GPIO25_RESISTOR1" V 14193 7700 50  0000 C CNN
+F 1 "470 0402 Resistor" V 14284 7700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 14330 7700 50  0001 C CNN
+F 3 "" H 14400 7700 50  0001 C CNN
+F 4 " " H 14400 7700 50  0001 C CNN "LCSC"
+	1    14400 7700
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:LED GPIO25_LED1
 U 1 1 60CC7B32
-P 14800 7600
-F 0 "GPIO25_LED1" H 14750 7350 50  0000 C CNN
-F 1 "LED_0402" H 14600 7450 50  0000 C CNN
-F 2 "LED_SMD:LED_0402_1005Metric" H 14800 7600 50  0001 C CNN
-F 3 "" H 14800 7600 50  0001 C CNN
-F 4 " " H 14800 7600 50  0001 C CNN "LCSC"
-	1    14800 7600
+P 14800 7700
+F 0 "GPIO25_LED1" H 14750 7450 50  0000 C CNN
+F 1 "LED_0402" H 14600 7550 50  0000 C CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 14800 7700 50  0001 C CNN
+F 3 "" H 14800 7700 50  0001 C CNN
+F 4 " " H 14800 7700 50  0001 C CNN "LCSC"
+	1    14800 7700
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR033
 U 1 1 60CC88EA
-P 14950 7600
-F 0 "#PWR033" H 14950 7350 50  0001 C CNN
-F 1 "GND" V 14955 7472 50  0000 R CNN
-F 2 "" H 14950 7600 50  0001 C CNN
-F 3 "" H 14950 7600 50  0001 C CNN
-	1    14950 7600
+P 14950 7700
+F 0 "#PWR033" H 14950 7450 50  0001 C CNN
+F 1 "GND" V 14955 7572 50  0000 R CNN
+F 2 "" H 14950 7700 50  0001 C CNN
+F 3 "" H 14950 7700 50  0001 C CNN
+	1    14950 7700
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -881,69 +831,52 @@ Wire Wire Line
 Connection ~ 9700 2400
 Wire Wire Line
 	9700 2400 10100 2400
-Text GLabel 1100 2400 2    50   Input ~ 0
-GND
-Text GLabel 1100 2300 2    50   Input ~ 0
-GND
-Text GLabel 1100 1200 2    50   Input ~ 0
-GND
-Wire Wire Line
-	1100 1300 1750 1300
-Wire Wire Line
-	1750 1300 1750 1750
-Text Label 1150 1900 0    50   ~ 0
+Text Label 1900 1600 2    50   ~ 0
 USB_D+
-Text Label 1150 1800 0    50   ~ 0
-USB_D-
-Wire Wire Line
-	1750 1750 1750 2200
-Wire Wire Line
-	1750 2200 1100 2200
-Connection ~ 1750 1750
 $Comp
 L Device:R_Small R6
 U 1 1 609385D4
-P 1200 2100
-F 0 "R6" V 1100 2100 50  0000 C CNN
-F 1 "5.1K 0402" V 1200 2100 20  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 1200 2100 50  0001 C CNN
-F 3 "" H 1200 2100 50  0001 C CNN
-F 4 " " H 1200 2100 50  0001 C CNN "LCSC"
-	1    1200 2100
+P 1700 1100
+F 0 "R6" V 1600 1100 50  0001 C CNN
+F 1 "5.1K 0402" V 1700 1100 20  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1700 1100 50  0001 C CNN
+F 3 "" H 1700 1100 50  0001 C CNN
+F 4 " " H 1700 1100 50  0001 C CNN "LCSC"
+	1    1700 1100
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_Small R5
 U 1 1 6093A5B0
-P 1200 1500
-F 0 "R5" V 1100 1500 50  0000 C CNN
-F 1 "5.1K 0402" V 1200 1500 20  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 1200 1500 50  0001 C CNN
-F 3 "" H 1200 1500 50  0001 C CNN
-F 4 " " H 1200 1500 50  0001 C CNN "LCSC"
-	1    1200 1500
+P 1700 1000
+F 0 "R5" V 1600 1000 50  0001 C CNN
+F 1 "5.1K 0402" V 1700 1000 20  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1700 1000 50  0001 C CNN
+F 3 "" H 1700 1000 50  0001 C CNN
+F 4 " " H 1700 1000 50  0001 C CNN "LCSC"
+	1    1700 1000
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0108
 U 1 1 609526BA
-P 1300 1500
-F 0 "#PWR0108" H 1300 1250 50  0001 C CNN
-F 1 "GND" V 1305 1372 50  0000 R CNN
-F 2 "" H 1300 1500 50  0001 C CNN
-F 3 "" H 1300 1500 50  0001 C CNN
-	1    1300 1500
+P 1800 1000
+F 0 "#PWR0108" H 1800 750 50  0001 C CNN
+F 1 "GND" V 1805 872 50  0000 R CNN
+F 2 "" H 1800 1000 50  0001 C CNN
+F 3 "" H 1800 1000 50  0001 C CNN
+	1    1800 1000
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR0109
 U 1 1 60952DC6
-P 1300 2100
-F 0 "#PWR0109" H 1300 1850 50  0001 C CNN
-F 1 "GND" V 1305 1972 50  0000 R CNN
-F 2 "" H 1300 2100 50  0001 C CNN
-F 3 "" H 1300 2100 50  0001 C CNN
-	1    1300 2100
+P 1800 1100
+F 0 "#PWR0109" H 1800 850 50  0001 C CNN
+F 1 "GND" V 1805 972 50  0000 R CNN
+F 2 "" H 1800 1100 50  0001 C CNN
+F 3 "" H 1800 1100 50  0001 C CNN
+	1    1800 1100
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -995,8 +928,6 @@ Text Notes 3550 5250 0    50   ~ 0
 Pin 9 technically doesnt exist\nits the main central contact under\nthe chip for heat dicipation
 Text Notes 9300 2350 0    50   ~ 0
 These decoupling capacitors are meant\nto be put close by each 3.3V pin of the RP2040
-Text Notes 600  750  0    50   ~ 0
-2x 5.1K Resistors on the CC pins will = 5V@1.5A\nthis is the recomended default config for type-c
 Wire Wire Line
 	5450 1650 5450 1750
 $Comp
@@ -1010,9 +941,7 @@ F 3 "" H 4350 2550 50  0001 C CNN
 	1    4350 2550
 	1    0    0    -1  
 $EndComp
-Text GLabel 1650 1700 1    20   Input ~ 0
-USB_D+
-Text GLabel 1600 1600 1    20   Input ~ 0
+Text GLabel 1900 1350 2    20   Input ~ 0
 USB_D-
 Text GLabel 800  3300 0    20   Input ~ 0
 USB_D-
@@ -1024,7 +953,7 @@ U 1 1 6102353C
 P 800 3200
 F 0 "TP1" V 778 3388 20  0000 L CNN
 F 1 "TestPoint" V 821 3388 20  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1000 3200 50  0001 C CNN
+F 2 "EnvExtras:CustomTestPoint" H 1000 3200 50  0001 C CNN
 F 3 "" H 1000 3200 50  0001 C CNN
 F 4 " " H 800 3200 50  0001 C CNN "LCSC"
 	1    800  3200
@@ -1036,89 +965,19 @@ U 1 1 61023F3F
 P 800 3300
 F 0 "TP2" V 778 3488 20  0000 L CNN
 F 1 "TestPoint" V 821 3488 20  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1000 3300 50  0001 C CNN
+F 2 "EnvExtras:CustomTestPoint" H 1000 3300 50  0001 C CNN
 F 3 "" H 1000 3300 50  0001 C CNN
 F 4 " " H 800 3300 50  0001 C CNN "LCSC"
 	1    800  3300
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1100 1800 1150 1800
-Wire Wire Line
-	1100 1900 1150 1900
+	1600 1600 1900 1600
 Text Notes 650  3100 0    47   ~ 0
 Test points
-$Comp
-L Connector:TestPoint TP3
-U 1 1 60FFE72F
-P 800 3400
-F 0 "TP3" V 778 3588 20  0000 L CNN
-F 1 "TestPoint" V 821 3588 20  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1000 3400 50  0001 C CNN
-F 3 "" H 1000 3400 50  0001 C CNN
-F 4 " " H 800 3400 50  0001 C CNN "LCSC"
-	1    800  3400
-	0    1    1    0   
-$EndComp
-Text GLabel 800  3400 0    20   Input ~ 0
-GND
-Wire Wire Line
-	1100 1600 1600 1600
-Wire Wire Line
-	1100 1700 1650 1700
 Wire Wire Line
 	11000 2400 11400 2400
-Wire Wire Line
-	11450 2400 11450 2050
 Connection ~ 11000 2400
-$Comp
-L Device:R_Small R10
-U 1 1 610441D8
-P 11450 1950
-F 0 "R10" H 11509 1996 50  0000 L CNN
-F 1 "1 0402" H 11509 1905 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 11450 1950 50  0001 C CNN
-F 3 "" H 11450 1950 50  0001 C CNN
-F 4 " " H 11450 1950 50  0001 C CNN "LCSC"
-	1    11450 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R9
-U 1 1 61044B24
-P 11450 1500
-F 0 "R9" H 11509 1546 50  0000 L CNN
-F 1 "200 0603" H 11509 1455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 11450 1500 50  0001 C CNN
-F 3 "" H 11450 1500 50  0001 C CNN
-F 4 " " H 11450 1500 50  0001 C CNN "LCSC"
-	1    11450 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR013
-U 1 1 61045079
-P 11450 1300
-F 0 "#PWR013" H 11450 1150 50  0001 C CNN
-F 1 "+3.3V" H 11465 1473 50  0000 C CNN
-F 2 "" H 11450 1300 50  0001 C CNN
-F 3 "" H 11450 1300 50  0001 C CNN
-	1    11450 1300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11450 1300 11450 1400
-Wire Wire Line
-	11450 1600 11450 1750
-Wire Wire Line
-	11450 1750 11750 1750
-Connection ~ 11450 1750
-Wire Wire Line
-	11450 1750 11450 1850
-Text Label 11750 1750 0    50   ~ 0
-ADC_VREF
-Text Notes 9800 1650 0    50   ~ 0
-MAKE SURE THIS LINE is ran off of pin43\nor close to pin43
 $Comp
 L Device:C C4
 U 1 1 6109C424
@@ -1173,8 +1032,6 @@ Wire Wire Line
 	11400 2400 11400 2450
 Connection ~ 11400 2400
 Wire Wire Line
-	11400 2400 11450 2400
-Wire Wire Line
 	11400 2750 11400 2850
 Wire Wire Line
 	11400 2850 11000 2850
@@ -1185,31 +1042,16 @@ Wire Wire Line
 Connection ~ 11400 2850
 Wire Wire Line
 	11750 2400 11750 2450
-Connection ~ 11450 2400
-Wire Wire Line
-	11450 2400 11750 2400
 Text Notes 6200 7900 0    50   ~ 0
 this is for factory testing\nalways pull this to ground
-$Comp
-L Device:D_Schottky D1
-U 1 1 61068F6F
-P 2450 1750
-F 0 "D1" H 2450 1533 50  0000 C CNN
-F 1 "1N4002W" H 2450 1624 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323" H 2450 1750 50  0001 C CNN
-F 3 "" H 2450 1750 50  0001 C CNN
-F 4 " " H 2450 1750 50  0001 C CNN "LCSC"
-	1    2450 1750
-	-1   0    0    1   
-$EndComp
-Text Notes 1850 1450 0    20   ~ 0
+Text Notes 2400 1900 0    20   ~ 0
 D1 NEEDS to be 0omh resistor or 1N4002 diode
 Connection ~ 3150 1750
 Text GLabel 2850 1750 0    20   Input ~ 0
 VSYS
 Text GLabel 2600 1750 2    20   Input ~ 0
 VSYS
-Text Label 1900 1750 0    39   ~ 0
+Text Label 2250 1750 2    39   ~ 0
 VBUS
 Text Label 3450 1750 0    39   ~ 0
 VSYS
@@ -1217,116 +1059,6 @@ Wire Wire Line
 	2850 1750 3150 1750
 Wire Wire Line
 	3150 1650 3150 1750
-Wire Wire Line
-	1750 1750 1850 1750
-Text GLabel 800  3500 0    20   Input ~ 0
-VBUS
-Text GLabel 800  3600 0    20   Input ~ 0
-VSYS
-$Comp
-L Connector:TestPoint TP4
-U 1 1 6119CF08
-P 800 3500
-F 0 "TP4" V 778 3688 20  0000 L CNN
-F 1 "TestPoint" V 821 3688 20  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1000 3500 50  0001 C CNN
-F 3 "" H 1000 3500 50  0001 C CNN
-F 4 " " H 800 3500 50  0001 C CNN "LCSC"
-	1    800  3500
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP5
-U 1 1 6119D2A9
-P 800 3600
-F 0 "TP5" V 778 3788 20  0000 L CNN
-F 1 "TestPoint" V 821 3788 20  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1000 3600 50  0001 C CNN
-F 3 "" H 1000 3600 50  0001 C CNN
-F 4 " " H 800 3600 50  0001 C CNN "LCSC"
-	1    800  3600
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1850 1750 1850 1600
-Connection ~ 1850 1750
-Wire Wire Line
-	1850 1750 2300 1750
-Text GLabel 1850 1600 2    20   Input ~ 0
-VBUS
-$Comp
-L Connector:TestPoint TP6
-U 1 1 611EA769
-P 800 3900
-F 0 "TP6" V 778 4088 20  0000 L CNN
-F 1 "TestPoint" V 821 4088 20  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1000 3900 50  0001 C CNN
-F 3 "" H 1000 3900 50  0001 C CNN
-F 4 " " H 800 3900 50  0001 C CNN "LCSC"
-	1    800  3900
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP7
-U 1 1 611EA995
-P 800 3700
-F 0 "TP7" V 778 3888 20  0000 L CNN
-F 1 "TestPoint" V 821 3888 20  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1000 3700 50  0001 C CNN
-F 3 "" H 1000 3700 50  0001 C CNN
-F 4 " " H 800 3700 50  0001 C CNN "LCSC"
-	1    800  3700
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP8
-U 1 1 611EAAD7
-P 800 4100
-F 0 "TP8" V 778 4288 20  0000 L CNN
-F 1 "TestPoint" V 821 4288 20  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1000 4100 50  0001 C CNN
-F 3 "" H 1000 4100 50  0001 C CNN
-F 4 " " H 800 4100 50  0001 C CNN "LCSC"
-	1    800  4100
-	0    1    1    0   
-$EndComp
-Text Notes 550  2850 0    50   ~ 0
-KoreanHROParts \nUSB_C_Receptacle_HRO_TYPE-C-31-M-12
-$Comp
-L power:+3V3 #PWR0112
-U 1 1 610BAA34
-P 800 4100
-F 0 "#PWR0112" H 800 3950 50  0001 C CNN
-F 1 "+3V3" H 815 4273 50  0000 C CNN
-F 2 "" H 800 4100 50  0001 C CNN
-F 3 "" H 800 4100 50  0001 C CNN
-	1    800  4100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+3V3 #PWR0113
-U 1 1 610BBDF2
-P 800 3900
-F 0 "#PWR0113" H 800 3750 50  0001 C CNN
-F 1 "+3V3" H 815 4073 50  0000 C CNN
-F 2 "" H 800 3900 50  0001 C CNN
-F 3 "" H 800 3900 50  0001 C CNN
-	1    800  3900
-	0    -1   -1   0   
-$EndComp
-Text Notes 700  4250 0    20   ~ 0
-place one by the CPU\nand one by the regulator\n(3.3V Test points)
-$Comp
-L power:+1V1 #PWR0115
-U 1 1 610CF35B
-P 800 3700
-F 0 "#PWR0115" H 800 3550 50  0001 C CNN
-F 1 "+1V1" H 815 3873 50  0000 C CNN
-F 2 "" H 800 3700 50  0001 C CNN
-F 3 "" H 800 3700 50  0001 C CNN
-	1    800  3700
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Device:Crystal_GND24 Y1
 U 1 1 612055A1
@@ -1400,18 +1132,6 @@ F 3 "" H 5400 6500 50  0001 C CNN
 	1    5400 6500
 	1    0    0    -1  
 $EndComp
-$Comp
-L Regulator_Linear:AP131-15 U1
-U 1 1 6128F962
-P 4350 1850
-F 0 "U1" H 4350 2192 50  0000 C CNN
-F 1 "TLV75533PDBVR" H 4350 2101 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4350 2175 50  0001 C CIN
-F 3 "" H 4350 1900 50  0001 C CNN
-F 4 " " H 4350 1850 50  0001 C CNN "LCSC"
-	1    4350 1850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3150 1750 3900 1750
 Wire Wire Line
@@ -1474,60 +1194,17 @@ U 1 1 6142C001
 P 5700 6500
 F 0 "RSW1" H 5700 6300 50  0000 C CNN
 F 1 "SKRKAEE020" H 5750 6400 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK" H 5700 6500 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 5700 6500 50  0001 C CNN
 F 3 "~" H 5700 6500 50  0001 C CNN
 	1    5700 6500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5900 6500 6550 6500
-$Comp
-L Device:R PWRLEDRES1
-U 1 1 614BB2FC
-P 3100 2900
-F 0 "PWRLEDRES1" V 2893 2900 50  0000 C CNN
-F 1 "47K 0402 Resistor" V 2984 2900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 3030 2900 50  0001 C CNN
-F 3 "" H 3100 2900 50  0001 C CNN
-F 4 " " H 3100 2900 50  0001 C CNN "LCSC"
-	1    3100 2900
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:LED PWRLED1
-U 1 1 614BBA4D
-P 3500 2900
-F 0 "PWRLED1" H 3450 2650 50  0000 C CNN
-F 1 "LED_0603" H 3300 2750 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 3500 2900 50  0001 C CNN
-F 3 "" H 3500 2900 50  0001 C CNN
-F 4 " " H 3500 2900 50  0001 C CNN "LCSC"
-	1    3500 2900
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0116
-U 1 1 614BBA57
-P 3650 2900
-F 0 "#PWR0116" H 3650 2650 50  0001 C CNN
-F 1 "GND" V 3655 2772 50  0000 R CNN
-F 2 "" H 3650 2900 50  0001 C CNN
-F 3 "" H 3650 2900 50  0001 C CNN
-	1    3650 2900
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
-	3250 2900 3350 2900
-Text Label 2550 2900 0    50   ~ 0
-VBUS
+	14250 7700 13850 7700
 Wire Wire Line
-	2550 2900 2950 2900
-Wire Wire Line
-	14250 7600 13850 7600
-Wire Wire Line
-	14550 7600 14650 7600
-NoConn ~ 1100 2000
-NoConn ~ 1100 1400
+	14550 7700 14650 7700
 Wire Wire Line
 	11750 2900 11750 2850
 Connection ~ 11750 2850
@@ -1642,7 +1319,7 @@ F 3 "" H 13950 4900 50  0001 C CNN
 	1    13950 4900
 	0    -1   -1   0   
 $EndComp
-Text GLabel 1850 1600 2    20   Input ~ 0
+Text GLabel 2250 1750 0    47   Input ~ 0
 VBUS
 Text Label 14200 5100 2    47   ~ 0
 VSYS
@@ -1809,4 +1486,81 @@ Text Label 11850 7200 2    50   ~ 0
 GPIO28_ADC2
 Wire Wire Line
 	11300 7200 11850 7200
+Text Label 1900 1500 2    50   ~ 0
+USB_D+
+Wire Wire Line
+	1600 1500 1900 1500
+Text GLabel 1900 1550 2    20   Input ~ 0
+USB_D+
+Wire Wire Line
+	1900 1500 1900 1600
+Wire Wire Line
+	1900 1400 1600 1400
+Text Label 1900 1300 2    50   ~ 0
+USB_D-
+Wire Wire Line
+	1900 1300 1600 1300
+Wire Wire Line
+	1900 1300 1900 1400
+Text GLabel 1600 800  2    47   Input ~ 0
+VBUS
+Text GLabel 850  2350 3    50   Input ~ 0
+GND
+Wire Wire Line
+	850  2350 850  2300
+Wire Wire Line
+	850  2300 700  2300
+Wire Wire Line
+	850  2300 1000 2300
+Connection ~ 850  2300
+NoConn ~ 1600 2000
+NoConn ~ 1600 1900
+$Comp
+L Connector:TestPoint TP4
+U 1 1 61FB1C26
+P 1000 3650
+F 0 "TP4" V 978 3838 20  0000 L CNN
+F 1 "TestPoint" V 1021 3838 20  0000 L CNN
+F 2 "EnvExtras:CustomTestPoint" H 1200 3650 50  0001 C CNN
+F 3 "" H 1200 3650 50  0001 C CNN
+F 4 " " H 1000 3650 50  0001 C CNN "LCSC"
+	1    1000 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 61FB1DDF
+P 800 3500
+F 0 "TP3" V 778 3688 20  0000 L CNN
+F 1 "TestPoint" V 821 3688 20  0000 L CNN
+F 2 "EnvExtras:CustomTestPoint" H 1000 3500 50  0001 C CNN
+F 3 "" H 1000 3500 50  0001 C CNN
+F 4 " " H 800 3500 50  0001 C CNN "LCSC"
+	1    800  3500
+	0    1    1    0   
+$EndComp
+Text Label 600  3500 0    50   ~ 0
+RUN
+Wire Wire Line
+	600  3500 800  3500
+Text Label 600  3650 0    50   ~ 0
+~USB_BOOT
+Wire Wire Line
+	1000 3650 600  3650
+Wire Wire Line
+	11400 2400 11750 2400
+$Comp
+L Regulator_Linear:AP131-15 U1
+U 1 1 6128F962
+P 4350 1850
+F 0 "U1" H 4350 2192 50  0000 C CNN
+F 1 "TLV75533PDBVR" H 4350 2101 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4350 2175 50  0001 C CIN
+F 3 "" H 4350 1900 50  0001 C CNN
+F 4 " " H 4350 1850 50  0001 C CNN "LCSC"
+	1    4350 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 1750 2600 1750
 $EndSCHEMATC
