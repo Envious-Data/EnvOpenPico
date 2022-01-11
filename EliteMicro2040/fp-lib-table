@@ -10,4 +10,5 @@
   (lib (name RT6150B-33GQW)(type KiCad)(uri ${KIPRJMOD}/Resources/RT6150B-33GQW)(options "")(descr ""))
   (lib (name Keebio-Parts)(type KiCad)(uri ${KIPRJMOD}/Resources/Keebio-Parts.pretty)(options "")(descr ""))
   (lib (name josh-connectors)(type KiCad)(uri ${KIPRJMOD}/Resources/josh-kicad-lib/josh-connectors.pretty)(options "")(descr ""))
+  (lib (name LP5907UVX-3)(type KiCad)(uri ${KIPRJMOD}/Resources/LP5907UVX-3.3)(options "")(descr ""))
 )

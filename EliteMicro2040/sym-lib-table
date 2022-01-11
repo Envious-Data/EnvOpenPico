@@ -11,4 +11,5 @@
   (lib (name RT6150B-33GQW)(type Legacy)(uri ${KIPRJMOD}/Resources/RT6150B-33GQW/RT6150B-33GQW.lib)(options "")(descr ""))
   (lib (name keebio)(type Legacy)(uri ${KIPRJMOD}/Resources/keebio-components/keebio.lib)(options "")(descr ""))
   (lib (name josh-connector)(type Legacy)(uri ${KIPRJMOD}/Resources/josh-kicad-lib/josh-connector.lib)(options "")(descr ""))
+  (lib (name LP5907UVX-3.3)(type Legacy)(uri ${KIPRJMOD}/Resources/LP5907UVX-3.3/LP5907UVX-3.3.lib)(options "")(descr ""))
 )
