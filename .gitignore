@@ -25,3 +25,6 @@ _autosave-*
 # Exported BOM files
 *.xml
 #*.csv
+
+EliteMicro2040/EliteMicro2040-backups/
+EliteMicro2040/EliteMicro2040-backups/*
