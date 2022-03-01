@@ -6575,7 +6575,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid cb658bfb-bb44-442b-af68-cdf8168ed728)
     (property "Reference" "FB1" (id 0) (at 90.1192 37.084 90))
-    (property "Value" "FerriteBead" (id 1) (at 90.1192 39.624 90))
+    (property "Value" "FerriteBead 0402" (id 1) (at 90.1192 39.624 90))
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 90.17 46.228 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -6781,7 +6781,7 @@
       (reference "F1") (unit 1) (value "0805L050WR") (footprint "Fuse:Fuse_0805_2012Metric")
     )
     (path "/cb658bfb-bb44-442b-af68-cdf8168ed728"
-      (reference "FB1") (unit 1) (value "FerriteBead") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "FB1") (unit 1) (value "FerriteBead 0402") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608edada"
       (reference "FLASH1") (unit 1) (value "W25Q16JVUXIQ") (footprint "Package_SON:SON-8-1EP_3x2mm_P0.5mm_EP1.4x1.6mm")
