@@ -13,8 +13,8 @@ I have only had the EnvOpenPico made so the other variants like the PicoLipo and
 
 
 ### Other
-If you want to see pictures of the main PCB you can check out the _pictures folder
+If you want to see pictures of the main PCB you can check out the _photos folder
 
-PCBway kindly sponsored a batch which you can see pictures of.
+PCBway kindly sponsored a batch of PCBs which you can see pictures of inside the _photos folder.
 ![pcbway logo](_photos/PCBwaylogo.png)
 http://pcbway.com
