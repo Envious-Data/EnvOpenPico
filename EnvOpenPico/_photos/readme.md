@@ -1,4 +1,4 @@
-![PCBWAY Logo](PCBway logo.png)
+![PCBWAY Logo](PCBwaylogo.png)
 
 PCBWAY kindly provided some PCBs and components for me, I was also quite impressed at the quality of the PCBs, the castellations are especially good.
 
