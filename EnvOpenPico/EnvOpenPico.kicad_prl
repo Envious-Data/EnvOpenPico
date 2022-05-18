@@ -65,7 +65,7 @@
       36
     ],
     "visible_layers": "000d13c_80000001",
-    "zone_display_mode": 1
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "EnvOpenPico.kicad_prl",
