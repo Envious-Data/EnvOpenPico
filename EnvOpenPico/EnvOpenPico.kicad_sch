@@ -4466,7 +4466,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a368eb82-26fb-42ba-9764-b7521b332dd0)
   )
-  (label "GPIO24" (at 345.44 227.33 0)
+  (label "GPIO23" (at 345.44 227.33 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a3e87214-1850-47d5-8736-cad3439a81fa)
   )
