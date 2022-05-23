@@ -7,7 +7,7 @@
 "1N4002W","D1","D_SOD-123","no_part_number"
 "0805L050WR","F1","Fuse_0805_2012Metric","no_part_number"
 "FerriteBead 0402","FB1","R_0402_1005Metric","no_part_number"
-"W25Q16JVUXIQ","FLASH1","SON-8-1EP_3x2mm_P0.5mm_EP1.4x1.6mm","no_part_number"
+"W25Q16JVUXIQ","FLASH1","SO-8_3.9x4.9mm_P1.27mm","no_part_number"
 "LED_0402","GPIO24_LED1","LED_0402_1005Metric","no_part_number"
 "470 0402","GPIO24_RESISTOR1","R_0402_1005Metric","no_part_number"
 "LED_0402","GPIO25_LED1","LED_0402_1005Metric","no_part_number"
