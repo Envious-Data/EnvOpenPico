@@ -417,7 +417,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "EnvOpenPico.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

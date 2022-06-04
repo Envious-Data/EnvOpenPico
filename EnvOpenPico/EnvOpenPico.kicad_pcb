@@ -946,11 +946,6 @@
       (net 3 "/~{USB_BOOT}") (pinfunction "1") (pintype "passive") (tstamp ba6fc20e-7eff-4d5f-81e4-d1fad93be155))
     (pad "2" smd roundrect locked (at 2.1 0 180) (size 0.8 2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 60 "GND") (pinfunction "2") (pintype "passive") (tstamp 2035ea48-3ef5-4d7f-8c3c-50981b30c89a))
-    (model "${KISYS3DMOD}/Button_Switch_SMD.3dshapes/SW_Push_SPST_NO_Alps_SKRK.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
     (model "${KISYS3DMOD}/Button_Switch_SMD.3dshapes/SW_SPST_B3U-1000P.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -1750,11 +1745,6 @@
       (net 60 "GND") (pinfunction "1") (pintype "passive") (tstamp 143ed874-a01f-4ced-ba4e-bbb66ddd1f70))
     (pad "2" smd roundrect locked (at 2.1 0 90) (size 0.8 2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 28 "/RUN") (pinfunction "2") (pintype "passive") (tstamp 795e68e2-c9ba-45cf-9bff-89b8fae05b5a))
-    (model "${KISYS3DMOD}/Button_Switch_SMD.3dshapes/SW_Push_SPST_NO_Alps_SKRK.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
     (model "${KISYS3DMOD}/Button_Switch_SMD.3dshapes/SW_SPST_B3U-1000P-B.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
