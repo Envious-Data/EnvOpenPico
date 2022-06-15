@@ -2,14 +2,14 @@
   "board": {
     "design_settings": {
       "defaults": {
-        "board_outline_line_width": 0.049999999999999996,
-        "copper_line_width": 0.19999999999999998,
+        "board_outline_line_width": 0.09999999999999999,
+        "copper_line_width": 0.09999999999999999,
         "copper_text_italic": false,
-        "copper_text_size_h": 1.5,
-        "copper_text_size_v": 1.5,
-        "copper_text_thickness": 0.3,
+        "copper_text_size_h": 0.7999999999999999,
+        "copper_text_size_v": 0.7999999999999999,
+        "copper_text_thickness": 0.15,
         "copper_text_upright": false,
-        "courtyard_line_width": 0.049999999999999996,
+        "courtyard_line_width": 0.09999999999999999,
         "dimension_precision": 4,
         "dimension_units": 3,
         "dimensions": {
@@ -22,14 +22,14 @@
         },
         "fab_line_width": 0.09999999999999999,
         "fab_text_italic": false,
-        "fab_text_size_h": 1.0,
-        "fab_text_size_v": 1.0,
+        "fab_text_size_h": 0.7999999999999999,
+        "fab_text_size_v": 0.7999999999999999,
         "fab_text_thickness": 0.15,
         "fab_text_upright": false,
         "other_line_width": 0.09999999999999999,
         "other_text_italic": false,
-        "other_text_size_h": 1.0,
-        "other_text_size_v": 1.0,
+        "other_text_size_h": 0.7999999999999999,
+        "other_text_size_v": 0.7999999999999999,
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
@@ -37,11 +37,11 @@
           "height": 1.7,
           "width": 1.7
         },
-        "silk_line_width": 0.12,
+        "silk_line_width": 0.09999999999999999,
         "silk_text_italic": false,
         "silk_text_size_h": 0.7999999999999999,
         "silk_text_size_v": 0.7999999999999999,
-        "silk_text_thickness": 0.153,
+        "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
@@ -53,6 +53,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.25,
+          "via_gap": 0.0,
+          "width": 0.15
         }
       ],
       "drc_exclusions": [],
@@ -389,7 +394,7 @@
         "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.8,
+        "diff_pair_width": 0.3,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
