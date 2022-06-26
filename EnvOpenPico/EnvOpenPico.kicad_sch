@@ -5718,7 +5718,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000608edada)
     (property "Reference" "FLASH1" (id 0) (at 78.74 133.35 0))
-    (property "Value" "ZD25WQ16BUIGR" (id 1) (at 78.74 146.05 0))
+    (property "Value" "w25q16jvuxiq" (id 1) (at 78.74 146.05 0))
     (property "Footprint" "Package_SON:SON-8-1EP_3x2mm_P0.5mm_EP1.4x1.6mm" (id 2) (at 78.74 133.35 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
@@ -6687,7 +6687,7 @@
     (in_bom yes) (on_board yes)
     (uuid 744288eb-ceb8-4c6c-94d9-d7176b3f8b7b)
     (property "Reference" "R12" (id 0) (at 71.12 203.2 90))
-    (property "Value" "10K 0402 Resistor" (id 1) (at 68.1736 203.2 90)
+    (property "Value" "10K 0402" (id 1) (at 68.1736 203.2 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 69.342 203.2 90)
@@ -6792,7 +6792,7 @@
     (in_bom yes) (on_board yes)
     (uuid a68b9feb-2131-49da-8507-cc49a7fd0362)
     (property "Reference" "R8" (id 0) (at 67.31 200.66 90))
-    (property "Value" "10K 0402 Resistor" (id 1) (at 64.3636 200.66 90)
+    (property "Value" "10K 0402" (id 1) (at 64.3636 200.66 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 65.532 200.66 90)
@@ -7103,7 +7103,7 @@
       (reference "FB1") (unit 1) (value "FerriteBead 0402") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608edada"
-      (reference "FLASH1") (unit 1) (value "ZD25WQ16BUIGR") (footprint "Package_SON:SON-8-1EP_3x2mm_P0.5mm_EP1.4x1.6mm")
+      (reference "FLASH1") (unit 1) (value "w25q16jvuxiq") (footprint "Package_SON:SON-8-1EP_3x2mm_P0.5mm_EP1.4x1.6mm")
     )
     (path "/00000000-0000-0000-0000-000061cdafdc"
       (reference "GPIO24_LED1") (unit 1) (value "LED_0402") (footprint "LED_SMD:LED_0402_1005Metric")
@@ -7169,7 +7169,7 @@
       (reference "R7") (unit 1) (value "100K 0402") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/a68b9feb-2131-49da-8507-cc49a7fd0362"
-      (reference "R8") (unit 1) (value "10K 0402 Resistor") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R8") (unit 1) (value "10K 0402") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000061044b24"
       (reference "R9") (unit 1) (value "200 0603") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -7181,7 +7181,7 @@
       (reference "R11") (unit 1) (value "1K 0201") (footprint "Resistor_SMD:R_0201_0603Metric")
     )
     (path "/744288eb-ceb8-4c6c-94d9-d7176b3f8b7b"
-      (reference "R12") (unit 1) (value "10K 0402 Resistor") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R12") (unit 1) (value "10K 0402") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/f3e05f83-9b50-4acb-a83a-0b490aa727ec"
       (reference "R101") (unit 1) (value "5.6K 0402") (footprint "Resistor_SMD:R_0402_1005Metric")

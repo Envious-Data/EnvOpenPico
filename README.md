@@ -1,8 +1,14 @@
 # EnvOpenPico
 A RP2040 Based family of MCU boards
 
-### Intentions
-The intentions of this project were mainly to learn about MCU design and also to make a rpi pico like device using a RP2040 that has some improvements or changes that you'd find useful, so far Ive changed the type-c port and added a reset button as well as replaced the buck boost IC with a linear regulator.
+### Intentions and Info
+The intentions of this project were mainly to learn about MCU design and also to make a rpi pico like device using a RP2040 that has some improvements or changes that you'd find useful, so far Ive changed the type-c port and added a reset button as well as replaced the buck boost IC with a linear regulator which doesnt generate the same switching noise which makes it good for audio.
+
+Ive retained the USB TP pads and also TP6 which is bootsel in their original positions.
+a couple of the GPIOs cant retain their original function since Im not using a RT6150B-33GQW so GPIO23 has an optional mosfet for a default on LED instead of controlling the mode for the buck-boost IC.
+
+Ive also got nothing connected on GPIO29 where as the pico has a mosfet to prevent leakage current, im not sure what the use of this GPIO is but if its a wanted feature I can try to add it back.
+
 
 ### Important!!
 I have only had the EnvOpenPico made so the other variants like the PicoLipo and the EliteMicro2040 I cant fully confirm if the design works but since its all derived from the main project I should hope it all works as intended.
