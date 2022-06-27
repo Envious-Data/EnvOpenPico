@@ -5718,7 +5718,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000608edada)
     (property "Reference" "FLASH1" (id 0) (at 78.74 133.35 0))
-    (property "Value" "w25q16jvuxiq" (id 1) (at 78.74 146.05 0))
+    (property "Value" "W25Q16JV" (id 1) (at 78.74 146.05 0))
     (property "Footprint" "Package_SON:SON-8-1EP_3x2mm_P0.5mm_EP1.4x1.6mm" (id 2) (at 78.74 133.35 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
@@ -6438,7 +6438,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006128f962)
     (property "Reference" "U1" (id 0) (at 110.49 38.3032 0))
-    (property "Value" "TLV75533PDBVR" (id 1) (at 110.49 40.6146 0))
+    (property "Value" "TLV75733PDBVR" (id 1) (at 110.49 40.6146 0))
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (id 2) (at 110.49 38.735 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
@@ -7103,7 +7103,7 @@
       (reference "FB1") (unit 1) (value "FerriteBead 0402") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000608edada"
-      (reference "FLASH1") (unit 1) (value "w25q16jvuxiq") (footprint "Package_SON:SON-8-1EP_3x2mm_P0.5mm_EP1.4x1.6mm")
+      (reference "FLASH1") (unit 1) (value "W25Q16JV") (footprint "Package_SON:SON-8-1EP_3x2mm_P0.5mm_EP1.4x1.6mm")
     )
     (path "/00000000-0000-0000-0000-000061cdafdc"
       (reference "GPIO24_LED1") (unit 1) (value "LED_0402") (footprint "LED_SMD:LED_0402_1005Metric")
@@ -7205,7 +7205,7 @@
       (reference "TP3") (unit 1) (value "TestPoint") (footprint "EnvExtras:CustomTestPoint")
     )
     (path "/00000000-0000-0000-0000-00006128f962"
-      (reference "U1") (unit 1) (value "TLV75533PDBVR") (footprint "Package_TO_SOT_SMD:SOT-23-5")
+      (reference "U1") (unit 1) (value "TLV75733PDBVR") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/a29ee7c4-9a3e-4dd1-8608-a5d1bfaa06bd"
       (reference "U2") (unit 1) (value "24LC256") (footprint "Package_DFN_QFN:TDFN-8-1EP_3x2mm_P0.5mm_EP1.3x1.4mm")
