@@ -20,4 +20,4 @@
 "RP2040","U3","RP2040-QFN-56","C2040"
 "TLV70033","U101","WSON-6_1.5x1.5mm_P0.5mm","no_part_number"
 "TYPE-C-31-M-14","USB1","USB_C_TYPE-C-31-M-14","C165948"
-"3225_4P","Y1","Crystal_SMD_3225-4Pin_3.2x2.5mm","no_part_number"
+"2520_4P 12Mhz","Y1","Crystal_SMD_2520-4Pin_2.5x2.0mm","no_part_number"

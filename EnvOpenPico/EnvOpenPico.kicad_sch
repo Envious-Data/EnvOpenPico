@@ -5480,7 +5480,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005f30f0ba)
     (property "Reference" "J2" (id 0) (at 25.4 121.92 0))
-    (property "Value" "SKRKAEE020" (id 1) (at 26.67 128.27 0))
+    (property "Value" "TSA343G00-250J2" (id 1) (at 26.67 128.27 0))
     (property "Footprint" "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK" (id 2) (at 26.67 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -6475,7 +6475,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006142c001)
     (property "Reference" "RSW1" (id 0) (at 144.78 170.18 0))
-    (property "Value" "SKRKAEE020" (id 1) (at 146.05 167.64 0))
+    (property "Value" "TSA343G00-250J2" (id 1) (at 146.05 167.64 0))
     (property "Footprint" "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK" (id 2) (at 144.78 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -7130,7 +7130,7 @@
       (reference "H4") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.1mm")
     )
     (path "/00000000-0000-0000-0000-00005f30f0ba"
-      (reference "J2") (unit 1) (value "SKRKAEE020") (footprint "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK")
+      (reference "J2") (unit 1) (value "TSA343G00-250J2") (footprint "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK")
     )
     (path "/00000000-0000-0000-0000-00005f4b4ce4"
       (reference "J3") (unit 1) (value "2.54mm header 01x20") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical")
@@ -7193,7 +7193,7 @@
       (reference "R103") (unit 1) (value "10K 0402") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006142c001"
-      (reference "RSW1") (unit 1) (value "SKRKAEE020") (footprint "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK")
+      (reference "RSW1") (unit 1) (value "TSA343G00-250J2") (footprint "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK")
     )
     (path "/00000000-0000-0000-0000-00006102353c"
       (reference "TP1") (unit 1) (value "TestPoint") (footprint "EnvExtras:CustomTestPoint")
