@@ -5072,7 +5072,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005ede0881)
     (property "Reference" "R3" (id 0) (at 245.11 91.2622 90))
-    (property "Value" "27 0402" (id 1) (at 245.11 93.5736 90))
+    (property "Value" "27r 0402 resistor" (id 1) (at 245.11 93.5736 90))
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 245.11 94.742 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -5090,7 +5090,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005ede1624)
     (property "Reference" "R4" (id 0) (at 245.11 98.8822 90))
-    (property "Value" "27 0402" (id 1) (at 245.11 101.1936 90))
+    (property "Value" "27r 0402 resistor" (id 1) (at 245.11 101.1936 90))
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 245.11 102.362 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -6438,7 +6438,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006128f962)
     (property "Reference" "U1" (id 0) (at 110.49 38.3032 0))
-    (property "Value" "TLV75733PDBVR" (id 1) (at 110.49 40.6146 0))
+    (property "Value" "SOT-23-5 5.5V 3.3V 500mA" (id 1) (at 110.49 40.6146 0))
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (id 2) (at 110.49 38.735 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
@@ -7154,10 +7154,10 @@
       (reference "R2") (unit 1) (value "10K 0402") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005ede0881"
-      (reference "R3") (unit 1) (value "27 0402") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R3") (unit 1) (value "27r 0402 resistor") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005ede1624"
-      (reference "R4") (unit 1) (value "27 0402") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R4") (unit 1) (value "27r 0402 resistor") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006093a5b0"
       (reference "R5") (unit 1) (value "5.1K 0402") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -7205,7 +7205,7 @@
       (reference "TP3") (unit 1) (value "TestPoint") (footprint "EnvExtras:CustomTestPoint")
     )
     (path "/00000000-0000-0000-0000-00006128f962"
-      (reference "U1") (unit 1) (value "TLV75733PDBVR") (footprint "Package_TO_SOT_SMD:SOT-23-5")
+      (reference "U1") (unit 1) (value "SOT-23-5 5.5V 3.3V 500mA") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/a29ee7c4-9a3e-4dd1-8608-a5d1bfaa06bd"
       (reference "U2") (unit 1) (value "24LC256") (footprint "Package_DFN_QFN:TDFN-8-1EP_3x2mm_P0.5mm_EP1.3x1.4mm")

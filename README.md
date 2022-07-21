@@ -9,6 +9,10 @@ a couple of the GPIOs cant retain their original function since Im not using a R
 
 Ive also got nothing connected on GPIO29 where as the pico has a mosfet to prevent leakage current, im not sure what the use of this GPIO is but if its a wanted feature I can try to add it back.
 
+### Permissions
+You have my permission to fork and learn from this design for your own projects including if you wish to sell those on as a product, 
+For keyboard/keyboard part or maker hobbyist venmdors you also have my permission to sell these boards as long as they have been tested to be functional and are sold within the recomended price range of £5 to £15.
+
 
 ### Important!!
 I have only had the EnvOpenPico made so the other variants like the PicoLipo and the EliteMicro2040 I cant fully confirm if the design works but since its all derived from the main project I should hope it all works as intended.
