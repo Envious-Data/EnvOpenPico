@@ -11,7 +11,7 @@ Ive also got nothing connected on GPIO29 where as the pico has a mosfet to preve
 
 ### Permissions
 You have my permission to fork and learn from this design for your own projects including if you wish to sell those on as a product, 
-For keyboard/keyboard part or maker hobbyist venmdors you also have my permission to sell these boards as long as they have been tested to be functional and are sold within the recomended price range of £5 to £15.
+For keyboard/keyboard part or maker hobbyist venmdors you also have my permission to sell these boards as long as they have been tested to be functional and are sold within the recomended price range of <£5 to £15.
 
 
 ### Important!!
