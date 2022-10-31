@@ -5095,7 +5095,7 @@
     (in_bom yes) (on_board yes)
     (uuid 05df6570-e64a-476d-93c7-a010dc147366)
     (property "Reference" "D1" (id 0) (at 74.93 41.91 0))
-    (property "Value" "Schottky Barrier SOD-723" (id 1) (at 83.82 46.99 0)
+    (property "Value" "SOD-523 General" (id 1) (at 83.82 46.99 0)
       (effects (font (size 1 1)))
     )
     (property "Footprint" "Diode_SMD:D_SOD-523" (id 2) (at 74.93 44.45 90)
@@ -5122,8 +5122,8 @@
     (pin "1" (uuid d257b573-6278-4b8b-94fa-db9d96cca4eb))
     (pin "2" (uuid 1cda76d8-0fe5-4dd2-a7fb-584fe3efb4ab))
     (pin "3" (uuid f3f2ccfd-7f45-4814-beb3-2106acd56cd6))
-    (pin "4" (uuid 2ab4287a-50fc-4a3f-a1a3-a2ca84b443b1))
-    (pin "4" (uuid 2ab4287a-50fc-4a3f-a1a3-a2ca84b443b1))
+    (pin "4" (uuid 2ab4287a-50fc-4a3f-a1a3-a2ca84b443b2))
+    (pin "4" (uuid 2ab4287a-50fc-4a3f-a1a3-a2ca84b443b2))
     (pin "5" (uuid 029b8789-56da-4099-96cb-205e6722157b))
   )
 
@@ -5427,7 +5427,7 @@
       (reference "C19") (unit 1) (value "22pf 0402") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/05df6570-e64a-476d-93c7-a010dc147366"
-      (reference "D1") (unit 1) (value "Schottky Barrier SOD-723") (footprint "Diode_SMD:D_SOD-523")
+      (reference "D1") (unit 1) (value "SOD-523 General") (footprint "Diode_SMD:D_SOD-523")
     )
     (path "/00000000-0000-0000-0000-0000608edada"
       (reference "FLASH1") (unit 1) (value "W25Q16JVUXIQ") (footprint "Package_SON:SON-8-1EP_3x2mm_P0.5mm_EP1.4x1.6mm")
