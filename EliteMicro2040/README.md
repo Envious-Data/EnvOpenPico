@@ -1,7 +1,7 @@
 # EnvOpenPico
 A Raspberry Pi RP2040 based board in the shape of an Elite-C.
 
-![Board image](EliteMicro2040.jpg)
+![Board image](EliteMicro2040.png)
 
 ### Info
 This board is about 2.5mm shorter than an Elite-C and uses a mid-mount USB C port.
