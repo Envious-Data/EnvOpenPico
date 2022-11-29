@@ -4,7 +4,7 @@
 "4.7uf 0402","C4","C_0402_1005Metric","no_part_number"
 "100nf 0201","C5,C6,C7,C8,C11,C13,C14,C15,C16,C18","C_0201_0603Metric","no_part_number"
 "22pf 0402","C19","C_0402_1005Metric","no_part_number"
-"Schottky Barrier SOD-723","D1","D_SOD-523","no_part_number"
+"SOD-523 General","D1","D_SOD-523","no_part_number"
 "W25Q16JVUXIQ","FLASH1","SON-8-1EP_3x2mm_P0.5mm_EP1.4x1.6mm","no_part_number"
 "LED_0402","GPIO25_LED1","LED_0402_1005Metric","no_part_number"
 "1K 0201","GPIO25_RESISTOR1","R_0201_0603Metric","no_part_number"
