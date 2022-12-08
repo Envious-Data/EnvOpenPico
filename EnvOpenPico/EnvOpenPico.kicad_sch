@@ -4047,7 +4047,7 @@
     (uuid 63adcfc2-6ccc-4b64-a884-416e0160da02)
   )
   (text "Would assume you could just\nnot connect SD2 and SD3 for non QSPI"
-    (at 167.894 133.35 0)
+    (at 167.894 133.35 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 6542e9ff-d25c-4227-ae80-33dc7fbc2e9c)
   )

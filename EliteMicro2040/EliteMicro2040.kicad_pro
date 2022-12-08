@@ -419,8 +419,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "EliteMicro2040.step",
+      "vrml": "EliteMicro2040.wrl"
     },
     "page_layout_descr_file": ""
   },
