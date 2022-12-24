@@ -1,526 +1,1261 @@
-125030942057215
-LED_SMD
-LED-APA102-2020
-http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
-LED RGB SPI
+300074260950796
+Crystal
+Crystal_AT310_D3.0mm_L10.0mm_Horizontal
+Crystal THT AT310 10.0mm-10.5mm length 3.0mm diameter http://www.cinetech.com.tw/upload/2011/04/20110401165201.pdf
+['AT310']
 0
-8
-6
-LED_SMD
-LED-L1T2_LUMILEDS
-http://www.lumileds.com/uploads/438/DS133-pdf
-LUMILEDS LUXEON TX L1T2 LED
-0
-3
-3
-LED_SMD
-LED_1W_3W_R8
-https://www.gme.cz/data/attachments/dsh.518-234.1.pdf
-LED 1W 3W 5W
+2
+2
+Crystal
+Crystal_AT310_D3.0mm_L10.0mm_Horizontal_1EP_style1
+Crystal THT AT310 10.0mm-10.5mm length 3.0mm diameter http://www.cinetech.com.tw/upload/2011/04/20110401165201.pdf
+['AT310']
 0
 3
 3
-LED_SMD
-LED_0201_0603Metric
-LED SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
-LED
-0
-4
-2
-LED_SMD
-LED_0201_0603Metric_Pad0.64x0.40mm_HandSolder
-LED SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
-LED handsolder
-0
-4
-2
-LED_SMD
-LED_0402_1005Metric
-LED SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-LED
-0
-2
-2
-LED_SMD
-LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder
-LED SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-LED handsolder
-0
-2
-2
-LED_SMD
-LED_0603_1608Metric
-LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-LED
-0
-2
-2
-LED_SMD
-LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder
-LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-LED handsolder
-0
-2
-2
-LED_SMD
-LED_0805_2012Metric
-LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
-LED
-0
-2
-2
-LED_SMD
-LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder
-LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
-LED handsolder
-0
-2
-2
-LED_SMD
-LED_1206_3216Metric
-LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-LED
-0
-2
-2
-LED_SMD
-LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder
-LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-LED handsolder
-0
-2
-2
-LED_SMD
-LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm
-LED SMD 1206 (3216 Metric), reverse mount, square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-diode reverse
-0
-2
-2
-LED_SMD
-LED_1210_3225Metric
-LED SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-LED
-0
-2
-2
-LED_SMD
-LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder
-LED SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-LED handsolder
-0
-2
-2
-LED_SMD
-LED_1812_4532Metric
-LED SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator
-LED
-0
-2
-2
-LED_SMD
-LED_1812_4532Metric_Pad1.30x3.40mm_HandSolder
-LED SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator
-LED handsolder
-0
-2
-2
-LED_SMD
-LED_2010_5025Metric
-LED SMD 2010 (5025 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-LED
-0
-2
-2
-LED_SMD
-LED_2010_5025Metric_Pad1.52x2.65mm_HandSolder
-LED SMD 2010 (5025 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-LED handsolder
-0
-2
-2
-LED_SMD
-LED_2512_6332Metric
-LED SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-LED
-0
-2
-2
-LED_SMD
-LED_2512_6332Metric_Pad1.52x3.35mm_HandSolder
-LED SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-LED handsolder
-0
-2
-2
-LED_SMD
-LED_ASMB-KTF0-0A306
-2220 Tricolor PLCC-4 LED, https://docs.broadcom.com/docs/ASMB-KTF0-0A306-DS100
-Tricolor LED
-0
-4
-4
-LED_SMD
-LED_Avago_PLCC4_3.2x2.8mm_CW
-https://docs.broadcom.com/docs/AV02-4186EN
-LED Avago PLCC-4 ASMB-MTB0-0A3A2
-0
-4
-4
-LED_SMD
-LED_Avago_PLCC6_3x2.8mm
-https://docs.broadcom.com/docs/AV02-3793EN
-LED Avago PLCC-6 ASMT-YTB7-0AA02
-0
-6
-6
-LED_SMD
-LED_CSP_Samsung_LH181B_2.36x2.36mm
-High Power CSP LED, 2.36mm x 2.36mm, 1.4A max, https://cdn.samsung.com/led/file/resource/2021/01/Data_Sheet_LH181B_Rev.4.0.pdf
-LED Samsung LH181B
-0
-2
-2
-LED_SMD
-LED_Cree-PLCC4_2x2mm_CW
-2.0mm x 2.0mm PLCC4 LED, http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/HB/Data-Sheets/CLMVBFKA.pdf
-LED Cree PLCC-4
-0
-4
-4
-LED_SMD
-LED_Cree-PLCC4_3.2x2.8mm_CCW
-3.2mm x 2.8mm PLCC4 LED, http://www.cree.com/led-components/media/documents/CLV1AFKB(874).pdf
-LED Cree PLCC-4
-0
-4
-4
-LED_SMD
-LED_Cree-PLCC4_5x5mm_CW
-5.0mm x 5.0mm PLCC4 LED
-LED Cree PLCC-4
-0
-4
-4
-LED_SMD
-LED_Cree-PLCC6_4.7x1.5mm
-4.7mm x 1.5mm PLCC6 LED, http://www.cree.com/led-components/media/documents/1381-QLS6AFKW.pdf
-LED Cree PLCC-6
-0
-6
-6
-LED_SMD
-LED_Cree-XB
-http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/XLampXBD.pdf
-LED Cree XB
+Crystal
+Crystal_AT310_D3.0mm_L10.0mm_Horizontal_1EP_style2
+Crystal THT AT310 10.0mm-10.5mm length 3.0mm diameter http://www.cinetech.com.tw/upload/2011/04/20110401165201.pdf
+['AT310']
 0
 5
 3
-LED_SMD
-LED_Cree-XH
-http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XHB.pdf
-LED Cree XH
-0
-8
-2
-LED_SMD
-LED_Cree-XHP35
-http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds--XHP35.pdf
-LED Cree XHP35
-0
-6
-3
-LED_SMD
-LED_Cree-XHP50_6V
-Cree XHP50, 6V footprint, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf
-LED Cree XHP50
-0
-15
-3
-LED_SMD
-LED_Cree-XHP50_12V
-Cree XHP50, 12V footprint, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf
-LED XHP50 Cree
-0
-15
-3
-LED_SMD
-LED_Cree-XHP70_6V
-Cree XHP70 LED, 6V version, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP70.pdf
-LED Cree XHP70
-0
-15
-3
-LED_SMD
-LED_Cree-XHP70_12V
-Cree XHP70 LED, 12V version, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP70.pdf
-LED Cree XHP70
-0
-15
-3
-LED_SMD
-LED_Cree-XP
-LED Cree-XP http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/XLampXPE2.pdf
-LED Cree XP
-0
-6
-3
-LED_SMD
-LED_Cree-XP-G
-LED Cree-XP-G http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/XLampXPG.pdf
-LED Cree XP-G
-0
-6
-3
-LED_SMD
-LED_Cree-XQ
-LED Cree-XQ http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XQB.pdf
-LED Cree XQ
+Crystal
+Crystal_AT310_D3.0mm_L10.0mm_Vertical
+Crystal THT AT310 10.0mm-10.5mm length 3.0mm diameter http://www.cinetech.com.tw/upload/2011/04/20110401165201.pdf
+['AT310']
 0
 2
 2
-LED_SMD
-LED_Cree-XQ_HandSoldering
-LED Cree-XQ handsoldering pads http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/XLamp/Data-and-Binning/ds-XQB.pdf
-LED Cree XQ
+Crystal
+Crystal_C26-LF_D2.1mm_L6.5mm_Horizontal
+Crystal THT C26-LF 6.5mm length 2.06mm diameter
+['C26-LF']
 0
 2
 2
-LED_SMD
-LED_Dialight_591
-LED SMD 3mm Right Angle series (http://www.dialightsignalsandcomponents.com/Assets/Drawings/2D_Drawings_DrawingDetailedSpec/C17354.pdf)
-LED Dialight 591
-0
-2
-2
-LED_SMD
-LED_Inolux_IN-PI554FCH_PLCC4_5.0x5.0mm_P3.2mm
-http://www.inolux-corp.com/datasheet/SMDLED/Addressable%20LED/IN-PI554FCH.pdf
-RGB LED NeoPixel addressable
-0
-4
-4
-LED_SMD
-LED_Kingbright_AAA3528ESGCT
-Kingbright, dual LED, 3.5 x 2.8 mm Surface Mount LED Lamp (http://www.kingbrightusa.com/images/catalog/SPEC/AAA3528ESGCT.pdf)
-dual led smd
-0
-4
-4
-LED_SMD
-LED_Kingbright_APDA3020VBCD
-LED, SMD, APDA3020VBC/D, https://www.kingbrightusa.com/images/catalog/SPEC/APDA3020VBC-D.pdf
-LED APDA3020VBC/D Kingbright 
-0
-2
-2
-LED_SMD
-LED_Kingbright_APFA3010_3x1.5mm_Horizontal
-LED RGB, APFA3010, http://www.kingbrightusa.com/images/catalog/SPEC/APFA3010LSEEZGKQBKC.pdf
-LED RGB APFA3010 KINGBRIGHT 3x1.5mm
-0
-4
-4
-LED_SMD
-LED_Kingbright_APHBM2012_2x1.25mm
-Dual LED SMD https://www.kingbrightusa.com/KCpack.asp?txtPack=APHBM2012
-LED Kingbright APHM2012
-0
-4
-4
-LED_SMD
-LED_Kingbright_KPBD-3224
-Kingbright, dual LED, red-green, dome lens, 3.2 x 2.4 mm Surface Mount LED Lamp (https://www.kingbright.com/attachments/file/psearch/000/00/00/KPBD-3224SURKCGKC(Ver.20A).pdf)
-Kingbright dual LED KPBD-3224
-0
-4
-4
-LED_SMD
-LED_LiteOn_LTST-C19HE1WT
-LiteOn RGB LED; https://optoelectronics.liteon.com/upload/download/DS22-2008-0044/LTST-C19HE1WT.pdf
-LED RGB Chip SMD
-0
-4
-4
-LED_SMD
-LED_LiteOn_LTST-S326
-http://optoelectronics.liteon.com/upload/download/DS22-2000-287/LTST-S326KGJRKT.PDF
-LED SMD right angle  CCA
+Crystal
+Crystal_C26-LF_D2.1mm_L6.5mm_Horizontal_1EP_style1
+Crystal THT C26-LF 6.5mm length 2.06mm diameter
+['C26-LF']
 0
 3
 3
-LED_SMD
-LED_Lumex_SML-LX0303SIUPGUSB
-Lumex RGB LED, clear, SMD, https://www.lumex.com/spec/SML-LX0303SIUPGUSB.pdf
-LED RGB
-0
-4
-4
-LED_SMD
-LED_Lumex_SML-LX0404SIUPGUSB
-Lumex RGB LED, clear, SMD, https://www.lumex.com/spec/SML-LX0404SIUPGUSB.pdf
-LED RGB
-0
-4
-4
-LED_SMD
-LED_Luminus_MP-3030-1100_3.0x3.0mm
-Mid Power LED, Luminus MP-3030-1100, 3.0x3.0mm, 816mW, https://download.luminus.com/datasheets/Luminus_MP3030_1100_Datasheet.pdf
-LED Luminus MP-3030-1100
+Crystal
+Crystal_C26-LF_D2.1mm_L6.5mm_Horizontal_1EP_style2
+Crystal THT C26-LF 6.5mm length 2.06mm diameter
+['C26-LF']
 0
 5
-2
-LED_SMD
-LED_Osram_Lx_P47F_D2mm_ReverseMount
-OSRAM, reverse-mount LED, SMD, 2mm diameter, http://www.farnell.com/datasheets/2711587.pdf
-LED ReverseMount Reverse
-0
-4
-2
-LED_SMD
-LED_PLCC-2
-LED PLCC-2 SMD package
-LED PLCC-2 SMD
+3
+Crystal
+Crystal_C26-LF_D2.1mm_L6.5mm_Vertical
+Crystal THT C26-LF 6.5mm length 2.06mm diameter
+['C26-LF']
 0
 2
 2
-LED_SMD
-LED_PLCC_2835
-https://www.luckylight.cn/media/component/data-sheet/R2835BC-B2M-M10.pdf
-LED
+Crystal
+Crystal_C38-LF_D3.0mm_L8.0mm_Horizontal
+Crystal THT C38-LF 8.0mm length 3.0mm diameter
+['C38-LF']
 0
 2
 2
-LED_SMD
-LED_PLCC_2835_Handsoldering
-https://www.luckylight.cn/media/component/data-sheet/R2835BC-B2M-M10.pdf
-LED
-0
-2
-2
-LED_SMD
-LED_RGB_1210
-RGB LED 3.2x2.7mm http://www.avagotech.com/docs/AV02-0610EN
-LED 3227
-0
-4
-4
-LED_SMD
-LED_RGB_5050-6
-http://cdn.sparkfun.com/datasheets/Components/LED/5060BRG4.pdf
-RGB LED 5050-6
-0
-6
-6
-LED_SMD
-LED_RGB_Cree-PLCC-6_6x5mm_P2.1mm
-http://www.farnell.com/datasheets/2003905.pdf
-LED RGB PLCC-6 CLP6C-FBK
-0
-6
-6
-LED_SMD
-LED_RGB_Everlight_EASV3015RGBA0_Horizontal
-LED, RGB, right-angle, clear, https://everlightamericas.com/index.php?controller=attachment&id_attachment=3220
-LED RGB right-angle
-0
-4
-4
-LED_SMD
-LED_RGB_Getian_GT-P6PRGB4303
-https://www.gme.sk/img/cache/doc/518/177/vykonova-led-getian-gt-p6prgb4303-datasheet-1.pdf
-LED RGB 
-0
-7
-7
-LED_SMD
-LED_RGB_PLCC-6
-RGB LED PLCC-6
-RGB LED PLCC-6
-0
-6
-6
-LED_SMD
-LED_RGB_Wuerth-PLCC4_3.2x2.8mm_150141M173100
-3.2mm x 2.8mm PLCC4 LED, https://www.we-online.de/katalog/datasheet/150141M173100.pdf
-LED RGB Wurth PLCC-4
-0
-4
-4
-LED_SMD
-LED_ROHM_SMLVN6
-https://www.rohm.com/datasheet/SMLVN6RGB1U
-LED ROHM SMLVN6
-0
-6
-6
-LED_SMD
-LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm
-https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf
-LED RGB NeoPixel Nano
-0
-4
-4
-LED_SMD
-LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
-https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf
-LED RGB NeoPixel Mini
-0
-4
-4
-LED_SMD
-LED_SK6812_EC15_1.5x1.5mm
-http://www.newstar-ledstrip.com/product/20181119172602110.pdf
-LED RGB NeoPixel
-0
-4
-4
-LED_SMD
-LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm
-https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf
-LED RGB NeoPixel
-0
-4
-4
-LED_SMD
-LED_WS2812B-2020_PLCC4_2.0x2.0mm
-Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf
-LED RGB NeoPixel Nano 2020
-0
-4
-4
-LED_SMD
-LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
-https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
-LED RGB NeoPixel
-0
-4
-4
-LED_SMD
-LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm
-https://cdn-shop.adafruit.com/datasheets/WS2812.pdf
-LED RGB NeoPixel
-0
-6
-6
-LED_SMD
-LED_Yuji_5730
-LED,Yuji,5730,https://cdn.shopify.com/s/files/1/0344/6401/files/YJWJ014-1.1_YJ-BC-5730L-G02.pdf
-LED Yuji 5730
+Crystal
+Crystal_C38-LF_D3.0mm_L8.0mm_Horizontal_1EP_style1
+Crystal THT C38-LF 8.0mm length 3.0mm diameter
+['C38-LF']
 0
 3
-2
-LED_SMD
-LED_miniPLCC_2315
-https://docs.broadcom.com/cs/Satellite?blobcol=urldata&blobheader=application%2Fpdf&blobheadername1=Content-Disposition&blobheadername2=Content-Type&blobheadername3=MDT-Type&blobheadervalue1=attachment%3Bfilename%3DAV02-2205EN_DS_ASMT-TxBM_2014-05-09.pdf&blobheadervalue2=application%2Fx-download&blobheadervalue3=abinary%253B%2Bcharset%253DUTF-8&blobkey=id&blobnocache=true&blobtable=MungoBlobs&blobwhere=1430858274704&ssbinary=true
-LED
+3
+Crystal
+Crystal_C38-LF_D3.0mm_L8.0mm_Horizontal_1EP_style2
+Crystal THT C38-LF 8.0mm length 3.0mm diameter
+['C38-LF']
+0
+5
+3
+Crystal
+Crystal_C38-LF_D3.0mm_L8.0mm_Vertical
+Crystal THT C38-LF 8.0mm length 3.0mm diameter
+['C38-LF']
 0
 2
 2
-LED_SMD
-LED_miniPLCC_2315_Handsoldering
-https://docs.broadcom.com/cs/Satellite?blobcol=urldata&blobheader=application%2Fpdf&blobheadername1=Content-Disposition&blobheadername2=Content-Type&blobheadername3=MDT-Type&blobheadervalue1=attachment%3Bfilename%3DAV02-2205EN_DS_ASMT-TxBM_2014-05-09.pdf&blobheadervalue2=application%2Fx-download&blobheadervalue3=abinary%253B%2Bcharset%253DUTF-8&blobkey=id&blobnocache=true&blobtable=MungoBlobs&blobwhere=1430858274704&ssbinary=true
-LED
+Crystal
+Crystal_DS10_D1.0mm_L4.3mm_Horizontal
+Crystal THT DS10 4.3mm length 1.0mm diameter http://www.microcrystal.com/images/_Product-Documentation/03_TF_metal_Packages/01_Datasheet/DS-Series.pdf
+['DS10']
 0
 2
 2
+Crystal
+Crystal_DS10_D1.0mm_L4.3mm_Horizontal_1EP_style1
+Crystal THT DS10 4.3mm length 1.0mm diameter http://www.microcrystal.com/images/_Product-Documentation/03_TF_metal_Packages/01_Datasheet/DS-Series.pdf
+['DS10']
+0
+3
+3
+Crystal
+Crystal_DS10_D1.0mm_L4.3mm_Horizontal_1EP_style2
+Crystal THT DS10 4.3mm length 1.0mm diameter http://www.microcrystal.com/images/_Product-Documentation/03_TF_metal_Packages/01_Datasheet/DS-Series.pdf
+['DS10']
+0
+5
+3
+Crystal
+Crystal_DS10_D1.0mm_L4.3mm_Vertical
+Crystal THT DS10 4.3mm length 1.0mm diameter http://www.microcrystal.com/images/_Product-Documentation/03_TF_metal_Packages/01_Datasheet/DS-Series.pdf
+['DS10']
+0
+2
+2
+Crystal
+Crystal_DS15_D1.5mm_L5.0mm_Horizontal
+Crystal THT DS15 5.0mm length 1.5mm diameter http://www.microcrystal.com/images/_Product-Documentation/03_TF_metal_Packages/01_Datasheet/DS-Series.pdf
+['DS15']
+0
+2
+2
+Crystal
+Crystal_DS15_D1.5mm_L5.0mm_Horizontal_1EP_style1
+Crystal THT DS15 5.0mm length 1.5mm diameter http://www.microcrystal.com/images/_Product-Documentation/03_TF_metal_Packages/01_Datasheet/DS-Series.pdf
+['DS15']
+0
+3
+3
+Crystal
+Crystal_DS15_D1.5mm_L5.0mm_Horizontal_1EP_style2
+Crystal THT DS15 5.0mm length 1.5mm diameter http://www.microcrystal.com/images/_Product-Documentation/03_TF_metal_Packages/01_Datasheet/DS-Series.pdf
+['DS15']
+0
+5
+3
+Crystal
+Crystal_DS15_D1.5mm_L5.0mm_Vertical
+Crystal THT DS15 5.0mm length 1.5mm diameter http://www.microcrystal.com/images/_Product-Documentation/03_TF_metal_Packages/01_Datasheet/DS-Series.pdf
+['DS15']
+0
+2
+2
+Crystal
+Crystal_DS26_D2.0mm_L6.0mm_Horizontal
+Crystal THT DS26 6.0mm length 2.0mm diameter http://www.microcrystal.com/images/_Product-Documentation/03_TF_metal_Packages/01_Datasheet/DS-Series.pdf
+['DS26']
+0
+2
+2
+Crystal
+Crystal_DS26_D2.0mm_L6.0mm_Horizontal_1EP_style1
+Crystal THT DS26 6.0mm length 2.0mm diameter http://www.microcrystal.com/images/_Product-Documentation/03_TF_metal_Packages/01_Datasheet/DS-Series.pdf
+['DS26']
+0
+3
+3
+Crystal
+Crystal_DS26_D2.0mm_L6.0mm_Horizontal_1EP_style2
+Crystal THT DS26 6.0mm length 2.0mm diameter http://www.microcrystal.com/images/_Product-Documentation/03_TF_metal_Packages/01_Datasheet/DS-Series.pdf
+['DS26']
+0
+5
+3
+Crystal
+Crystal_DS26_D2.0mm_L6.0mm_Vertical
+Crystal THT DS26 6.0mm length 2.0mm diameter http://www.microcrystal.com/images/_Product-Documentation/03_TF_metal_Packages/01_Datasheet/DS-Series.pdf
+['DS26']
+0
+2
+2
+Crystal
+Crystal_HC18-U_Horizontal
+Crystal THT HC-18/U http://5hertz.com/pdfs/04404_D.pdf
+THT crystal
+0
+2
+2
+Crystal
+Crystal_HC18-U_Horizontal_1EP_style1
+Crystal THT HC-18/U http://5hertz.com/pdfs/04404_D.pdf
+THT crystal
+0
+3
+3
+Crystal
+Crystal_HC18-U_Horizontal_1EP_style2
+Crystal THT HC-18/U http://5hertz.com/pdfs/04404_D.pdf
+THT crystal
+0
+5
+3
+Crystal
+Crystal_HC18-U_Vertical
+Crystal THT HC-18/U, http://5hertz.com/pdfs/04404_D.pdf
+THT crystalHC-18/U
+0
+2
+2
+Crystal
+Crystal_HC33-U_Horizontal
+Crystal THT HC-33/U http://pdi.bentech-taiwan.com/PDI/GEN20SPEV20HC3320U.pdf
+THT crystal
+0
+2
+2
+Crystal
+Crystal_HC33-U_Horizontal_1EP_style1
+Crystal THT HC-33/U http://pdi.bentech-taiwan.com/PDI/GEN20SPEV20HC3320U.pdf
+THT crystal
+0
+3
+3
+Crystal
+Crystal_HC33-U_Horizontal_1EP_style2
+Crystal THT HC-33/U http://pdi.bentech-taiwan.com/PDI/GEN20SPEV20HC3320U.pdf
+THT crystal
+0
+5
+3
+Crystal
+Crystal_HC33-U_Vertical
+Crystal THT HC-33/U, http://pdi.bentech-taiwan.com/PDI/GEN20SPEV20HC3320U.pdf
+THT crystalHC-33/U
+0
+2
+2
+Crystal
+Crystal_HC35-U
+Crystal, Quarz, HC35/U, http://www.kvg-gmbh.de/assets/uploads/files/product_pdfs/TO71xx.pdf
+Crystal Quarz HC35/U
+0
+3
+3
+Crystal
+Crystal_HC49-4H_Vertical
+Crystal THT HC-49-4H http://5hertz.com/pdfs/04404_D.pdf
+THT crystalHC-49-4H
+0
+2
+2
+Crystal
+Crystal_HC49-U-3Pin_Vertical
+Crystal THT HC-49/U, 3pin-version, http://www.raltron.com/products/pdfspecs/crystal_hc_49_45_51.pdf
+THT crystalHC-49/U
+0
+3
+3
+Crystal
+Crystal_HC49-U_Horizontal
+Crystal THT HC-49/U http://5hertz.com/pdfs/04404_D.pdf
+THT crystal
+0
+2
+2
+Crystal
+Crystal_HC49-U_Horizontal_1EP_style1
+Crystal THT HC-49/U http://5hertz.com/pdfs/04404_D.pdf
+THT crystal
+0
+3
+3
+Crystal
+Crystal_HC49-U_Horizontal_1EP_style2
+Crystal THT HC-49/U http://5hertz.com/pdfs/04404_D.pdf
+THT crystal
+0
+5
+3
+Crystal
+Crystal_HC49-U_Vertical
+Crystal THT HC-49/U http://5hertz.com/pdfs/04404_D.pdf
+THT crystalHC-49/U
+0
+2
+2
+Crystal
+Crystal_HC50_Horizontal
+Crystal THT HC-50 http://www.crovencrystals.com/croven_pdf/HC-50_Crystal_Holder_Rev_00.pdf
+THT crystal
+0
+2
+2
+Crystal
+Crystal_HC50_Horizontal_1EP_style1
+Crystal THT HC-50 http://www.crovencrystals.com/croven_pdf/HC-50_Crystal_Holder_Rev_00.pdf
+THT crystal
+0
+3
+3
+Crystal
+Crystal_HC50_Horizontal_1EP_style2
+Crystal THT HC-50 http://www.crovencrystals.com/croven_pdf/HC-50_Crystal_Holder_Rev_00.pdf
+THT crystal
+0
+5
+3
+Crystal
+Crystal_HC50_Vertical
+Crystal THT HC-50, http://www.crovencrystals.com/croven_pdf/HC-50_Crystal_Holder_Rev_00.pdf
+THT crystalHC-50
+0
+2
+2
+Crystal
+Crystal_HC51-U_Vertical
+Crystal THT HC-51/U, http://www.crovencrystals.com/croven_pdf/HC-51_Crystal_Holder_Rev_00.pdf
+THT crystalHC-51/U
+0
+2
+2
+Crystal
+Crystal_HC51_Horizontal
+Crystal THT HC-51 http://www.crovencrystals.com/croven_pdf/HC-51_Crystal_Holder_Rev_00.pdf
+THT crystal
+0
+2
+2
+Crystal
+Crystal_HC51_Horizontal_1EP_style1
+Crystal THT HC-51 http://www.crovencrystals.com/croven_pdf/HC-51_Crystal_Holder_Rev_00.pdf
+THT crystal
+0
+3
+3
+Crystal
+Crystal_HC51_Horizontal_1EP_style2
+Crystal THT HC-51 http://www.crovencrystals.com/croven_pdf/HC-51_Crystal_Holder_Rev_00.pdf
+THT crystal
+0
+5
+3
+Crystal
+Crystal_HC52-6mm_Horizontal
+Crystal THT HC-51/6mm http://www.kvg-gmbh.de/assets/uploads/files/product_pdfs/XS71xx.pdf
+THT crystal
+0
+2
+2
+Crystal
+Crystal_HC52-6mm_Horizontal_1EP_style1
+Crystal THT HC-51/6mm http://www.kvg-gmbh.de/assets/uploads/files/product_pdfs/XS71xx.pdf
+THT crystal
+0
+3
+3
+Crystal
+Crystal_HC52-6mm_Horizontal_1EP_style2
+Crystal THT HC-51/6mm http://www.kvg-gmbh.de/assets/uploads/files/product_pdfs/XS71xx.pdf
+THT crystal
+0
+5
+3
+Crystal
+Crystal_HC52-6mm_Vertical
+Crystal THT HC-52/6mm, http://www.kvg-gmbh.de/assets/uploads/files/product_pdfs/XS71xx.pdf
+THT crystalHC-49/U
+0
+2
+2
+Crystal
+Crystal_HC52-8mm_Horizontal
+Crystal THT HC-51/8mm http://www.kvg-gmbh.de/assets/uploads/files/product_pdfs/XS71xx.pdf
+THT crystal
+0
+2
+2
+Crystal
+Crystal_HC52-8mm_Horizontal_1EP_style1
+Crystal THT HC-51/8mm http://www.kvg-gmbh.de/assets/uploads/files/product_pdfs/XS71xx.pdf
+THT crystal
+0
+3
+3
+Crystal
+Crystal_HC52-8mm_Horizontal_1EP_style2
+Crystal THT HC-51/8mm http://www.kvg-gmbh.de/assets/uploads/files/product_pdfs/XS71xx.pdf
+THT crystal
+0
+5
+3
+Crystal
+Crystal_HC52-8mm_Vertical
+Crystal THT HC-52/8mm, http://www.kvg-gmbh.de/assets/uploads/files/product_pdfs/XS71xx.pdf
+THT crystalHC-49/U
+0
+2
+2
+Crystal
+Crystal_HC52-U-3Pin_Vertical
+Crystal THT HC-52/U, http://www.kvg-gmbh.de/assets/uploads/files/product_pdfs/XS71xx.pdf
+THT crystalHC-52/U
+0
+3
+3
+Crystal
+Crystal_HC52-U_Horizontal
+Crystal THT HC-51/U http://www.kvg-gmbh.de/assets/uploads/files/product_pdfs/XS71xx.pdf
+THT crystal
+0
+2
+2
+Crystal
+Crystal_HC52-U_Horizontal_1EP_style1
+Crystal THT HC-51/U http://www.kvg-gmbh.de/assets/uploads/files/product_pdfs/XS71xx.pdf
+THT crystal
+0
+3
+3
+Crystal
+Crystal_HC52-U_Horizontal_1EP_style2
+Crystal THT HC-51/U http://www.kvg-gmbh.de/assets/uploads/files/product_pdfs/XS71xx.pdf
+THT crystal
+0
+5
+3
+Crystal
+Crystal_HC52-U_Vertical
+Crystal THT HC-52/U, http://www.kvg-gmbh.de/assets/uploads/files/product_pdfs/XS71xx.pdf
+THT crystal HC-52/U
+0
+2
+2
+Crystal
+Crystal_Round_D1.0mm_Vertical
+Crystal THT DS10 1.0mm diameter http://www.microcrystal.com/images/_Product-Documentation/03_TF_metal_Packages/01_Datasheet/DS-Series.pdf
+['DS10']
+0
+2
+2
+Crystal
+Crystal_Round_D1.5mm_Vertical
+Crystal THT DS15 5.0mm length 1.5mm diameter http://www.microcrystal.com/images/_Product-Documentation/03_TF_metal_Packages/01_Datasheet/DS-Series.pdf
+['DS15']
+0
+2
+2
+Crystal
+Crystal_Round_D2.0mm_Vertical
+Crystal THT DS26 6.0mm length 2.0mm diameter http://www.microcrystal.com/images/_Product-Documentation/03_TF_metal_Packages/01_Datasheet/DS-Series.pdf
+['DS26']
+0
+2
+2
+Crystal
+Crystal_Round_D3.0mm_Vertical
+Crystal THT C38-LF 8.0mm length 3.0mm diameter
+['C38-LF']
+0
+2
+2
+Crystal
+Crystal_SMD_0603-2Pin_6.0x3.5mm
+SMD Crystal SERIES SMD0603/2 http://www.petermann-technik.de/fileadmin/petermann/pdf/SMD0603-2.pdf, 6.0x3.5mm^2 package
+SMD SMT crystal
+0
+2
+2
+Crystal
+Crystal_SMD_0603-2Pin_6.0x3.5mm_HandSoldering
+SMD Crystal SERIES SMD0603/2 http://www.petermann-technik.de/fileadmin/petermann/pdf/SMD0603-2.pdf, hand-soldering, 6.0x3.5mm^2 package
+SMD SMT crystal hand-soldering
+0
+2
+2
+Crystal
+Crystal_SMD_0603-4Pin_6.0x3.5mm
+SMD Crystal SERIES SMD0603/4 http://www.petermann-technik.de/fileadmin/petermann/pdf/SMD0603-4.pdf, 6.0x3.5mm^2 package
+SMD SMT crystal
+0
+4
+4
+Crystal
+Crystal_SMD_0603-4Pin_6.0x3.5mm_HandSoldering
+SMD Crystal SERIES SMD0603/4 http://www.petermann-technik.de/fileadmin/petermann/pdf/SMD0603-4.pdf, hand-soldering, 6.0x3.5mm^2 package
+SMD SMT crystal hand-soldering
+0
+4
+4
+Crystal
+Crystal_SMD_2012-2Pin_2.0x1.2mm
+SMD Crystal 2012/2 http://txccrystal.com/images/pdf/9ht11.pdf, 2.0x1.2mm^2 package
+SMD SMT crystal
+0
+2
+2
+Crystal
+Crystal_SMD_2012-2Pin_2.0x1.2mm_HandSoldering
+SMD Crystal 2012/2 http://txccrystal.com/images/pdf/9ht11.pdf, hand-soldering, 2.0x1.2mm^2 package
+SMD SMT crystal hand-soldering
+0
+2
+2
+Crystal
+Crystal_SMD_2016-4Pin_2.0x1.6mm
+SMD Crystal SERIES SMD2016/4 http://www.q-crystal.com/upload/5/2015552223166229.pdf, 2.0x1.6mm^2 package
+SMD SMT crystal
+0
+4
+4
+Crystal
+Crystal_SMD_2520-4Pin_2.5x2.0mm
+SMD Crystal SERIES SMD2520/4 http://www.newxtal.com/UploadFiles/Images/2012-11-12-09-29-09-776.pdf, 2.5x2.0mm^2 package
+SMD SMT crystal
+0
+4
+4
+Crystal
+Crystal_SMD_3215-2Pin_3.2x1.5mm
+SMD Crystal FC-135 https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-135R_en.pdf
+SMD SMT Crystal
+0
+2
+2
+Crystal
+Crystal_SMD_3225-4Pin_3.2x2.5mm
+SMD Crystal SERIES SMD3225/4 http://www.txccrystal.com/images/pdf/7m-accuracy.pdf, 3.2x2.5mm^2 package
+SMD SMT crystal
+0
+4
+4
+Crystal
+Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering
+SMD Crystal SERIES SMD3225/4 http://www.txccrystal.com/images/pdf/7m-accuracy.pdf, hand-soldering, 3.2x2.5mm^2 package
+SMD SMT crystal hand-soldering
+0
+4
+4
+Crystal
+Crystal_SMD_5032-2Pin_5.0x3.2mm
+SMD Crystal SERIES SMD2520/2 http://www.icbase.com/File/PDF/HKC/HKC00061008.pdf, 5.0x3.2mm^2 package
+SMD SMT crystal
+0
+2
+2
+Crystal
+Crystal_SMD_5032-2Pin_5.0x3.2mm_HandSoldering
+SMD Crystal SERIES SMD2520/2 http://www.icbase.com/File/PDF/HKC/HKC00061008.pdf, hand-soldering, 5.0x3.2mm^2 package
+SMD SMT crystal hand-soldering
+0
+2
+2
+Crystal
+Crystal_SMD_5032-4Pin_5.0x3.2mm
+SMD Crystal SERIES SMD2520/4 http://www.icbase.com/File/PDF/HKC/HKC00061008.pdf, 5.0x3.2mm^2 package
+SMD SMT crystal
+0
+4
+4
+Crystal
+Crystal_SMD_7050-2Pin_7.0x5.0mm
+SMD Crystal SERIES SMD7050/4 https://www.foxonline.com/pdfs/FQ7050.pdf, 7.0x5.0mm^2 package
+SMD SMT crystal
+0
+2
+2
+Crystal
+Crystal_SMD_7050-2Pin_7.0x5.0mm_HandSoldering
+SMD Crystal SERIES SMD7050/4 https://www.foxonline.com/pdfs/FQ7050.pdf, hand-soldering, 7.0x5.0mm^2 package
+SMD SMT crystal hand-soldering
+0
+2
+2
+Crystal
+Crystal_SMD_7050-4Pin_7.0x5.0mm
+SMD Crystal SERIES SMD7050/4 https://www.foxonline.com/pdfs/FQ7050.pdf, 7.0x5.0mm^2 package
+SMD SMT crystal
+0
+4
+4
+Crystal
+Crystal_SMD_Abracon_ABM3-2Pin_5.0x3.2mm
+Abracon Miniature Ceramic Smd Crystal ABM3 http://www.abracon.com/Resonators/abm3.pdf, 5.0x3.2mm^2 package
+SMD SMT crystal
+0
+2
+2
+Crystal
+Crystal_SMD_Abracon_ABM3-2Pin_5.0x3.2mm_HandSoldering
+Abracon Miniature Ceramic Smd Crystal ABM3 http://www.abracon.com/Resonators/abm3.pdf, hand-soldering, 5.0x3.2mm^2 package
+SMD SMT crystal hand-soldering
+0
+2
+2
+Crystal
+Crystal_SMD_Abracon_ABM3B-4Pin_5.0x3.2mm
+Abracon Miniature Ceramic Smd Crystal ABM3B http://www.abracon.com/Resonators/abm3b.pdf, 5.0x3.2mm^2 package
+SMD SMT crystal
+0
+4
+4
+Crystal
+Crystal_SMD_Abracon_ABM3C-4Pin_5.0x3.2mm
+Abracon Miniature Ceramic Smd Crystal ABM3C http://www.abracon.com/Resonators/abm3c.pdf, 5.0x3.2mm^2 package
+SMD SMT crystal
+0
+4
+4
+Crystal
+Crystal_SMD_Abracon_ABM7-2Pin_6.0x3.5mm
+SMD Crystal Abracon ABM7, https://abracon.com/Resonators/abm7.pdf
+SMD SMT crystal
+0
+2
+2
+Crystal
+Crystal_SMD_Abracon_ABM8AIG-4Pin_3.2x2.5mm
+Abracon Miniature Ceramic Smd Crystal ABM8AIG https://abracon.com/AIGcrystals/ABM8AIG.pdf, 3.2x2.5mm^2 package
+SMD SMT crystal
+0
+4
+4
+Crystal
+Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm
+Abracon Miniature Ceramic Smd Crystal ABM8G http://www.abracon.com/Resonators/ABM8G.pdf, 3.2x2.5mm^2 package
+SMD SMT crystal
+0
+4
+4
+Crystal
+Crystal_SMD_Abracon_ABM10-4Pin_2.5x2.0mm
+Abracon Miniature Ceramic Smd Crystal ABM10 http://www.abracon.com/Resonators/ABM10.pdf
+SMD SMT crystal Abracon ABM10
+0
+4
+4
+Crystal
+Crystal_SMD_Abracon_ABS25-4Pin_8.0x3.8mm
+Abracon Miniature Ceramic SMD Crystal ABS25 https://abracon.com/Resonators/abs25.pdf, 8.0x3.8mm^2 package
+SMD SMT crystal
+0
+4
+4
+Crystal
+Crystal_SMD_ECS_CSM3X-2Pin_7.6x4.1mm
+http://www.ecsxtal.com/store/pdf/CSM-3X.pdf
+Crystal CSM-3X
+0
+2
+2
+Crystal
+Crystal_SMD_EuroQuartz_EQ161-2Pin_3.2x1.5mm
+SMD Crystal EuroQuartz EQ161 series http://cdn-reichelt.de/documents/datenblatt/B400/PG32768C.pdf, 3.2x1.5mm^2 package
+SMD SMT crystal
+0
+2
+2
+Crystal
+Crystal_SMD_EuroQuartz_EQ161-2Pin_3.2x1.5mm_HandSoldering
+SMD Crystal EuroQuartz EQ161 series http://cdn-reichelt.de/documents/datenblatt/B400/PG32768C.pdf, hand-soldering, 3.2x1.5mm^2 package
+SMD SMT crystal hand-soldering
+0
+2
+2
+Crystal
+Crystal_SMD_EuroQuartz_MJ-4Pin_5.0x3.2mm
+SMD Crystal EuroQuartz MJ series http://cdn-reichelt.de/documents/datenblatt/B400/MJ.pdf, 5.0x3.2mm^2 package
+SMD SMT crystal
+0
+4
+4
+Crystal
+Crystal_SMD_EuroQuartz_MJ-4Pin_5.0x3.2mm_HandSoldering
+SMD Crystal EuroQuartz MJ series http://cdn-reichelt.de/documents/datenblatt/B400/MJ.pdf, hand-soldering, 5.0x3.2mm^2 package
+SMD SMT crystal hand-soldering
+0
+4
+4
+Crystal
+Crystal_SMD_EuroQuartz_MQ-4Pin_7.0x5.0mm
+SMD Crystal EuroQuartz MQ series http://cdn-reichelt.de/documents/datenblatt/B400/MQ.pdf, 7.0x5.0mm^2 package
+SMD SMT crystal
+0
+4
+4
+Crystal
+Crystal_SMD_EuroQuartz_MQ-4Pin_7.0x5.0mm_HandSoldering
+SMD Crystal EuroQuartz MQ series http://cdn-reichelt.de/documents/datenblatt/B400/MQ.pdf, hand-soldering, 7.0x5.0mm^2 package
+SMD SMT crystal hand-soldering
+0
+4
+4
+Crystal
+Crystal_SMD_EuroQuartz_MQ2-2Pin_7.0x5.0mm
+SMD Crystal EuroQuartz MQ2 series http://cdn-reichelt.de/documents/datenblatt/B400/MQ.pdf, 7.0x5.0mm^2 package
+SMD SMT crystal
+0
+2
+2
+Crystal
+Crystal_SMD_EuroQuartz_MQ2-2Pin_7.0x5.0mm_HandSoldering
+SMD Crystal EuroQuartz MQ2 series http://cdn-reichelt.de/documents/datenblatt/B400/MQ.pdf, hand-soldering, 7.0x5.0mm^2 package
+SMD SMT crystal hand-soldering
+0
+2
+2
+Crystal
+Crystal_SMD_EuroQuartz_MT-4Pin_3.2x2.5mm
+SMD Crystal EuroQuartz MT series http://cdn-reichelt.de/documents/datenblatt/B400/MT.pdf, 3.2x2.5mm^2 package
+SMD SMT crystal
+0
+4
+4
+Crystal
+Crystal_SMD_EuroQuartz_MT-4Pin_3.2x2.5mm_HandSoldering
+SMD Crystal EuroQuartz MT series http://cdn-reichelt.de/documents/datenblatt/B400/MT.pdf, hand-soldering, 3.2x2.5mm^2 package
+SMD SMT crystal hand-soldering
+0
+4
+4
+Crystal
+Crystal_SMD_EuroQuartz_X22-4Pin_2.5x2.0mm
+SMD Crystal EuroQuartz X22 series http://cdn-reichelt.de/documents/datenblatt/B400/DS_X22.pdf, 2.5x2.0mm^2 package
+SMD SMT crystal
+0
+4
+4
+Crystal
+Crystal_SMD_EuroQuartz_X22-4Pin_2.5x2.0mm_HandSoldering
+SMD Crystal EuroQuartz X22 series http://cdn-reichelt.de/documents/datenblatt/B400/DS_X22.pdf, hand-soldering, 2.5x2.0mm^2 package
+SMD SMT crystal hand-soldering
+0
+4
+4
+Crystal
+Crystal_SMD_FOX_FE-2Pin_7.5x5.0mm
+crystal Ceramic Resin Sealed SMD http://www.foxonline.com/pdfs/fe.pdf, 7.5x5.0mm^2 package
+SMD SMT crystal
+0
+2
+2
+Crystal
+Crystal_SMD_FOX_FE-2Pin_7.5x5.0mm_HandSoldering
+crystal Ceramic Resin Sealed SMD http://www.foxonline.com/pdfs/fe.pdf, hand-soldering, 7.5x5.0mm^2 package
+SMD SMT crystal hand-soldering
+0
+2
+2
+Crystal
+Crystal_SMD_FOX_FQ7050-2Pin_7.0x5.0mm
+FOX SMD Crystal SERIES SMD7050/4 https://www.foxonline.com/pdfs/FQ7050.pdf, 7.0x5.0mm^2 package
+SMD SMT crystal
+0
+2
+2
+Crystal
+Crystal_SMD_FOX_FQ7050-2Pin_7.0x5.0mm_HandSoldering
+FOX SMD Crystal SERIES SMD7050/4 https://www.foxonline.com/pdfs/FQ7050.pdf, hand-soldering, 7.0x5.0mm^2 package
+SMD SMT crystal hand-soldering
+0
+2
+2
+Crystal
+Crystal_SMD_FOX_FQ7050-4Pin_7.0x5.0mm
+FOX SMD Crystal SERIES SMD7050/4 https://www.foxonline.com/pdfs/FQ7050.pdf, 7.0x5.0mm^2 package
+SMD SMT crystal
+0
+4
+4
+Crystal
+Crystal_SMD_FrontierElectronics_FM206
+SMD Watch Crystal FrontierElectronics FM206 6.0mm length 1.9mm diameter http://www.chinafronter.com/wp-content/uploads/2013/12/FM206.pdf
+['FM206']
+0
+3
+3
+Crystal
+Crystal_SMD_G8-2Pin_3.2x1.5mm
+SMD Crystal G8, 3.2x1.5mm^2 package
+SMD SMT crystal
+0
+2
+2
+Crystal
+Crystal_SMD_G8-2Pin_3.2x1.5mm_HandSoldering
+SMD Crystal G8, hand-soldering, 3.2x1.5mm^2 package
+SMD SMT crystal hand-soldering
+0
+2
+2
+Crystal
+Crystal_SMD_HC49-SD
+SMD Crystal HC-49-SD http://cdn-reichelt.de/documents/datenblatt/B400/xxx-HC49-SMD.pdf, 11.4x4.7mm^2 package
+SMD SMT crystal
+0
+2
+2
+Crystal
+Crystal_SMD_HC49-SD_HandSoldering
+SMD Crystal HC-49-SD http://cdn-reichelt.de/documents/datenblatt/B400/xxx-HC49-SMD.pdf, hand-soldering, 11.4x4.7mm^2 package
+SMD SMT crystal hand-soldering
+0
+2
+2
+Crystal
+Crystal_SMD_MicroCrystal_CC1V-T1A-2Pin_8.0x3.7mm
+SMD Crystal MicroCrystal CC1V-T1A series https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/CC1V-T1A.pdf, 8.0x3.7mm^2 package
+SMD SMT crystal
+0
+2
+2
+Crystal
+Crystal_SMD_MicroCrystal_CC1V-T1A-2Pin_8.0x3.7mm_HandSoldering
+SMD Crystal MicroCrystal CC1V-T1A series https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/CC1V-T1A.pdf, hand-soldering, 8.0x3.7mm^2 package
+SMD SMT crystal hand-soldering
+0
+2
+2
+Crystal
+Crystal_SMD_MicroCrystal_CC4V-T1A-2Pin_5.0x1.9mm
+SMD Crystal MicroCrystal CC4V-T1A series http://cdn-reichelt.de/documents/datenblatt/B400/CC4V-T1A.pdf, 5.0x1.9mm^2 package
+SMD SMT crystal
+0
+2
+2
+Crystal
+Crystal_SMD_MicroCrystal_CC4V-T1A-2Pin_5.0x1.9mm_HandSoldering
+SMD Crystal MicroCrystal CC4V-T1A series http://cdn-reichelt.de/documents/datenblatt/B400/CC4V-T1A.pdf, hand-soldering, 5.0x1.9mm^2 package
+SMD SMT crystal hand-soldering
+0
+2
+2
+Crystal
+Crystal_SMD_MicroCrystal_CC5V-T1A-2Pin_4.1x1.5mm
+SMD Crystal MicroCrystal CC5V-T1A series http://cdn-reichelt.de/documents/datenblatt/B400/CC5V-T1A.pdf, 4.1x1.5mm^2 package
+SMD SMT crystal
+0
+2
+2
+Crystal
+Crystal_SMD_MicroCrystal_CC5V-T1A-2Pin_4.1x1.5mm_HandSoldering
+SMD Crystal MicroCrystal CC5V-T1A series http://cdn-reichelt.de/documents/datenblatt/B400/CC5V-T1A.pdf, hand-soldering, 4.1x1.5mm^2 package
+SMD SMT crystal hand-soldering
+0
+2
+2
+Crystal
+Crystal_SMD_MicroCrystal_CC7V-T1A-2Pin_3.2x1.5mm
+SMD Crystal MicroCrystal CC7V-T1A/CM7V-T1A series https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/CC7V-T1A.pdf, 3.2x1.5mm^2 package
+SMD SMT crystal
+0
+2
+2
+Crystal
+Crystal_SMD_MicroCrystal_CC7V-T1A-2Pin_3.2x1.5mm_HandSoldering
+SMD Crystal MicroCrystal CC7V-T1A/CM7V-T1A series http://www.microcrystal.com/images/_Product-Documentation/01_TF_ceramic_Packages/01_Datasheet/CC1V-T1A.pdf, hand-soldering, 3.2x1.5mm^2 package
+SMD SMT crystal hand-soldering
+0
+2
+2
+Crystal
+Crystal_SMD_MicroCrystal_CC8V-T1A-2Pin_2.0x1.2mm
+SMD Crystal MicroCrystal CC8V-T1A/CM8V-T1A series https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/CC8V-T1A.pdf, 2.0x1.2mm^2 package
+SMD SMT crystal
+0
+2
+2
+Crystal
+Crystal_SMD_MicroCrystal_CC8V-T1A-2Pin_2.0x1.2mm_HandSoldering
+SMD Crystal MicroCrystal CC8V-T1A/CM8V-T1A series http://www.microcrystal.com/images/_Product-Documentation/01_TF_ceramic_Packages/01_Datasheet/CC8V-T1A.pdf, hand-soldering, 2.0x1.2mm^2 package
+SMD SMT crystal hand-soldering
+0
+2
+2
+Crystal
+Crystal_SMD_MicroCrystal_CM9V-T1A-2Pin_1.6x1.0mm
+SMD Crystal MicroCrystal CM9V-T1A series https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/CM9V-T1A.pdf, 1.6x1.0mm^2 package
+SMD SMT crystal
+0
+2
+2
+Crystal
+Crystal_SMD_MicroCrystal_CM9V-T1A-2Pin_1.6x1.0mm_HandSoldering
+SMD Crystal MicroCrystal CM9V-T1A series http://www.microcrystal.com/images/_Product-Documentation/01_TF_ceramic_Packages/01_Datasheet/CM9V-T1A.pdf, hand-soldering, 1.6x1.0mm^2 package
+SMD SMT crystal hand-soldering
+0
+2
+2
+Crystal
+Crystal_SMD_MicroCrystal_MS1V-T1K
+SMD Watch Crystal MicroCrystal MS1V-T1K 6.1mm length 2.0mm diameter http://www.microcrystal.com/images/_Product-Documentation/03_TF_metal_Packages/01_Datasheet/MS1V-T1K.pdf
+['MS1V-T1K']
+0
+3
+3
+Crystal
+Crystal_SMD_MicroCrystal_MS3V-T1R
+SMD Watch Crystal MicroCrystal MS3V-T1R 5.2mm length 1.4mm diameter http://www.microcrystal.com/images/_Product-Documentation/03_TF_metal_Packages/01_Datasheet/MS3V-T1R.pdf
+['MS3V-T1R']
+0
+3
+3
+Crystal
+Crystal_SMD_Qantek_QC5CB-2Pin_5x3.2mm
+SMD Crystal Qantek QC5CB, https://www.qantek.com/tl_files/products/crystals/QC5CB.pdf
+SMD SMT crystal
+0
+2
+2
+Crystal
+Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm
+crystal Epson Toyocom FA-238 https://support.epson.biz/td/api/doc_check.php?dl=brief_fa-238v_en.pdf, 3.2x2.5mm^2 package
+SMD SMT crystal
+0
+4
+4
+Crystal
+Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm_HandSoldering
+crystal Epson Toyocom FA-238 series https://support.epson.biz/td/api/doc_check.php?dl=brief_fa-238v_en.pdf, hand-soldering, 3.2x2.5mm^2 package
+SMD SMT crystal hand-soldering
+0
+4
+4
+Crystal
+Crystal_SMD_SeikoEpson_FA238V-4Pin_3.2x2.5mm
+crystal Epson Toyocom FA-238 series https://support.epson.biz/td/api/doc_check.php?dl=brief_fa-238v_en.pdf, 3.2x2.5mm^2 package
+SMD SMT crystal
+0
+4
+4
+Crystal
+Crystal_SMD_SeikoEpson_FA238V-4Pin_3.2x2.5mm_HandSoldering
+crystal Epson Toyocom FA-238 series http://www.mouser.com/ds/2/137/1721499-465440.pdf, hand-soldering, 3.2x2.5mm^2 package
+SMD SMT crystal hand-soldering
+0
+4
+4
+Crystal
+Crystal_SMD_SeikoEpson_MA406-4Pin_11.7x4.0mm
+SMD Crystal Seiko Epson MC-506 http://media.digikey.com/pdf/Data%20Sheets/Epson%20PDFs/MA-505,506.pdf, 11.7x4.0mm^2 package
+SMD SMT crystal
+0
+4
+4
+Crystal
+Crystal_SMD_SeikoEpson_MA406-4Pin_11.7x4.0mm_HandSoldering
+SMD Crystal Seiko Epson MC-506 http://media.digikey.com/pdf/Data%20Sheets/Epson%20PDFs/MA-505,506.pdf, hand-soldering, 11.7x4.0mm^2 package
+SMD SMT crystal hand-soldering
+0
+4
+4
+Crystal
+Crystal_SMD_SeikoEpson_MA505-2Pin_12.7x5.1mm
+SMD Crystal Seiko Epson MC-505 http://media.digikey.com/pdf/Data%20Sheets/Epson%20PDFs/MA-505,506.pdf, 12.7x5.1mm^2 package
+SMD SMT crystal
+0
+2
+2
+Crystal
+Crystal_SMD_SeikoEpson_MA505-2Pin_12.7x5.1mm_HandSoldering
+SMD Crystal Seiko Epson MC-505 http://media.digikey.com/pdf/Data%20Sheets/Epson%20PDFs/MA-505,506.pdf, hand-soldering, 12.7x5.1mm^2 package
+SMD SMT crystal hand-soldering
+0
+2
+2
+Crystal
+Crystal_SMD_SeikoEpson_MA506-4Pin_12.7x5.1mm
+SMD Crystal Seiko Epson MC-506 http://media.digikey.com/pdf/Data%20Sheets/Epson%20PDFs/MA-505,506.pdf, 12.7x5.1mm^2 package
+SMD SMT crystal
+0
+4
+4
+Crystal
+Crystal_SMD_SeikoEpson_MA506-4Pin_12.7x5.1mm_HandSoldering
+SMD Crystal Seiko Epson MC-506 http://media.digikey.com/pdf/Data%20Sheets/Epson%20PDFs/MA-505,506.pdf, hand-soldering, 12.7x5.1mm^2 package
+SMD SMT crystal hand-soldering
+0
+4
+4
+Crystal
+Crystal_SMD_SeikoEpson_MC146-4Pin_6.7x1.5mm
+SMD Crystal Seiko Epson MC-146 https://support.epson.biz/td/api/doc_check.php?dl=brief_MC-156_en.pdf, 6.7x1.5mm^2 package
+SMD SMT crystal
+0
+4
+4
+Crystal
+Crystal_SMD_SeikoEpson_MC146-4Pin_6.7x1.5mm_HandSoldering
+SMD Crystal Seiko Epson MC-146 https://support.epson.biz/td/api/doc_check.php?dl=brief_MC-156_en.pdf, hand-soldering, 6.7x1.5mm^2 package
+SMD SMT crystal hand-soldering
+0
+4
+4
+Crystal
+Crystal_SMD_SeikoEpson_MC156-4Pin_7.1x2.5mm
+SMD Crystal Seiko Epson MC-156 https://support.epson.biz/td/api/doc_check.php?dl=brief_MC-156_en.pdf, 7.1x2.5mm^2 package
+SMD SMT crystal
+0
+4
+4
+Crystal
+Crystal_SMD_SeikoEpson_MC156-4Pin_7.1x2.5mm_HandSoldering
+SMD Crystal Seiko Epson MC-156 https://support.epson.biz/td/api/doc_check.php?dl=brief_MC-156_en.pdf, hand-soldering, 7.1x2.5mm^2 package
+SMD SMT crystal hand-soldering
+0
+4
+4
+Crystal
+Crystal_SMD_SeikoEpson_MC306-4Pin_8.0x3.2mm
+SMD Crystal Seiko Epson MC-306 https://support.epson.biz/td/api/doc_check.php?dl=brief_MC-306_en.pdf, 8.0x3.2mm^2 package
+SMD SMT crystal
+0
+4
+4
+Crystal
+Crystal_SMD_SeikoEpson_MC306-4Pin_8.0x3.2mm_HandSoldering
+SMD Crystal Seiko Epson MC-306 https://support.epson.biz/td/api/doc_check.php?dl=brief_MC-306_en.pdf, hand-soldering, 8.0x3.2mm^2 package
+SMD SMT crystal hand-soldering
+0
+4
+4
+Crystal
+Crystal_SMD_SeikoEpson_MC405-2Pin_9.6x4.1mm
+SMD Crystal Seiko Epson MC-405 https://support.epson.biz/td/api/doc_check.php?dl=brief_MC-306_en.pdf, 9.6x4.1mm^2 package
+SMD SMT crystal
+0
+2
+2
+Crystal
+Crystal_SMD_SeikoEpson_MC405-2Pin_9.6x4.1mm_HandSoldering
+SMD Crystal Seiko Epson MC-405 https://support.epson.biz/td/api/doc_check.php?dl=brief_MC-306_en.pdf, hand-soldering, 9.6x4.1mm^2 package
+SMD SMT crystal hand-soldering
+0
+2
+2
+Crystal
+Crystal_SMD_SeikoEpson_MC406-4Pin_9.6x4.1mm
+SMD Crystal Seiko Epson MC-406 https://support.epson.biz/td/api/doc_check.php?dl=brief_MC-306_en.pdf, 9.6x4.1mm^2 package
+SMD SMT crystal
+0
+4
+4
+Crystal
+Crystal_SMD_SeikoEpson_MC406-4Pin_9.6x4.1mm_HandSoldering
+SMD Crystal Seiko Epson MC-406 https://support.epson.biz/td/api/doc_check.php?dl=brief_MC-306_en.pdf, hand-soldering, 9.6x4.1mm^2 package
+SMD SMT crystal hand-soldering
+0
+4
+4
+Crystal
+Crystal_SMD_SeikoEpson_TSX3225-4Pin_3.2x2.5mm
+crystal Epson Toyocom TSX-3225 series https://support.epson.biz/td/api/doc_check.php?dl=brief_fa-238v_en.pdf, 3.2x2.5mm^2 package
+SMD SMT crystal
+0
+4
+4
+Crystal
+Crystal_SMD_SeikoEpson_TSX3225-4Pin_3.2x2.5mm_HandSoldering
+crystal Epson Toyocom TSX-3225 series https://support.epson.biz/td/api/doc_check.php?dl=brief_fa-238v_en.pdf, hand-soldering, 3.2x2.5mm^2 package
+SMD SMT crystal hand-soldering
+0
+4
+4
+Crystal
+Crystal_SMD_TXC_7A-2Pin_5x3.2mm
+SMD Crystal TXC 7A http://txccrystal.com/images/pdf/7a.pdf
+SMD SMT crystal
+0
+2
+2
+Crystal
+Crystal_SMD_TXC_7M-4Pin_3.2x2.5mm
+SMD Crystal TXC 7M http://www.txccrystal.com/images/pdf/7m-accuracy.pdf, 3.2x2.5mm^2 package
+SMD SMT crystal
+0
+4
+4
+Crystal
+Crystal_SMD_TXC_7M-4Pin_3.2x2.5mm_HandSoldering
+SMD Crystal TXC 7M http://www.txccrystal.com/images/pdf/7m-accuracy.pdf, hand-soldering, 3.2x2.5mm^2 package
+SMD SMT crystal hand-soldering
+0
+4
+4
+Crystal
+Crystal_SMD_TXC_9HT11-2Pin_2.0x1.2mm
+SMD Crystal TXC 9HT11 http://txccrystal.com/images/pdf/9ht11.pdf, 2.0x1.2mm^2 package
+SMD SMT crystal
+0
+2
+2
+Crystal
+Crystal_SMD_TXC_9HT11-2Pin_2.0x1.2mm_HandSoldering
+SMD Crystal TXC 9HT11 http://txccrystal.com/images/pdf/9ht11.pdf, hand-soldering, 2.0x1.2mm^2 package
+SMD SMT crystal hand-soldering
+0
+2
+2
+Crystal
+Crystal_SMD_TXC_AX_8045-2Pin_8.0x4.5mm
+http://www.txccrystal.com/images/pdf/ax-automotive.pdf
+SMD SMT crystal
+0
+2
+2
+Crystal
+Resonator-2Pin_W6.0mm_H3.0mm
+Ceramic Resomator/Filter 6.0x3.0mm^2, length*width=6.0x3.0mm^2 package, package length=6.0mm, package width=3.0mm, 2 pins
+THT ceramic resonator filter
+0
+2
+2
+Crystal
+Resonator-2Pin_W7.0mm_H2.5mm
+Ceramic Resomator/Filter 7.0x2.5mm^2, length*width=7.0x2.5mm^2 package, package length=7.0mm, package width=2.5mm, 2 pins
+THT ceramic resonator filter
+0
+2
+2
+Crystal
+Resonator-2Pin_W8.0mm_H3.5mm
+Ceramic Resomator/Filter 8.0x3.5mm^2, length*width=8.0x3.5mm^2 package, package length=8.0mm, package width=3.5mm, 2 pins
+THT ceramic resonator filter
+0
+2
+2
+Crystal
+Resonator-2Pin_W10.0mm_H5.0mm
+Ceramic Resomator/Filter 10.0x5.0 RedFrequency MG/MT/MX series, http://www.red-frequency.com/download/datenblatt/redfrequency-datenblatt-ir-zta.pdf, length*width=10.0x5.0mm^2 package, package length=10.0mm, package width=5.0mm, 2 pins
+THT ceramic resonator filter
+0
+2
+2
+Crystal
+Resonator-3Pin_W6.0mm_H3.0mm
+Ceramic Resomator/Filter 6.0x3.0mm^2, length*width=6.0x3.0mm^2 package, package length=6.0mm, package width=3.0mm, 3 pins
+THT ceramic resonator filter
+0
+3
+3
+Crystal
+Resonator-3Pin_W7.0mm_H2.5mm
+Ceramic Resomator/Filter 7.0x2.5mm^2, length*width=7.0x2.5mm^2 package, package length=7.0mm, package width=2.5mm, 3 pins
+THT ceramic resonator filter
+0
+3
+3
+Crystal
+Resonator-3Pin_W8.0mm_H3.5mm
+Ceramic Resomator/Filter 8.0x3.5mm^2, length*width=8.0x3.5mm^2 package, package length=8.0mm, package width=3.5mm, 3 pins
+THT ceramic resonator filter
+0
+3
+3
+Crystal
+Resonator-3Pin_W10.0mm_H5.0mm
+Ceramic Resomator/Filter 10.0x5.0mm^2 RedFrequency MG/MT/MX series, http://www.red-frequency.com/download/datenblatt/redfrequency-datenblatt-ir-zta.pdf, length*width=10.0x5.0mm^2 package, package length=10.0mm, package width=5.0mm, 3 pins
+THT ceramic resonator filter
+0
+3
+3
+Crystal
+Resonator_Murata_CSTLSxxxG-3Pin_W8.0mm_H3.0mm
+Ceramic Resomator/Filter Murata CSTLSxxxG, http://www.murata.com/~/media/webrenewal/support/library/catalog/products/timingdevice/ceralock/p17e.ashx, length*width=8.0x3.0mm^2 package, package length=8.0mm, package width=3.0mm, 3 pins
+THT ceramic resonator filter CSTLSxxxG
+0
+3
+3
+Crystal
+Resonator_Murata_CSTLSxxxX-3Pin_W5.5mm_H3.0mm
+Ceramic Resomator/Filter Murata CSTLSxxxX, http://www.murata.com/~/media/webrenewal/support/library/catalog/products/timingdevice/ceralock/p17e.ashx, length*width=5.5x3.0mm^2 package, package length=5.5mm, package width=3.0mm, 3 pins
+THT ceramic resonator filter CSTLSxxxX
+0
+3
+3
+Crystal
+Resonator_Murata_DSN6-3Pin_W7.0mm_H2.5mm
+Ceramic Resomator/Filter Murata DSN6, http://cdn-reichelt.de/documents/datenblatt/B400/DSN6NC51H.pdf, length*width=7.0x2.5mm^2 package, package length=7.0mm, package width=2.5mm, 3 pins
+THT ceramic resonator filter DSN6
+0
+3
+3
+Crystal
+Resonator_Murata_DSS6-3Pin_W7.0mm_H2.5mm
+Ceramic Resomator/Filter Murata DSS6, http://cdn-reichelt.de/documents/datenblatt/B400/DSN6NC51H.pdf, length*width=7.0x2.5mm^2 package, package length=7.0mm, package width=2.5mm, 3 pins
+THT ceramic resonator filter DSS6
+0
+3
+3
+Crystal
+Resonator_SMD-3Pin_7.2x3.0mm
+SMD Resomator/Filter 7.2x3.0mm, Murata CSTCC8M00G53-R0; 8MHz resonator, SMD, Farnell (Element 14) #1170435, http://www.farnell.com/datasheets/19296.pdf?_ga=1.247244932.122297557.1475167906, 7.2x3.0mm^2 package
+SMD SMT ceramic resonator filter filter
+0
+3
+3
+Crystal
+Resonator_SMD-3Pin_7.2x3.0mm_HandSoldering
+SMD Resomator/Filter 7.2x3.0mm, Murata CSTCC8M00G53-R0; 8MHz resonator, SMD, Farnell (Element 14) #1170435, http://www.farnell.com/datasheets/19296.pdf?_ga=1.247244932.122297557.1475167906, hand-soldering, 7.2x3.0mm^2 package
+SMD SMT ceramic resonator filter filter hand-soldering
+0
+3
+3
+Crystal
+Resonator_SMD_Murata_CDSCB-2Pin_4.5x2.0mm
+SMD Resomator/Filter Murata CDSCB, http://cdn-reichelt.de/documents/datenblatt/B400/SFECV-107.pdf, 4.5x2.0mm^2 package
+SMD SMT ceramic resonator filter filter
+0
+2
+2
+Crystal
+Resonator_SMD_Murata_CDSCB-2Pin_4.5x2.0mm_HandSoldering
+SMD Resomator/Filter Murata CDSCB, http://cdn-reichelt.de/documents/datenblatt/B400/SFECV-107.pdf, hand-soldering, 4.5x2.0mm^2 package
+SMD SMT ceramic resonator filter filter hand-soldering
+0
+2
+2
+Crystal
+Resonator_SMD_Murata_CSTxExxV-3Pin_3.0x1.1mm
+SMD Resomator/Filter Murata CSTCE, https://www.murata.com/en-eu/products/productdata/8801162264606/SPEC-CSTNE16M0VH3C000R0.pdf
+SMD SMT ceramic resonator filter
+0
+3
+3
+Crystal
+Resonator_SMD_Murata_CSTxExxV-3Pin_3.0x1.1mm_HandSoldering
+SMD Resomator/Filter Murata CSTCE, https://www.murata.com/en-eu/products/productdata/8801162264606/SPEC-CSTNE16M0VH3C000R0.pdf
+SMD SMT ceramic resonator filter
+0
+3
+3
+Crystal
+Resonator_SMD_Murata_SFECV-3Pin_6.9x2.9mm
+SMD Resomator/Filter Murata SFECV, http://cdn-reichelt.de/documents/datenblatt/B400/SFECV-107.pdf, 6.9x2.9mm^2 package
+SMD SMT ceramic resonator filter filter
+0
+3
+3
+Crystal
+Resonator_SMD_Murata_SFECV-3Pin_6.9x2.9mm_HandSoldering
+SMD Resomator/Filter Murata SFECV, http://cdn-reichelt.de/documents/datenblatt/B400/SFECV-107.pdf, hand-soldering, 6.9x2.9mm^2 package
+SMD SMT ceramic resonator filter filter hand-soldering
+0
+3
+3
+Crystal
+Resonator_SMD_Murata_SFSKA-3Pin_7.9x3.8mm
+SMD Resomator/Filter Murata SFSKA, http://cdn-reichelt.de/documents/datenblatt/B400/SFECV-107.pdf, 7.9x3.8mm^2 package
+SMD SMT ceramic resonator filter filter
+0
+3
+3
+Crystal
+Resonator_SMD_Murata_SFSKA-3Pin_7.9x3.8mm_HandSoldering
+SMD Resomator/Filter Murata SFSKA, http://cdn-reichelt.de/documents/datenblatt/B400/SFECV-107.pdf, hand-soldering, 7.9x3.8mm^2 package
+SMD SMT ceramic resonator filter filter hand-soldering
+0
+3
+3
+Crystal
+Resonator_SMD_Murata_TPSKA-3Pin_7.9x3.8mm
+SMD Resomator/Filter Murata TPSKA, http://cdn-reichelt.de/documents/datenblatt/B400/SFECV-107.pdf, 7.9x3.8mm^2 package
+SMD SMT ceramic resonator filter filter
+0
+3
+3
+Crystal
+Resonator_SMD_Murata_TPSKA-3Pin_7.9x3.8mm_HandSoldering
+SMD Resomator/Filter Murata TPSKA, http://cdn-reichelt.de/documents/datenblatt/B400/SFECV-107.pdf, hand-soldering, 7.9x3.8mm^2 package
+SMD SMT ceramic resonator filter filter hand-soldering
+0
+3
+3
