@@ -1,7 +1,7 @@
 # EnvOpenPico
 A Raspberry Pi Pico Clone which also uses the RP2040.
 
-![Board image](EnvOpenPico.jpg)
+![Board image](EnvOpenPico.png)
 
 ### Info
 This board is meant to be a mostly drop in replacement for the pico plus and minus some features.

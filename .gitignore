@@ -26,6 +26,4 @@ _autosave-*
 *.xml
 #*.csv
 
-EliteMicro2040/EliteMicro2040-backups/
-EliteMicro2040/EliteMicro2040-backups/*
-EnvOpenPico/EnvOpenPico-backups/*
+*-backups*/
