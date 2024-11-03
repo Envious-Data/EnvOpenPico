@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.6,
-          "width": 0.6
+          "height": 0.25,
+          "width": 0.7
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -142,7 +142,7 @@
         "min_track_width": 0.15,
         "min_via_annular_width": 0.05,
         "min_via_diameter": 0.4,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -471,7 +471,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "EnvOpenPico.kicad_pro",
+    "filename": "EnvOpenPico2350.kicad_pro",
     "version": 1
   },
   "net_settings": {
